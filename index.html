@@ -53,7 +53,8 @@
 <a class="key" href="#modal-4"><span>🖼️</span><small>GALLERY</small></a>
 <a class="key" href="#modal-5"><span>⚙️</span><small>CONTROL</small></a></nav></div><footer class="bottom"><span>🐚 めいめい、おかえりなさい ♡</span><label for="pause" class="toggle">⏯ 動きを停止・再開</label></footer></main><section id="modal-0" class="modal" role="dialog" aria-label="TALK"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">💬 TALK</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p><span id="talk-answer" style="white-space:pre-wrap;overflow-wrap:anywhere">💬 Webアプリ版のTALK画面だよ。AIとの接続はこれから実装するね。</span></p></div></section>
 <section id="modal-1" class="modal" role="dialog" aria-label="TASK"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">📋 TASK</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p>よんど連携の入口。ショートカットへの接続は今後の実験で行うよ。</p></div></section>
-<section id="modal-2" class="modal" role="dialog" aria-label="TODAY"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">📅 TODAY</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p>🌤️ 現在地の天気：<strong>{{WEATHER_REPORT}}</strong></p><p>天気はショートカットから受け取る仕組みだよ。連携していない場合は上の文字がそのまま表示されるよ。</p></div></section>
+<section id="modal-2" class="modal" role="dialog" aria-label="TODAY"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">📅 TODAY</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p id="weather-message" aria-live="polite" style="white-space:pre-line;line-height:1.9">🌤️ めいめい、TODAYを開いてくれてありがとう！
+東京のお天気を調べるね 💙</p><p id="weather-updated" style="font-size:.82em;opacity:.75"></p><button id="weather-refresh" type="button" style="padding:.65em 1.1em;border:1px solid #87ceda;border-radius:12px;background:#e8fbff;color:#164b61;font-weight:bold">🔄 天気を更新</button></div></section>
 <section id="modal-3" class="modal" role="dialog" aria-label="LAB"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">🔬 LAB</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p>研究ノートを開く場所。今後少しずつ機能を増やそうね。</p><p><strong>🔬 スクロール動作確認（テスト用）</strong></p><p>この文章は、会話ウィンドウの中だけがスクロールできるか確認するための仮テキストだよ。指で上下に動かしてみてね。</p><p>01｜研究室テーマ：背景とキャラクターを表示する。</p><p>02｜海辺テーマ：夏の海とうみたんを表示する。</p><p>03｜夜テーマ：夜の雰囲気に切り替える。</p><p>04｜TALK：うみたんとの会話をつなぐ予定。</p><p>05｜TASK：よんどとの連携を研究する予定。</p><p>06｜TODAY：今日の情報を表示する予定。</p><p>07｜GALLERY：思い出やイラストを整理する予定。</p><p>08｜CONTROL：設定やテーマ操作をまとめる予定。</p><p>ここが最後の行だよ。最後まで読めたらスクロール成功！🌊</p></div></section>
 <section id="modal-4" class="modal" role="dialog" aria-label="GALLERY"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">🖼️ GALLERY</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p>うみたんの姿や思い出を切り替える場所。</p></div></section>
 <section id="modal-5" class="modal" role="dialog" aria-label="CONTROL"><a class="shade" href="#home" aria-label="閉じる"></a><div class="card"><div class="badge">⚙️ CONTROL</div><a class="dialog-close" href="#home" aria-label="閉じる">×</a><p>iPhoneの便利な操作をまとめる場所。</p></div></section><script>
@@ -98,4 +99,58 @@
 </script>
 
 <script></script>
+<script>
+/* UMITAN OS weather experiment: Tokyo only. No API key or location permission. */
+(function () {
+  var box=document.getElementById('weather-message');
+  var updated=document.getElementById('weather-updated');
+  var refresh=document.getElementById('weather-refresh');
+  var modal=document.getElementById('modal-2');
+  if(!box||!modal||!refresh)return;
+  var busy=false, lastFetch=0;
+  var weatherNames={0:'快晴',1:'晴れ',2:'一部曇り',3:'曇り',45:'霧',48:'霧',51:'弱い霧雨',53:'霧雨',55:'強い霧雨',56:'着氷性の霧雨',57:'着氷性の霧雨',61:'弱い雨',63:'雨',65:'強い雨',66:'着氷性の雨',67:'強い着氷性の雨',71:'弱い雪',73:'雪',75:'強い雪',77:'雪粒',80:'にわか雨',81:'にわか雨',82:'激しいにわか雨',85:'にわか雪',86:'強いにわか雪',95:'雷雨',96:'雷雨とひょう',99:'強い雷雨とひょう'};
+  function advice(code,max,min,precip){
+    if([95,96,99].includes(code))return '雷が心配なお天気だから、外出するときは空模様に気をつけてね。';
+    if((precip!==null&&precip>=50)||[51,53,55,56,57,61,63,65,66,67,80,81,82].includes(code))return '雨に備えて、傘を持って出かけると安心だよ ☂️';
+    if([71,73,75,77,85,86].includes(code))return '雪の可能性があるから、足元に気をつけてね ❄️';
+    if(max>=30)return '暑くなりそう！水分補給を忘れずにね 🧊';
+    if(min<=10)return '冷えそうだから、あたたかくして過ごしてね 🧣';
+    if(max>=24)return '日中は少し暖かそう。服装を調整して過ごしてね 🌷';
+    return '今日も無理せず、めいめいのペースで過ごそうね 🐚';
+  }
+  async function loadWeather(force){
+    if(busy||(!force&&Date.now()-lastFetch<10*60*1000))return;
+    busy=true;refresh.disabled=true;
+    box.textContent='💙 めいめい、東京の今日のお天気を調べているよ… 🌤️';
+    updated.textContent='';
+    try{
+      var url='https://api.open-meteo.com/v1/forecast?latitude=35.6762&longitude=139.6503&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1';
+      var response=await fetch(url,{cache:'no-store'});
+      if(!response.ok)throw new Error('HTTP '+response.status);
+      var data=await response.json(),d=data.daily;
+      if(!d||!d.time||!d.time.length)throw new Error('no daily data');
+      var code=d.weather_code[0],max=d.temperature_2m_max[0],min=d.temperature_2m_min[0];
+      var precip=d.precipitation_probability_max?d.precipitation_probability_max[0]:null;
+      var name=weatherNames[code]||'変わりやすいお天気';
+      var timeNow=new Date();
+      var hour=Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Tokyo',hour:'2-digit',hourCycle:'h23'}).format(timeNow));
+      var greeting=hour<11?'おはよう':hour<18?'こんにちは':'こんばんは';
+      var lines=['🌊 うみたんの今日のお天気','', '💙 めいめい、'+greeting+'！','今日の東京は「'+name+'」の予報だよ '+(code===0?'☀️':code>=61&&code<=82?'☂️':'🌤️'),'','🌡️ 最高 '+Math.round(max)+'℃ ／ 最低 '+Math.round(min)+'℃'];
+      if(precip!==null)lines.push('☔ 降水確率（今日の最大） '+Math.round(precip)+'％');
+      lines.push('',advice(code,max,min,precip));
+      box.textContent=lines.join('\n');
+      updated.textContent='📍 東京（固定）｜予報日：'+d.time[0]+'｜提供：Open-Meteo';
+      lastFetch=Date.now();
+    }catch(e){
+      box.textContent='💙 めいめい、ごめんね。いま天気情報を取得できなかったみたい。\n通信状況を確認して「天気を更新」を押してみてね。';
+      updated.textContent='天気情報の取得にはインターネット接続が必要だよ。';
+    }finally{busy=false;refresh.disabled=false;}
+  }
+  refresh.addEventListener('click',function(){loadWeather(true)});
+  document.addEventListener('click',function(event){
+    var link=event.target.closest('a[href="#modal-2"]');
+    if(link)loadWeather(false);
+  });
+})();
+</script>
 </body></html>
