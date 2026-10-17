@@ -1,1 +1,17 @@
-{"name":"UMITAN OS","short_name":"UMITAN","start_url":"./index.html","display":"standalone","background_color":"#071d32","theme_color":"#071d32","lang":"ja","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "UMITAN OS",
+  "short_name": "UMITAN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081b32",
+  "theme_color": "#081b32",
+  "icons": [
+    {
+      "src": "./D81AA2CA-D42A-4FD0-B2F5-2DB8E5C710E6.jpeg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
