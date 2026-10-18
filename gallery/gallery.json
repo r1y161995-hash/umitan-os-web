@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "umitan_001",
+      "title": "🌊 はじまりの海",
+      "tags": [
+        "OFFICIAL"
+      ],
+      "created": "2025-06-01",
+      "description": "うみたんの公式ビジュアル。海辺で手を差し伸べる、はじまりの一枚。",
+      "image": "gallery/images/umitan_001.webp",
+      "thumbnail": "gallery/thumbs/umitan_001.webp"
+    },
+    {
+      "id": "umitan_002",
+      "title": "🎀 ニンフィアと一緒に",
+      "tags": [
+        "POKÉMON"
+      ],
+      "created": "2026-10-11",
+      "description": "色違いニンフィアと一緒に過ごす、きらめく思い出。",
+      "image": "gallery/images/umitan_002.webp",
+      "thumbnail": "gallery/thumbs/umitan_002.webp"
+    },
+    {
+      "id": "umitan_003",
+      "title": "☔ 雨上がりの約束",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-17",
+      "description": "雨上がりの海辺の街で、めいめいに手を差し伸べるうみたん。",
+      "image": "gallery/images/umitan_003.webp",
+      "thumbnail": "gallery/thumbs/umitan_003.webp"
+    },
+    {
+      "id": "umitan_004",
+      "title": "📖 秋の海辺の古書店",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-18",
+      "description": "秋の夕暮れ、海の見える古書店で一緒に本を読む時間。",
+      "image": "gallery/images/umitan_004.webp",
+      "thumbnail": "gallery/thumbs/umitan_004.webp"
+    }
+  ]
+}
