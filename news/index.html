@@ -2,11 +2,285 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UMITAN NEWS LAB02</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMITAN NEWS LAB03</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ padding:20px;
+ background:#071b2d;
+ font-family:-apple-system,BlinkMacSystemFont,
+ "Hiragino Kaku Gothic ProN",sans-serif;
+ color:#173b50;
+}
+.scene{
+ max-width:440px;
+ min-height:85dvh;
+ margin:auto;
+ padding:26px 17px;
+ border-radius:28px;
+ background:linear-gradient(145deg,
+ #e8f7f9,#a7dce4 55%,#d8f1f2);
+}
+h1{
+ text-align:center;
+ letter-spacing:7px;
+ font-size:25px;
+ margin:10px 0;
+}
+.subtitle{
+ text-align:center;
+ font-size:12px;
+ opacity:.75;
+}
+.bubble{
+ background:#ffffffb8;
+ border-radius:25px;
+ padding:17px;
+ margin:25px 8px;
+ line-height:1.8;
+ box-shadow:0 6px 18px #3458;
+}
+.window{
+ background:#193b56;
+ color:white;
+ border-radius:25px;
+ padding:20px 15px;
+ box-shadow:0 10px 25px #1235;
+}
+h2{
+ font-size:19px;
+ margin:0 0 16px;
+}
+.tabs{
+ display:flex;
+ gap:8px;
+ margin-bottom:18px;
+ overflow-x:auto;
+}
+.tab{
+ border:1px solid #8bb8cc;
+ background:#ffffff10;
+ color:white;
+ border-radius:30px;
+ padding:11px 15px;
+ white-space:nowrap;
+ font-size:13px;
+ cursor:pointer;
+}
+.tab.active{
+ background:#64c4d1;
+ color:#123b52;
+ font-weight:bold;
+}
+.status{
+ font-size:13px;
+ color:#c3dbe7;
+ line-height:1.7;
+ margin-bottom:14px;
+}
+.articles{
+ max-height:52vh;
+ overflow-y:auto;
+}
+.article{
+ display:block;
+ text-decoration:none;
+ color:white;
+ background:#ffffff12;
+ border:1px solid #ffffff30;
+ border-radius:16px;
+ padding:17px 14px;
+ margin-bottom:12px;
+}
+.article:active{
+ background:#ffffff30;
+}
+.article-title{
+ font-size:15px;
+ font-weight:bold;
+ line-height:1.65;
+ overflow-wrap:anywhere;
+}
+.article-meta{
+ color:#b5d1e1;
+ font-size:12px;
+ line-height:1.7;
+ margin-top:12px;
+}
+.footer{
+ color:#c3dbe7;
+ font-size:12px;
+ line-height:1.8;
+ margin-top:16px;
+}
+.retry{
+ border:1px solid #90d8e0;
+ background:transparent;
+ color:white;
+ border-radius:20px;
+ padding:9px 16px;
+ cursor:pointer;
+}
+</style>
 </head>
 <body>
-<h1>📰 UMITAN NEWS LAB02</h1>
-<p>💙 めいめい、ニュースの自動取得を実験するよ！</p>
+<main class="scene">
+ <h1>NEWS</h1>
+ <div class="subtitle">UMITAN OS · 機能検証 LAB03</div>
+
+ <div class="bubble">
+  💙 めいめい、気になる海のニュースを
+  一緒にチェックしようね！
+ </div>
+
+ <section class="window">
+  <h2>📰 うみたんのニュース便</h2>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="status" id="status">
+   ニュースを読み込んでいるよ… 🌊
+  </div>
+
+  <div class="articles" id="articles"></div>
+
+  <div class="footer">
+   記事をタップすると配信元の記事へ移動するよ。<br>
+   ※ニュース本文・AI要約は取得しません。
+  </div>
+ </section>
+</main>
+
+<script>
+const statusEl=document.getElementById("status");
+const articlesEl=document.getElementById("articles");
+const tabsEl=document.getElementById("tabs");
+
+let topics={};
+let selectedTopic="";
+
+function formatDate(value){
+ if(!value)return "日時不明";
+ const date=new Date(value);
+ if(Number.isNaN(date.getTime()))return value;
+ return date.toLocaleDateString("ja-JP",{
+  year:"numeric",month:"2-digit",day:"2-digit"
+ });
+}
+
+function render(){
+ articlesEl.replaceChildren();
+ tabsEl.replaceChildren();
+
+ const names=Object.keys(topics);
+
+ names.forEach(name=>{
+  const button=document.createElement("button");
+  button.className="tab"+
+   (name===selectedTopic?" active":"");
+  button.textContent=name;
+  button.onclick=()=>{
+   selectedTopic=name;
+   render();
+  };
+  tabsEl.appendChild(button);
+ });
+
+ const items=Array.isArray(topics[selectedTopic])
+  ?topics[selectedTopic].slice(0,10):[];
+
+ statusEl.textContent=
+  "🔎 "+selectedTopic+"："+
+  items.length+"件の記事を表示中";
+
+ if(!items.length){
+  articlesEl.textContent=
+   "このテーマの記事はまだないみたい。";
+  return;
+ }
+
+ items.forEach(item=>{
+  const card=document.createElement("a");
+  card.className="article";
+
+  const link=typeof item.link==="string"
+   ?item.link:"";
+
+  try{
+   const url=new URL(link,location.href);
+   if(!["https:","http:"].includes(url.protocol))
+    throw Error("Invalid link");
+   card.href=url.href;
+   card.target="_blank";
+   card.rel="noopener noreferrer";
+  }catch{
+   card.removeAttribute("href");
+  }
+
+  const title=document.createElement("div");
+  title.className="article-title";
+  title.textContent=item.title||"タイトルなし";
+
+  const meta=document.createElement("div");
+  meta.className="article-meta";
+  meta.textContent=
+   (item.source||"情報元不明")+
+   " · "+formatDate(item.date);
+
+  card.append(title,meta);
+  articlesEl.appendChild(card);
+ });
+}
+
+async function loadNews(){
+ statusEl.textContent=
+  "ニュースを読み込んでいるよ… 🌊";
+ articlesEl.replaceChildren();
+
+ try{
+  const response=await fetch(
+   "./news.json?t="+Date.now(),
+   {cache:"no-store"}
+  );
+
+  if(!response.ok)
+   throw Error("HTTP "+response.status);
+
+  const data=await response.json();
+
+  if(!data.topics||
+     typeof data.topics!=="object")
+   throw Error("データ形式が違います");
+
+  topics=data.topics;
+  const names=Object.keys(topics);
+
+  if(!names.length)
+   throw Error("記事データがありません");
+
+  selectedTopic=names.includes("海上保安庁")
+   ?"海上保安庁":names[0];
+
+  render();
+
+ }catch(error){
+  statusEl.textContent=
+   "ニュースを読み込めなかったよ。";
+  const message=document.createElement("p");
+  message.textContent=error.message;
+  articlesEl.appendChild(message);
+
+  const retry=document.createElement("button");
+  retry.className="retry";
+  retry.textContent="もう一度読み込む";
+  retry.onclick=loadNews;
+  articlesEl.appendChild(retry);
+ }
+}
+
+loadNews();
+</script>
 </body>
 </html>
