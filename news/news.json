@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T06:54:14.893428+00:00",
+  "updated_at": "2026-10-21T12:53:20.713878+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -9,22 +9,46 @@
         "source": "読売新聞"
       },
       {
-        "title": "【訓練】孤立地域で停電想定 海から復旧用資機材を陸揚げ 釜石海保×東北電力ネットワーク - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56TVN0ZDBtMFMxNjlSR09oRmlRNV9sdDJVdExULXhaeXNNZXpCQWlvYWpUVXFiY1FDR2RSVm43bmZ6d0NFUTNOQ1liYlJiWjJwdWtuVjd3aVZieTVwU1JxeDdPSGUzbFNLSUZJNWE1c1FvLTVDc01QU0RieGZTMW8?oc=5",
-        "date": "Tue, 20 Oct 2026 08:36:00 GMT",
+        "title": "海上保安庁、初めて参加見送る ロシアで開催の国際会議 - 時事ドットコム",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkbHN6Vms4UFVMUktPQnN4eWhpQk1tc2t4YzR4TXV2VURFeUdRdVR1UkxQT0t1blNDd2lSSHJsUUFRX3JIcnRCNDU3RWo1TW5XY1NuZGpMU0pMSVNVTFpVS2dxMA?oc=5",
+        "date": "Wed, 21 Oct 2026 08:23:00 GMT",
+        "source": "時事ドットコム"
+      },
+      {
+        "title": "海上保安庁、ロシア開催の国際会合「異例」の欠席…日露関係悪化・プーチン氏の択捉島訪問など踏まえ判断 - ライブドアニュース",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XUnM4SHJQWklkcG14OVk3M3YxN2J6dm5PTVU4RHI3enV0ZVE2U05KZ0ozZ0ZyUGoxUW8yM3FTQXNNaGcxVXFfZERlblpqZmFHdUJhRUxZX0ZuLXZGOWc?oc=5",
+        "date": "Wed, 21 Oct 2026 03:00:00 GMT",
+        "source": "ライブドアニュース"
+      },
+      {
+        "title": "消防と海上保安庁が合同で水難救助訓練 釣り中の事故など増加傾向の時期に（山形・鶴岡市）（テレビユー山形） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NNU9yeVhjRVFJaWROM1lmejM2VWN0RGtPSVRRbTNjcUdWMnhiQnEzSGloSlNFOTEzTVJId0dUdHhkTDZpNzNvbUt1R1BJTlduQXRGZWt6dy1RQ1pjdmtjMVJ3RW53MG40dW8zNUNBcTZiUTB2RVZlcHV2dm5CRWs?oc=5",
+        "date": "Wed, 21 Oct 2026 08:08:14 GMT",
         "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "海上保安庁と警察が広島市で合同訓練 大規模災害を想定し資機材などを巡視艇で輸送 2015年には両機関で災害協力協定を締結 - TBS NEWS DIG",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1WMVNNcUl0MW40ZFRtNUF3U2E4bi1VNEhzMWtVME1WczNxQ2VKSi1lM3Rxc2R3NklBRlpRRlUyaFo4eURfaVVoOEVJbmY0dkUxcGJ6UXRtRQ?oc=5",
+        "date": "Wed, 21 Oct 2026 09:30:00 GMT",
+        "source": "TBS NEWS DIG"
+      },
+      {
+        "title": "【動画】巡視船「いまり」で120人が唐津湾を航海体験 配属後初の一般公開 「海上保安の仕事、知ってほしい」 - 佐賀新聞",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVTXpJSklXWlhuQ1RLbjdGNjBENTlIblhESTdOdWp3UU1odU12amt2N19rZ1FFSVFuaVZTV1hSWi12emNSczgwZHJIanhGUmxIcFFMSVNn?oc=5",
+        "date": "Wed, 21 Oct 2026 11:00:00 GMT",
+        "source": "佐賀新聞"
+      },
+      {
+        "title": "今年夏の水難事故398人　4分の1が18歳未満　海水浴場以外での事故多く「管理された場所での水遊びを」　海上保安庁 - ｄメニューニュース",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UX2NkcnZ2V0paVFBUV3p5OTNvM0R0djg2WTZkQmRHVUtMT3NEUzN3eER5ZEUtVVVZalpsY013MW9NenpHUnI4QlB4NEFCVTZQT2JXaXVIRy1EUmJIY294Zy1lcDdna1FmTm1UdVczUdIBdEFVX3lxTE9HYTV6VWJUeUZrRkNobmloQW9fQWwyckllSWRtVnRiVDBzZEhhUFY1MHhfMzFEYW1LSzdqUnJUaEd0TU1kOTRtdmNRSWE4cWZmWi1iLWluRUNPa1hNQ1c4N3REUWEzN3Bocm8weWt3MHNFRmlU?oc=5",
+        "date": "Wed, 21 Oct 2026 07:31:00 GMT",
+        "source": "ｄメニューニュース"
       },
       {
         "title": "沖縄・尖閣周辺に機関砲搭載の中国海警局船 73日連続、海保巡視船が領海接近に警告 - 産経ニュース",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kZWtRcDhFUTRIeHBld0pRaWRZUGp0amI5RDNHUUN1RnU1MUxXY1ZwVjJWZ2NBdGlWZTB0VGZVZnpkUGY1UV9PNWlRTjZRbDVyZV9rNTVrYzRHcWxZUXpZdTZleHhJWWFtTGNlWmNjb1VjUHVHR1E?oc=5",
         "date": "Tue, 20 Oct 2026 01:36:12 GMT",
         "source": "産経ニュース"
-      },
-      {
-        "title": "岩崎ノ鼻灯台、絶景楽しむ　伏木海保、一般公開 - ｄメニューニュース",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdHV4eW9VYUpZVjktVy16V3JRbUt5bGpUWjNTQWhqX3p4eTY2LVJvSVBZR3lOQ2NVV3RMMUFNbGZZaFhhUGJkcXl3MDBhZm1kWkt2REo2OUFERlVrLXYzWWxsMEtkazdDOFdBSkwxXzFPMGgzamNBNU5maUhBdW9xWEZkWEdIYmVZQ0RneG9uejZVYXcxTllqd3liV2VHVXB1Qm1uaHk1RTVrZ1ltWHQ1T0UzdkhnWjBPbmRyZzhxZS1CcW5MT0RPT3Vybm1VWHFuTE4yaVJUVGTSAYgBQVVfeXFMTXNjLTM2U2dRNE55UjdxYnJVb09BMTFOTWEwYXl1ek5oSnU2UTVxZkRIWm03Ylc5Z3NBbzZocS0yWjFHUmpXOFJMQmFpQlFBLV9nRmZpeERHdWczS3JncVVnVEZvRDNqRUFlUGdvZmRQdkphZVRSSkFiUjhMbktRYzVlaUdlTWlCUQ?oc=5",
-        "date": "Tue, 20 Oct 2026 20:24:52 GMT",
-        "source": "ｄメニューニュース"
       },
       {
         "title": "貨物船内でのわいせつ行為で乗組員を逮捕 門司海保 - NHKニュース",
@@ -37,30 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qQk9TRWpGRGdxM3dZSzFvdHI3enRIQkpmRnJqczBIQTgyZUUtaENiYjRlcFNCY2pDLUljMTVSQzBUOWRZcko2LW1INi15YU0?oc=5",
         "date": "Mon, 19 Oct 2026 03:01:00 GMT",
         "source": "FlyTeam"
-      },
-      {
-        "title": "巡視船「つくば」、11月1日に銚子漁港で一般公開 「豊かな海づくりフェスタ」で船内見学 - フネコ - Funeco",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1VRVNVVWo4MUZpWm5IQjgwYUpzMmhNa0hqTXNjNnRsSFRMYU9BMEN2RHJQS1RZbVhtU0YxMTFNcUswb19Makl2THRn?oc=5",
-        "date": "Sun, 18 Oct 2026 09:20:12 GMT",
-        "source": "フネコ - Funeco"
-      },
-      {
-        "title": "海上保安庁、ロシア開催の国際会合「異例」の欠席…日露関係悪化・プーチン氏の択捉島訪問など踏まえ判断 - ライブドアニュース",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XUnM4SHJQWklkcG14OVk3M3YxN2J6dm5PTVU4RHI3enV0ZVE2U05KZ0ozZ0ZyUGoxUW8yM3FTQXNNaGcxVXFfZERlblpqZmFHdUJhRUxZX0ZuLXZGOWc?oc=5",
-        "date": "Wed, 21 Oct 2026 03:00:00 GMT",
-        "source": "ライブドアニュース"
-      },
-      {
-        "title": "夢みなとGO!GO!のりもの探検2026 海上保安庁 巡視船「おき」一般公開｜2026年11月1日(日) - 陸自調査団",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMWM5RHFnTUpMM0JjdVhFTTE1OUlwek5kdnZLaFc0NHRTT29zM2RGTkhSWk1GenJTNXJmdkpWRkxaZE5sVTh3QzR6TlNFM2JaS2FONXU0S2FzY1NWQzgwNnpLSkJ6ekFxWE0wYXFsQjVjWHV4LXZhWm16RzJ3MDRqQmdPRXlfMGpKSGxaMw?oc=5",
-        "date": "Tue, 20 Oct 2026 17:20:48 GMT",
-        "source": "陸自調査団"
-      },
-      {
-        "title": "海上保安庁、ロシア開催の国際会合「異例」の欠席…日露関係悪化・プーチン氏の択捉島訪問など踏まえ判断 - Infoseek",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LQU1CeEFMMXpFQmpjVWNtMFN4WXZ0aVYxc3VObHViWVA5a0MzZ2xpS0tOVzJ0TTVtUzFXcHNxYzdBMGNOMFB0MFZjd2pvbHh3NXhpRDVNa3ZUZXo1MFpJRWk5NFJhc1pLVnNheG9UMA?oc=5",
-        "date": "Wed, 21 Oct 2026 03:01:16 GMT",
-        "source": "Infoseek"
       }
     ]
   }
