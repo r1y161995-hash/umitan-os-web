@@ -1,285 +1,569 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UMITAN NEWS LAB03</title>
+<meta name="viewport"
+ content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>UMITAN NEWS LAB05.2</title>
+
 <style>
-*{box-sizing:border-box}
-body{
- margin:0;
- padding:20px;
- background:#071b2d;
- font-family:-apple-system,BlinkMacSystemFont,
- "Hiragino Kaku Gothic ProN",sans-serif;
- color:#173b50;
+*{
+  box-sizing:border-box;
 }
-.scene{
- max-width:440px;
- min-height:85dvh;
- margin:auto;
- padding:26px 17px;
- border-radius:28px;
- background:linear-gradient(145deg,
- #e8f7f9,#a7dce4 55%,#d8f1f2);
+
+html,body{
+  margin:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  font-family:-apple-system,BlinkMacSystemFont,
+    "Hiragino Sans",sans-serif;
+  background:#0b263d;
+  color:#fff;
 }
-h1{
- text-align:center;
- letter-spacing:7px;
- font-size:25px;
- margin:10px 0;
+
+/* WEATHERと同様のホーム表示領域を想定 */
+#os-frame{
+  position:relative;
+  width:100%;
+  max-width:480px;
+  height:100dvh;
+  margin:0 auto;
+  overflow:hidden;
+  background:#143d61;
 }
-.subtitle{
- text-align:center;
- font-size:12px;
- opacity:.75;
+
+/* 第1層：背景とキャスターの一体型画像 */
+#news-background{
+  position:absolute;
+  inset:0;
+  background-image:url("./news_bg.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center top;
+  background-color:#143d61;
 }
-.bubble{
- background:#ffffffb8;
- border-radius:25px;
- padding:17px;
- margin:25px 8px;
- line-height:1.8;
- box-shadow:0 6px 18px #3458;
+
+/* 背景の余白を自然に埋める */
+#news-background::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(
+    180deg,#1d6497,#113c63 65%,#082a48
+  );
 }
-.window{
- background:#193b56;
- color:white;
- border-radius:25px;
- padding:20px 15px;
- box-shadow:0 10px 25px #1235;
+
+/* 第2層：ニュースウィンドウ */
+#news-window{
+  --news-height:66%;
+  position:absolute;
+  left:10px;
+  right:10px;
+  bottom:10px;
+  height:var(--news-height);
+  max-height:var(--news-height);
+  min-height:0;
+  z-index:5;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  border:1px solid rgba(151,220,242,.65);
+  border-radius:18px;
+  background:rgba(8,39,67,.94);
+  box-shadow:0 10px 30px rgba(0,17,37,.4);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  transition:height .18s ease-out,
+             max-height .18s ease-out;
 }
-h2{
- font-size:19px;
- margin:0 0 16px;
+
+#news-window.moving{
+  transition:none;
 }
-.tabs{
- display:flex;
- gap:8px;
- margin-bottom:18px;
- overflow-x:auto;
+
+/* WEATHER LAB10型ドラッグヘッダー */
+#drag-head{
+  position:relative;
+  flex-shrink:0;
+  padding:12px 13px 11px;
+  text-align:center;
+  cursor:grab;
+  touch-action:none;
+  user-select:none;
+  -webkit-user-select:none;
+  border-bottom:1px solid rgba(255,255,255,.16);
 }
-.tab{
- border:1px solid #8bb8cc;
- background:#ffffff10;
- color:white;
- border-radius:30px;
- padding:11px 15px;
- white-space:nowrap;
- font-size:13px;
- cursor:pointer;
+
+#drag-head.armed{
+  cursor:grabbing;
 }
-.tab.active{
- background:#64c4d1;
- color:#123b52;
- font-weight:bold;
+
+#grip{
+  display:block;
+  width:56px;
+  height:5px;
+  margin:0 auto 11px;
+  border-radius:99px;
+  background:rgba(181,232,243,.8);
+  box-shadow:0 0 6px rgba(103,197,210,.3);
 }
-.status{
- font-size:13px;
- color:#c3dbe7;
- line-height:1.7;
- margin-bottom:14px;
+
+#drag-head.armed #grip{
+  background:#f3ffff;
+  box-shadow:0 0 10px #b5f3ff;
 }
-.articles{
- max-height:52vh;
- overflow-y:auto;
+
+#panel-title{
+  font-size:15px;
+  font-weight:700;
+  line-height:1.5;
+  color:#f2fbff;
 }
-.article{
- display:block;
- text-decoration:none;
- color:white;
- background:#ffffff12;
- border:1px solid #ffffff30;
- border-radius:16px;
- padding:17px 14px;
- margin-bottom:12px;
+
+/* 更新状況 */
+#news-status{
+  flex-shrink:0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  padding:9px 13px;
+  border-bottom:1px solid rgba(255,255,255,.12);
+  color:#badbe7;
+  font-size:11px;
+  line-height:1.5;
 }
-.article:active{
- background:#ffffff30;
+
+#updated-at{
+  min-width:0;
+  overflow-wrap:anywhere;
 }
-.article-title{
- font-size:15px;
- font-weight:bold;
- line-height:1.65;
- overflow-wrap:anywhere;
+
+#refresh{
+  flex-shrink:0;
+  padding:6px 11px;
+  border:1px solid #7ad8eb;
+  border-radius:12px;
+  background:#164a65;
+  color:#fff;
+  font-size:11px;
+  cursor:pointer;
 }
-.article-meta{
- color:#b5d1e1;
- font-size:12px;
- line-height:1.7;
- margin-top:12px;
+
+#refresh:disabled{
+  opacity:.5;
 }
-.footer{
- color:#c3dbe7;
- font-size:12px;
- line-height:1.8;
- margin-top:16px;
+
+/* ニュース一覧のみスクロール */
+#news-list{
+  flex:1;
+  min-height:0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;
+  padding:12px;
 }
-.retry{
- border:1px solid #90d8e0;
- background:transparent;
- color:white;
- border-radius:20px;
- padding:9px 16px;
- cursor:pointer;
+
+.news-card{
+  display:block;
+  margin-bottom:10px;
+  padding:12px 13px;
+  border:1px solid rgba(140,203,230,.24);
+  border-radius:14px;
+  background:rgba(255,255,255,.055);
+  color:#fff;
+  text-decoration:none;
+}
+
+.news-card:active{
+  background:rgba(255,255,255,.16);
+}
+
+.news-number{
+  margin-bottom:6px;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.07em;
+  color:#8ce3ed;
+}
+
+.news-title{
+  font-size:13px;
+  font-weight:600;
+  line-height:1.65;
+  overflow-wrap:anywhere;
+}
+
+.news-meta{
+  margin-top:9px;
+  font-size:10px;
+  line-height:1.5;
+  color:#b6d4e2;
+}
+
+#message{
+  padding:25px 12px;
+  text-align:center;
+  font-size:13px;
+  line-height:1.8;
+  white-space:pre-line;
+  color:#d5e9ef;
+}
+
+#footer{
+  flex-shrink:0;
+  padding:8px 12px;
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,.12);
+  color:#a8cad8;
+  font-size:10px;
+}
+
+/* 横画面や小さい画面にも対応 */
+@media(max-height:650px){
+  #drag-head{
+    padding:8px 10px;
+  }
+  #grip{
+    margin-bottom:6px;
+  }
+  #news-list{
+    padding:8px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  #news-window{
+    transition:none;
+  }
 }
 </style>
 </head>
+
 <body>
-<main class="scene">
- <h1>NEWS</h1>
- <div class="subtitle">UMITAN OS · 機能検証 LAB03</div>
+<main id="os-frame">
 
- <div class="bubble">
-  💙 めいめい、気になる海のニュースを
-  一緒にチェックしようね！
- </div>
-
- <section class="window">
-  <h2>📰 うみたんのニュース便</h2>
-
-  <div class="tabs" id="tabs"></div>
-
-  <div class="status" id="status">
-   ニュースを読み込んでいるよ… 🌊
+  <div id="news-background"
+       aria-label="ニューススタジオのうみたん">
   </div>
 
-  <div class="articles" id="articles"></div>
+  <section id="news-window"
+           aria-label="UMITAN NEWS">
 
-  <div class="footer">
-   記事をタップすると配信元の記事へ移動するよ。<br>
-   ※ニュース本文・AI要約は取得しません。
-  </div>
- </section>
+    <div id="drag-head"
+         aria-label="長押しして高さを変更。ダブルタップで元に戻す">
+      <span id="grip"></span>
+      <div id="panel-title">
+        📰 うみたんのニュースだより
+      </div>
+    </div>
+
+    <div id="news-status">
+      <span id="updated-at">読み込み中...</span>
+      <button id="refresh" type="button">
+        更新 ↻
+      </button>
+    </div>
+
+    <div id="news-list">
+      <div id="message">
+        めいめい、ニュースを確認しているよ！💙
+      </div>
+    </div>
+
+    <div id="footer">
+      UMITAN NEWS · LAB05.2
+    </div>
+
+  </section>
 </main>
 
 <script>
-const statusEl=document.getElementById("status");
-const articlesEl=document.getElementById("articles");
-const tabsEl=document.getElementById("tabs");
+"use strict";
 
-let topics={};
-let selectedTopic="";
+const frame=document.getElementById("os-frame");
+const win=document.getElementById("news-window");
+const grip=document.getElementById("drag-head");
+const list=document.getElementById("news-list");
+const updated=document.getElementById("updated-at");
+const refresh=document.getElementById("refresh");
 
-function formatDate(value){
- if(!value)return "日時不明";
- const date=new Date(value);
- if(Number.isNaN(date.getTime()))return value;
- return date.toLocaleDateString("ja-JP",{
-  year:"numeric",month:"2-digit",day:"2-digit"
- });
+/* WEATHER LAB09/10を参考にした高さ制御 */
+const DEFAULT=66;
+const MIN=18;
+const MAX=79;
+
+let percent=DEFAULT;
+let tracking=null;
+let holdTimer=null;
+let lastTap=0;
+
+function clamp(value){
+  return Math.min(MAX,Math.max(MIN,value));
 }
 
-function render(){
- articlesEl.replaceChildren();
- tabsEl.replaceChildren();
+function setHeight(value){
+  percent=clamp(value);
+  win.style.setProperty(
+    "--news-height",
+    percent.toFixed(2)+"%"
+  );
+}
 
- const names=Object.keys(topics);
+function clearHold(){
+  if(holdTimer!==null){
+    clearTimeout(holdTimer);
+    holdTimer=null;
+  }
+}
 
- names.forEach(name=>{
-  const button=document.createElement("button");
-  button.className="tab"+
-   (name===selectedTopic?" active":"");
-  button.textContent=name;
-  button.onclick=()=>{
-   selectedTopic=name;
-   render();
-  };
-  tabsEl.appendChild(button);
- });
+function stopDrag(){
+  clearHold();
+  tracking=null;
+  win.classList.remove("moving");
+  grip.classList.remove("armed");
+}
 
- const items=Array.isArray(topics[selectedTopic])
-  ?topics[selectedTopic].slice(0,10):[];
-
- statusEl.textContent=
-  "🔎 "+selectedTopic+"："+
-  items.length+"件の記事を表示中";
-
- if(!items.length){
-  articlesEl.textContent=
-   "このテーマの記事はまだないみたい。";
-  return;
- }
-
- items.forEach(item=>{
-  const card=document.createElement("a");
-  card.className="article";
-
-  const link=typeof item.link==="string"
-   ?item.link:"";
-
-  try{
-   const url=new URL(link,location.href);
-   if(!["https:","http:"].includes(url.protocol))
-    throw Error("Invalid link");
-   card.href=url.href;
-   card.target="_blank";
-   card.rel="noopener noreferrer";
-  }catch{
-   card.removeAttribute("href");
+grip.addEventListener("pointerdown",event=>{
+  if(event.pointerType==="mouse"&&event.button!==0){
+    return;
   }
 
+  stopDrag();
+
+  tracking={
+    id:event.pointerId,
+    startY:event.clientY,
+    startPercent:percent,
+    armed:false
+  };
+
+  try{
+    grip.setPointerCapture(event.pointerId);
+  }catch(error){}
+
+  /* 長押し後にドラッグ可能 */
+  holdTimer=setTimeout(()=>{
+    holdTimer=null;
+
+    if(!tracking)return;
+
+    tracking.armed=true;
+    win.classList.add("moving");
+    grip.classList.add("armed");
+  },260);
+});
+
+grip.addEventListener("pointermove",event=>{
+  if(!tracking||
+     event.pointerId!==tracking.id){
+    return;
+  }
+
+  const delta=event.clientY-tracking.startY;
+
+  /* 長押し前の大きな移動はキャンセル */
+  if(!tracking.armed){
+    if(Math.abs(delta)>12){
+      stopDrag();
+    }
+    return;
+  }
+
+  const frameHeight=frame.getBoundingClientRect().height;
+  if(frameHeight<=0)return;
+
+  const deltaPercent=delta/frameHeight*100;
+
+  /* 下端固定なので、上に動かすと高さが増す */
+  setHeight(tracking.startPercent-deltaPercent);
+});
+
+grip.addEventListener("pointerup",event=>{
+  if(!tracking||
+     event.pointerId!==tracking.id){
+    return;
+  }
+
+  const wasArmed=tracking.armed;
+  stopDrag();
+
+  if(!wasArmed){
+    const now=Date.now();
+
+    if(now-lastTap<350){
+      setHeight(DEFAULT);
+      lastTap=0;
+    }else{
+      lastTap=now;
+    }
+  }
+});
+
+grip.addEventListener("pointercancel",stopDrag);
+grip.addEventListener("lostpointercapture",()=>{
+  if(tracking)stopDrag();
+});
+
+grip.addEventListener("dblclick",()=>{
+  setHeight(DEFAULT);
+});
+
+/* 日付表示 */
+function formatDate(value){
+  if(!value)return "日時不明";
+
+  const d=new Date(value);
+
+  if(Number.isNaN(d.getTime())){
+    return String(value);
+  }
+
+  return new Intl.DateTimeFormat("ja-JP",{
+    timeZone:"Asia/Tokyo",
+    month:"numeric",
+    day:"numeric",
+    hour:"2-digit",
+    minute:"2-digit"
+  }).format(d);
+}
+
+/* 記事リンクの検証 */
+function safeUrl(value){
+  try{
+    const url=new URL(value);
+
+    if(url.protocol==="https:"||
+       url.protocol==="http:"){
+      return url.href;
+    }
+  }catch(error){}
+
+  return null;
+}
+
+/* 読み込み状態表示 */
+function showMessage(text){
+  list.replaceChildren();
+
+  const message=document.createElement("div");
+  message.id="message";
+  message.textContent=text;
+  list.appendChild(message);
+}
+
+/* ニュースカード */
+function makeCard(item,index){
+  const url=safeUrl(item.link);
+  const card=document.createElement(url?"a":"div");
+
+  card.className="news-card";
+
+  if(url){
+    card.href=url;
+    card.target="_blank";
+    card.rel="noopener noreferrer";
+  }
+
+  const number=document.createElement("div");
+  number.className="news-number";
+  number.textContent=
+    "NEWS "+String(index+1).padStart(2,"0");
+
   const title=document.createElement("div");
-  title.className="article-title";
+  title.className="news-title";
   title.textContent=item.title||"タイトルなし";
 
   const meta=document.createElement("div");
-  meta.className="article-meta";
+  meta.className="news-meta";
   meta.textContent=
-   (item.source||"情報元不明")+
-   " · "+formatDate(item.date);
+    (item.source||"情報源不明")+
+    " · "+formatDate(item.date)+
+    (url?" ↗":"");
 
-  card.append(title,meta);
-  articlesEl.appendChild(card);
- });
+  card.append(number,title,meta);
+  return card;
 }
 
+/* GitHub Actions生成JSONからニュース取得 */
 async function loadNews(){
- statusEl.textContent=
-  "ニュースを読み込んでいるよ… 🌊";
- articlesEl.replaceChildren();
+  refresh.disabled=true;
+  updated.textContent="ニュースを確認中...";
+  showMessage("🌊 ニュースを読み込んでいるよ...");
 
- try{
-  const response=await fetch(
-   "./news.json?t="+Date.now(),
-   {cache:"no-store"}
-  );
+  try{
+    const response=await fetch(
+      "./news.json?t="+Date.now(),
+      {cache:"no-store"}
+    );
 
-  if(!response.ok)
-   throw Error("HTTP "+response.status);
+    if(!response.ok){
+      throw new Error("HTTP "+response.status);
+    }
 
-  const data=await response.json();
+    const data=await response.json();
+    const items=data.topics?.["海上保安庁"];
 
-  if(!data.topics||
-     typeof data.topics!=="object")
-   throw Error("データ形式が違います");
+    if(!Array.isArray(items)){
+      throw new Error(
+        "海上保安庁のニュースデータがありません"
+      );
+    }
 
-  topics=data.topics;
-  const names=Object.keys(topics);
+    const news=items.slice(0,10);
+    const fragment=document.createDocumentFragment();
 
-  if(!names.length)
-   throw Error("記事データがありません");
+    news.forEach((item,index)=>{
+      fragment.appendChild(makeCard(item,index));
+    });
 
-  selectedTopic=names.includes("海上保安庁")
-   ?"海上保安庁":names[0];
+    list.replaceChildren(fragment);
 
-  render();
+    if(news.length===0){
+      showMessage(
+        "現在、表示できるニュースはないみたい。"
+      );
+    }
 
- }catch(error){
-  statusEl.textContent=
-   "ニュースを読み込めなかったよ。";
-  const message=document.createElement("p");
-  message.textContent=error.message;
-  articlesEl.appendChild(message);
+    updated.textContent=
+      news.length+"件 · 更新 "+
+      formatDate(data.updated_at);
 
-  const retry=document.createElement("button");
-  retry.className="retry";
-  retry.textContent="もう一度読み込む";
-  retry.onclick=loadNews;
-  articlesEl.appendChild(retry);
- }
+    list.scrollTop=0;
+
+  }catch(error){
+    updated.textContent="読み込みエラー";
+
+    showMessage(
+      "めいめい、ごめんね。\n"+
+      "ニュースを取得できなかったよ。\n"+
+      error.message
+    );
+  }finally{
+    refresh.disabled=false;
+  }
 }
 
+refresh.addEventListener("click",loadNews);
+
+/* 15分ごとに更新 */
+setInterval(()=>{
+  if(!document.hidden){
+    loadNews();
+  }
+},15*60*1000);
+
+/* 画面に戻った際にも更新 */
+document.addEventListener("visibilitychange",()=>{
+  if(!document.hidden){
+    loadNews();
+  }
+});
+
+setHeight(DEFAULT);
 loadNews();
 </script>
 </body>
