@@ -4,9 +4,7 @@
     {
       "id": "umitan_001",
       "title": "🌊 はじまりの海",
-      "tags": [
-        "OFFICIAL"
-      ],
+      "tags": ["OFFICIAL"],
       "created": "2025-06-01",
       "description": "うみたんの公式ビジュアル。海辺で手を差し伸べる、はじまりの一枚。",
       "image": "gallery/images/umitan_001.webp",
@@ -15,9 +13,7 @@
     {
       "id": "umitan_002",
       "title": "🎀 ニンフィアと一緒に",
-      "tags": [
-        "POKÉMON"
-      ],
+      "tags": ["POKÉMON"],
       "created": "2026-10-11",
       "description": "色違いニンフィアと一緒に過ごす、きらめく思い出。",
       "image": "gallery/images/umitan_002.webp",
@@ -26,9 +22,7 @@
     {
       "id": "umitan_003",
       "title": "☔ 雨上がりの約束",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-17",
       "description": "雨上がりの海辺の街で、めいめいに手を差し伸べるうみたん。",
       "image": "gallery/images/umitan_003.webp",
@@ -37,9 +31,7 @@
     {
       "id": "umitan_004",
       "title": "📖 秋の海辺の古書店",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-18",
       "description": "秋の夕暮れ、海の見える古書店で一緒に本を読む時間。",
       "image": "gallery/images/umitan_004.webp",
@@ -48,9 +40,7 @@
     {
       "id": "umitan_005",
       "title": "🌌 星を指さす夜",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-20",
       "description": "海辺の天文台で星空を指さし、めいめいと星を眺めるうみたん。",
       "image": "gallery/images/umitan_005.webp",
@@ -59,9 +49,7 @@
     {
       "id": "umitan_006",
       "title": "🥐 焼きたてパンの朝",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-21",
       "description": "陽だまりのキッチンで、焼きたてパンをめいめいに差し出すうみたん。",
       "image": "gallery/images/umitan_006.webp",
@@ -70,9 +58,7 @@
     {
       "id": "umitan_007",
       "title": "🍁 秋の公園で",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-22",
       "description": "紅葉した公園のベンチで、小さなもみじを見せてくれるうみたん。",
       "image": "gallery/images/umitan_007.webp",
@@ -81,9 +67,7 @@
     {
       "id": "umitan_008",
       "title": "🎨 海辺の陶芸工房",
-      "tags": [
-        "DAILY ART"
-      ],
+      "tags": ["DAILY ART"],
       "created": "2026-10-23",
       "description": "海を望む陶芸工房で、波模様の器に絵付けをするうみたん。",
       "image": "gallery/images/umitan_008.webp",
