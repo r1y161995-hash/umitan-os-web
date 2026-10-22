@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T20:58:01.151258+00:00",
+  "updated_at": "2026-10-22T21:24:49.827306+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -13,12 +13,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KUXVuUzZpMHJJcTl2R0llZWNua29hemFGODU0VTR5UzNYSkUyT2hMNmNVOEZpWXZWblF6OGE0TDRaQlE5RDM1MzhQU0l6RlNzXzkzYjN3cXZDYm1iR3Y0Z1dSTWljblFOZGowVQ?oc=5",
         "date": "Thu, 22 Oct 2026 05:00:00 GMT",
         "source": "日本経済新聞"
-      },
-      {
-        "title": "海上保安庁、初めて参加見送る ロシアで開催の国際会議 - 時事ドットコム",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkbHN6Vms4UFVMUktPQnN4eWhpQk1tc2t4YzR4TXV2VURFeUdRdVR1UkxQT0t1blNDd2lSSHJsUUFRX3JIcnRCNDU3RWo1TW5XY1NuZGpMU0pMSVNVTFpVS2dxMA?oc=5",
-        "date": "Wed, 21 Oct 2026 08:23:00 GMT",
-        "source": "時事ドットコム"
       },
       {
         "title": "巡視艇「うみぎり」、10月25日に塩釜で一般公開 「第16回塩釜魚市場どっと祭」にあわせ - フネコ - Funeco",
@@ -61,6 +55,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVTXpJSklXWlhuQ1RLbjdGNjBENTlIblhESTdOdWp3UU1odU12amt2N19rZ1FFSVFuaVZTV1hSWi12emNSczgwZHJIanhGUmxIcFFMSVNn?oc=5",
         "date": "Wed, 21 Oct 2026 11:00:00 GMT",
         "source": "佐賀新聞"
+      },
+      {
+        "title": "岩崎ノ鼻灯台、絶景楽しむ 伏木海保、一般公開｜社会｜富山のニュース｜富山新聞 - 北國新聞",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CeW9UaGFFcWk1MXlpU3RkZF9BaFVpNHpFZEpmYlJyTnJnaE9ERGtMTGRBX2JjR0FHVjVtLVZCLTdWQTNFQ0dJOVFSTDRfWlVfWE1yNUJSRQ?oc=5",
+        "date": "Tue, 20 Oct 2026 20:00:00 GMT",
+        "source": "北國新聞"
       }
     ],
     "尖閣諸島": [
@@ -95,6 +95,12 @@
         "source": "河北新報オンライン"
       },
       {
+        "title": "尖閣周辺で中国船の連続航行途切れる - 徳島新聞デジタル",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQSVY5RGxLMzhxMjZTLS05V2dia3dmTE5PTkJnbktvcEY4a1VNNldFUlcyWTg3WWZzVmozUVFHZWUwX2poQUUtd3dYZzhnLUQ1ME56UjFn?oc=5",
+        "date": "Thu, 22 Oct 2026 15:12:55 GMT",
+        "source": "徳島新聞デジタル"
+      },
+      {
         "title": "児童生徒向け石垣市尖閣諸島地域教材資料（R8.7 関連ページを追加） - 石垣市",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQjBzTTJsZ1U1RXR2Q3hpMGhOS0R2R0Zpbkd0c1ZiMTFqQkhvdTdWb0NQSnllOF85OVpYTkc5bVBUbFE1OUsxcHd6NWVORzJwenVkd1N2VVdKVm5NSjJMLVllMWZmV0VwR3NzREJoTXVxOFRKa3V6ejlwWHA5dTQ4cml5QWZOS245Y2loUzQ4ZHU5T25rSGc?oc=5",
         "date": "Wed, 08 Jul 2026 07:00:00 GMT",
@@ -105,12 +111,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
         "date": "Sun, 27 Sep 2026 07:00:00 GMT",
         "source": "日本経済新聞"
-      },
-      {
-        "title": "尖閣周辺で中国船の連続航行途切れる - ｄメニューニュース",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcEZOZXVMSXJ5SlJDVlRDUGxGeS1Kak90RUhISHVQMkp4cW9EbDd3dFJoMFRlX1RMY21pd1cyVk1QSFVpVTJMT05QTERFclNObnBOSEp0QTJhemNaNmNpY1JMbkYwQnBPSF9KNEt5Q3FwamlPbG1DbV9id2JuQlp3WlQwdDRNNHdYbUxv0gGQAUFVX3lxTFBDYXA5ZnpxZGJEc2lYM2k0dzFoNlpPSmM5X294MV93MzhWV0I3NnJJdS1EVjFDVXpad1FwaEEtVmFYWlBqUEgxLVUzZUJFY2J3VlRuS3o4Y2VxTTNhT3J2QktUS3d2eHR4V3lMU2VZaTFWTWVPUkQ2MjR5al9aUU1IZ1lMUGJ2OEh5WXA5X2JrOA?oc=5",
-        "date": "Thu, 22 Oct 2026 15:21:49 GMT",
-        "source": "ｄメニューニュース"
       },
       {
         "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
