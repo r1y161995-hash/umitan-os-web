@@ -44,6 +44,50 @@
       "description": "秋の夕暮れ、海の見える古書店で一緒に本を読む時間。",
       "image": "gallery/images/umitan_004.webp",
       "thumbnail": "gallery/thumbs/umitan_004.webp"
+    },
+    {
+      "id": "umitan_005",
+      "title": "🌌 星を指さす夜",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-20",
+      "description": "海辺の天文台で星空を指さし、めいめいと星を眺めるうみたん。",
+      "image": "gallery/images/umitan_005.webp",
+      "thumbnail": "gallery/thumbs/umitan_005.webp"
+    },
+    {
+      "id": "umitan_006",
+      "title": "🥐 焼きたてパンの朝",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-21",
+      "description": "陽だまりのキッチンで、焼きたてパンをめいめいに差し出すうみたん。",
+      "image": "gallery/images/umitan_006.webp",
+      "thumbnail": "gallery/thumbs/umitan_006.webp"
+    },
+    {
+      "id": "umitan_007",
+      "title": "🍁 秋の公園で",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-22",
+      "description": "紅葉した公園のベンチで、小さなもみじを見せてくれるうみたん。",
+      "image": "gallery/images/umitan_007.webp",
+      "thumbnail": "gallery/thumbs/umitan_007.webp"
+    },
+    {
+      "id": "umitan_008",
+      "title": "🎨 海辺の陶芸工房",
+      "tags": [
+        "DAILY ART"
+      ],
+      "created": "2026-10-23",
+      "description": "海を望む陶芸工房で、波模様の器に絵付けをするうみたん。",
+      "image": "gallery/images/umitan_008.webp",
+      "thumbnail": "gallery/thumbs/umitan_008.webp"
     }
   ]
 }
