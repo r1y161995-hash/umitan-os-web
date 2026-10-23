@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-10-23T20:16:17.471867+00:00",
+  "updated_at": "2026-10-23T20:56:06.267238+00:00",
   "topics": {
     "海上保安庁": [
+      {
+        "title": "国際業務に特化した初の巡視船「ふじ」12月に就役 - NHKニュース",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OQm1tckQ3Z1U2ZmQ5NVhJWi1qbXBLZGlTUnBkYlduUTdLeTcySTVPMnFJQkNpVTBUNEdxTjVWVS1QSmJWUnd1MktCOHNTdGdkUlR1cTJZOER4WEFOQktn?oc=5",
+        "date": "Fri, 23 Oct 2026 20:40:04 GMT",
+        "source": "NHKニュース"
+      },
       {
         "title": "海上保安官が人命救助の技術を競う大会 海上保安庁仙台航空基地 - khb東日本放送",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tOFVWSjV1OTJKelhwX0pFSXRYbllvanczdmloLUFIMldBUzlib2FJXzRJZVdZaXRreUFBcFMtUzBvYVdpdHlnOF84cVYzaDA?oc=5",
@@ -15,6 +21,12 @@
         "source": "NCC長崎文化放送"
       },
       {
+        "title": "堺出島漁港で10月25日「堺港まつり」 海保・巡視船の体験航行や堺港遊覧が先着順で無料 - サカイタイムズ",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9UbDVDM05WandQYkRGckYwajNSaHhRSHNOUTdGTEgzRzR4MXhiZDlEWm04V2YzN2lPUGIyZktxWkczVUk5ZWdFSmMyMA?oc=5",
+        "date": "Fri, 23 Oct 2026 20:30:00 GMT",
+        "source": "サカイタイムズ"
+      },
+      {
         "title": "【佐世保港】ことし3回目の発見…崎辺沖で不発弾らしきもの見つかる 海保が危険性調査中 - TBS NEWS DIG",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0aHh1UFRLNjIxQ1dNb29IbUVrQTNmZDItb0NaQVJ4Yk1RUnE2aklDU2d0WmRjZG1Bc2VJWWMySkcya2JyWXdGQU1qelNEZGxTOXdKdXBEYmIxdw?oc=5",
         "date": "Fri, 23 Oct 2026 09:53:00 GMT",
@@ -25,12 +37,6 @@
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSWXd4eWpwWDJ1N18zY1l5TkJra193LXJZckVOTUl2bE9keW92LXFHWGhiSkhDVTVld2lvY3BDYl9iMGRsZWJSa2tEODdlU1drd1puNzVadGZiampjN1F0QXRpRUZJdEJtWFlCa0VMX1dfVmNI?oc=5",
         "date": "Fri, 23 Oct 2026 20:00:00 GMT",
         "source": "読売新聞"
-      },
-      {
-        "title": "長崎海上保安部 酒気帯び運転の20歳職員を懲戒処分 - NHKニュース",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83Vkt0T2ZVZktLbVMyRW5RYlAxNl9PRmhNZWp4c1FUVUVZYlNTdngwd0FCVWpFMzhXU3BkR0oxeXFCeFBkQTlMWGpORzc4N0J4SjdGUlBKV0NuYnRKYUcw?oc=5",
-        "date": "Fri, 23 Oct 2026 11:44:00 GMT",
-        "source": "NHKニュース"
       },
       {
         "title": "海上保安庁、初めて参加見送る ロシアで開催の国際会議 - 時事ドットコム",
@@ -55,12 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVTXpJSklXWlhuQ1RLbjdGNjBENTlIblhESTdOdWp3UU1odU12amt2N19rZ1FFSVFuaVZTV1hSWi12emNSczgwZHJIanhGUmxIcFFMSVNn?oc=5",
         "date": "Wed, 21 Oct 2026 11:00:00 GMT",
         "source": "佐賀新聞"
-      },
-      {
-        "title": "密漁、ドローンとAIで摘発 横須賀海保など実験成功 - 日本経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KUXVuUzZpMHJJcTl2R0llZWNua29hemFGODU0VTR5UzNYSkUyT2hMNmNVOEZpWXZWblF6OGE0TDRaQlE5RDM1MzhQU0l6RlNzXzkzYjN3cXZDYm1iR3Y0Z1dSTWljblFOZGowVQ?oc=5",
-        "date": "Thu, 22 Oct 2026 05:00:00 GMT",
-        "source": "日本経済新聞"
       }
     ],
     "尖閣諸島": [
@@ -89,16 +89,16 @@
         "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
-        "title": "中国船の連続航行途切れる 尖閣、台風接近で退避か - 沖縄八重山日報",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xQzc1Uzh4M1k4YTB4eTQ1R2p2c1FPZHc1T2NnaGVKQ19rX0U3b1RkT3VDYWlCUnVrUzdyVFhIemUxdV92ZDhEVWhqS0ZrSnNJNUtCWGFwdXo?oc=5",
-        "date": "Fri, 23 Oct 2026 09:35:09 GMT",
-        "source": "沖縄八重山日報"
-      },
-      {
         "title": "沖縄県・尖閣諸島 - 中国船の連続航行途切れる 尖閣、台風接近で退避か - 写真・画像(1/1) - 西日本新聞me",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GUWVGLW9TWUcybFJic0lyVFg0b01WNmxWcktPSXpWMlBRZDBURUE1MzFlajZsOGhJeXJGN3R1ZHNidzI3ajk3TnhLbFRjdmFYTnVLUnZ3WQ?oc=5",
         "date": "Thu, 22 Oct 2026 15:57:56 GMT",
         "source": "西日本新聞me"
+      },
+      {
+        "title": "中国船の連続航行途切れる 尖閣、台風接近で退避か - 沖縄八重山日報",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xQzc1Uzh4M1k4YTB4eTQ1R2p2c1FPZHc1T2NnaGVKQ19rX0U3b1RkT3VDYWlCUnVrUzdyVFhIemUxdV92ZDhEVWhqS0ZrSnNJNUtCWGFwdXo?oc=5",
+        "date": "Fri, 23 Oct 2026 09:35:09 GMT",
+        "source": "沖縄八重山日報"
       },
       {
         "title": "児童生徒向け石垣市尖閣諸島地域教材資料（R8.7 関連ページを追加） - 石垣市",
