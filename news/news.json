@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T01:59:41.067953+00:00",
+  "updated_at": "2026-10-23T02:27:08.951976+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -51,16 +51,16 @@
         "source": "伊豆新聞デジタル"
       },
       {
-        "title": "漁港内の2か所で浮流油 漁業への被害は確認されず 海上保安部が油の流出元について調査中 岡山 - TBS NEWS DIG",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ENWo3OGw0cVAwVlBnSDZDVk5EUHVXaGtQcldYYU5xd0pLNVBNMFMwaHpGV1JQcHhoWW5NeWdfZ3NzU2NjMzJmQ280Vmx4V1NEN2pzM1E0SQ?oc=5",
-        "date": "Thu, 22 Oct 2026 05:04:00 GMT",
-        "source": "TBS NEWS DIG"
-      },
-      {
         "title": "【動画】巡視船「いまり」で120人が唐津湾を航海体験 配属後初の一般公開 「海上保安の仕事、知ってほしい」 - 佐賀新聞",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVTXpJSklXWlhuQ1RLbjdGNjBENTlIblhESTdOdWp3UU1odU12amt2N19rZ1FFSVFuaVZTV1hSWi12emNSczgwZHJIanhGUmxIcFFMSVNn?oc=5",
         "date": "Wed, 21 Oct 2026 11:00:00 GMT",
         "source": "佐賀新聞"
+      },
+      {
+        "title": "漁港内の2か所で浮流油 漁業への被害は確認されず 海上保安部が油の流出元について調査中 岡山 - TBS NEWS DIG",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ENWo3OGw0cVAwVlBnSDZDVk5EUHVXaGtQcldYYU5xd0pLNVBNMFMwaHpGV1JQcHhoWW5NeWdfZ3NzU2NjMzJmQ280Vmx4V1NEN2pzM1E0SQ?oc=5",
+        "date": "Thu, 22 Oct 2026 05:04:00 GMT",
+        "source": "TBS NEWS DIG"
       }
     ],
     "尖閣諸島": [
@@ -81,12 +81,6 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qYmJEeDZMLWQ2T1pxeEpYWXozT3hSRm1ZYlVBdzJnYzdwS1pnZmxwVThRLURNbXdCaUJ4aWtudGRPdDhaWGJmallMSWdBVFJNczVQbGNsUjViTVk2ZkNZ?oc=5",
         "date": "Tue, 20 Oct 2026 06:00:00 GMT",
         "source": "JBpress"
-      },
-      {
-        "title": "沖縄・尖閣周辺に機関砲搭載の中国海警局船 73日連続、海保巡視船が領海接近に警告 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kZWtRcDhFUTRIeHBld0pRaWRZUGp0amI5RDNHUUN1RnU1MUxXY1ZwVjJWZ2NBdGlWZTB0VGZVZnpkUGY1UV9PNWlRTjZRbDVyZV9rNTVrYzRHcWxZUXpZdTZleHhJWWFtTGNlWmNjb1VjUHVHR1E?oc=5",
-        "date": "Tue, 20 Oct 2026 01:36:12 GMT",
-        "source": "産経ニュース"
       },
       {
         "title": "中国船の連続航行74日で途切れる 沖縄・尖閣諸島周辺、台風30号の接近で退避か - 産経ニュース",
@@ -123,6 +117,12 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQjBzTTJsZ1U1RXR2Q3hpMGhOS0R2R0Zpbkd0c1ZiMTFqQkhvdTdWb0NQSnllOF85OVpYTkc5bVBUbFE1OUsxcHd6NWVORzJwenVkd1N2VVdKVm5NSjJMLVllMWZmV0VwR3NzREJoTXVxOFRKa3V6ejlwWHA5dTQ4cml5QWZOS245Y2loUzQ4ZHU5T25rSGc?oc=5",
         "date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "source": "石垣市"
+      },
+      {
+        "title": "尖閣諸島周辺に中国船、50日連続 海上保安庁の巡視船が確認 - 日本経済新聞",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
+        "date": "Sun, 27 Sep 2026 07:00:00 GMT",
+        "source": "日本経済新聞"
       }
     ]
   }
