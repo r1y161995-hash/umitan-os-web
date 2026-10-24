@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:15:25.005950+00:00",
+  "updated_at": "2026-10-24T00:17:44.846815+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -7,6 +7,12 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OQm1tckQ3Z1U2ZmQ5NVhJWi1qbXBLZGlTUnBkYlduUTdLeTcySTVPMnFJQkNpVTBUNEdxTjVWVS1QSmJWUnd1MktCOHNTdGdkUlR1cTJZOER4WEFOQktn?oc=5",
         "date": "Fri, 23 Oct 2026 20:40:04 GMT",
         "source": "NHKニュース"
+      },
+      {
+        "title": "中国海警船が台湾周辺海域で日本の巡視船を追尾 海巡署「内水化の企て」（中央社フォーカス台湾） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lTjUwQWdGelFrcDNndjhVRGVpMFZOOEJkTDFuc2JkdTBULTdMSTB5NmQycnJIbTc0SlhmQlJtZkVFN2JZbG14cE1qSHF0NUtKV0RPNDB5NW5qWFlScWVHZWM0dmpRVm1Rdm9Cc3dJUWV0Y3ljT3g0QmtpcWZ2SkE?oc=5",
+        "date": "Fri, 23 Oct 2026 06:50:15 GMT",
+        "source": "Yahoo!ニュース"
       },
       {
         "title": "海上保安官が人命救助の技術を競う大会 海上保安庁仙台航空基地 - khb東日本放送",
@@ -33,16 +39,16 @@
         "source": "サカイタイムズ"
       },
       {
-        "title": "タグボートと漁船が衝突 漁船に微量の浸水も差し迫った危険はなし 水島海上保安部【岡山・倉敷市】 - TBS NEWS DIG",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQOGM3UHh4U0JObGliMWozY09jNkg1aldycXVSaWl5SVpnVFRLMkJfSFhhVU84VjBGY3F3eVl2bEY2WnZnQlM0aVcxcEVfajlvVVdORUI3dw?oc=5",
-        "date": "Fri, 23 Oct 2026 02:48:00 GMT",
-        "source": "TBS NEWS DIG"
-      },
-      {
         "title": "長崎海上保安部が酒気帯び運転容疑の職員を停職処分 - 47NEWS",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKMk1TMnBwZzYwWjZWYkpkT3VTZFNlaFdhTkVsZjIzUlowNndod3dBbzdaMmQ1ZzRqMWZobmY3dWNxM05rWllIbjY0OA?oc=5",
         "date": "Fri, 23 Oct 2026 22:15:59 GMT",
         "source": "47NEWS"
+      },
+      {
+        "title": "【佐世保港】ことし3回目の発見…崎辺沖で不発弾らしきもの見つかる 海保が危険性調査中 - TBS NEWS DIG",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0aHh1UFRLNjIxQ1dNb29IbUVrQTNmZDItb0NaQVJ4Yk1RUnE2aklDU2d0WmRjZG1Bc2VJWWMySkcya2JyWXdGQU1qelNEZGxTOXdKdXBEYmIxdw?oc=5",
+        "date": "Fri, 23 Oct 2026 09:53:00 GMT",
+        "source": "TBS NEWS DIG"
       },
       {
         "title": "海上保安庁、初めて参加見送る ロシアで開催の国際会議 - 時事ドットコム",
@@ -55,12 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WYk1JNlRlR3ZzVjlUOG1QQ28tOE1WNTl6SXYxajZ4dmcyS3lSQzVObkRGUC1TcUNCdVIyTXNrSWRWRGhqVE1tU2d6MHE0cGlZQmFUSjkxWDlKODBvTzRlUlJZa1dJekdKbTZnYU9R?oc=5",
         "date": "Fri, 23 Oct 2026 22:32:44 GMT",
         "source": "au Webポータル"
-      },
-      {
-        "title": "海の不法投棄 ゼロへ 県と海保 パトロール ／和歌山 - 毎日新聞",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsX2ZrdVFwbzRaWGZpYmJ2YzZwcEJqQzlhOExLNVlNZWpLVnRlUjM3clJKOEgxbHVDMnVWZ3gxMnY0aTlNcjdNcXRFMVhranpEc1dMREFFdDN0dVNoUG1Cc3hrTVJyc29D?oc=5",
-        "date": "Wed, 21 Oct 2026 20:03:32 GMT",
-        "source": "毎日新聞"
       }
     ],
     "尖閣諸島": [
@@ -89,12 +89,6 @@
         "source": "沖縄八重山日報"
       },
       {
-        "title": "沖縄県・尖閣諸島 - 中国船の連続航行途切れる 尖閣、台風接近で退避か - 写真・画像(1/1) - 西日本新聞me",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GUWVGLW9TWUcybFJic0lyVFg0b01WNmxWcktPSXpWMlBRZDBURUE1MzFlajZsOGhJeXJGN3R1ZHNidzI3ajk3TnhLbFRjdmFYTnVLUnZ3WQ?oc=5",
-        "date": "Thu, 22 Oct 2026 15:57:56 GMT",
-        "source": "西日本新聞me"
-      },
-      {
         "title": "【速報】尖閣周辺で中国船の連続航行途切れる - 47NEWS",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBrMGIyY1Y5SXZudUJwRVgyMkJqMm9TWVdBbXc5YkFfRmxyQnVVenJTOXlfVGV4Yng0SXY5Nzk3QmUzNXdnOFFORU80WQ?oc=5",
         "date": "Thu, 22 Oct 2026 15:12:55 GMT",
@@ -113,16 +107,22 @@
         "source": "日本経済新聞"
       },
       {
-        "title": "尖閣諸島沖の領海に中国海警局の船４隻が侵入、砲を搭載…領海侵入は１か月ぶり - 読売新聞",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VYUs2Vm84ZzItN0xYR183Q2hiQW5zekx4dENXRnlHOU5DN2gxSWNkbkhOR0p5bVpVcHBTd1hpWlYteDRtZ20yclhxS19RTWFrN1VHdjRYczl4SHlIcHp1N2wwMkg1dw?oc=5",
-        "date": "Sat, 10 Oct 2026 07:00:00 GMT",
-        "source": "読売新聞"
+        "title": "尖閣諸島・竹島をめぐって緊張高まる - NHK",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wMDNJSi1rX3V6em5BXzBWZWtuNmJyekdWY0d0MV85cE1YbW9TVmJ2ekJyUDlYNV9XaDAwNm5OUGNxaHRzbUhtT19fTXE4SXltMFRiZGdYaC1aTGxXVDhQajFrMFhQWUtISzgxXw?oc=5",
+        "date": "Fri, 11 Sep 2026 07:00:00 GMT",
+        "source": "NHK"
       },
       {
         "title": "尖閣周辺で中国船の連続航行途切れる - 京都新聞デジタル",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDbWRGSHJhZzRsdzdTX0VBZDJjRHFpanFoYURLODRqbnY3U3UxOWYzRjJLTUhtSDVzdnc4bC1SM25feVNKNFhnVlRxR19KbjdVeHd2Q2FqdUY?oc=5",
         "date": "Thu, 22 Oct 2026 15:12:55 GMT",
         "source": "京都新聞デジタル"
+      },
+      {
+        "title": "【写真】中国船の連続航行途切れる 尖閣、台風接近で退避か - 南日本新聞",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TR182WHo0RTFrdkdIVTNsV3BIZVI3YXQwR3A5ZHN2aVQ2V1JvNkRRZk9SQ0xUUmRVdlRRbHJFUW5wem1NQXYzbXlmQV9GU2ZURHV3Wmw0WF9ST0ZuODZMM1dLSHRTQ21E?oc=5",
+        "date": "Thu, 22 Oct 2026 15:36:02 GMT",
+        "source": "南日本新聞"
       }
     ]
   }
