@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T23:24:48.338283+00:00",
+  "updated_at": "2026-10-26T23:53:59.689202+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -51,16 +51,16 @@
         "source": "TBS NEWS DIG"
       },
       {
-        "title": "尖閣周辺に中国船、2日連続 機関砲を搭載した4隻、海保の巡視船が警告 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIOEZWYlZ2RTN1dm15QlBFMy1sNFh0T0NycndJMmh1TFVfLUZrdkFFQ0RtZVg1eTlmRDZxcGUzRTY4LVZWYnVrT1luM3A0dlFqUVRYSEktdG5DSmhlSnFDN0NZenNJUm5tWmdjY1pETlQ0czlKS0E?oc=5",
-        "date": "Mon, 26 Oct 2026 03:26:26 GMT",
-        "source": "産経ニュース"
-      },
-      {
         "title": "海上保安庁、初めて参加見送る ロシアで開催の国際会議 - 時事ドットコム",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkbHN6Vms4UFVMUktPQnN4eWhpQk1tc2t4YzR4TXV2VURFeUdRdVR1UkxQT0t1blNDd2lSSHJsUUFRX3JIcnRCNDU3RWo1TW5XY1NuZGpMU0pMSVNVTFpVS2dxMA?oc=5",
         "date": "Wed, 21 Oct 2026 08:23:00 GMT",
         "source": "時事ドットコム"
+      },
+      {
+        "title": "尖閣周辺に中国船、2日連続 機関砲を搭載した4隻、海保の巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIOEZWYlZ2RTN1dm15QlBFMy1sNFh0T0NycndJMmh1TFVfLUZrdkFFQ0RtZVg1eTlmRDZxcGUzRTY4LVZWYnVrT1luM3A0dlFqUVRYSEktdG5DSmhlSnFDN0NZenNJUm5tWmdjY1pETlQ0czlKS0E?oc=5",
+        "date": "Mon, 26 Oct 2026 03:26:26 GMT",
+        "source": "産経ニュース"
       }
     ],
     "尖閣諸島": [
@@ -95,12 +95,6 @@
         "source": "JBpress"
       },
       {
-        "title": "「グレーゾーン」の脅威に直面 沖縄と台湾に迫る中国 - 沖縄八重山日報",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zUG9KelNhR0VVQ2xXc3RjMWR0MjIyd0xPSUZJUHhQZ3BXUXh0N1Z5a2poSDktd1dVMlZfRlY5TzhndnVsY1VKMU91MEItcXhJS1YyVkpnZzA?oc=5",
-        "date": "Mon, 26 Oct 2026 22:30:50 GMT",
-        "source": "沖縄八重山日報"
-      },
-      {
         "title": "【速報】尖閣周辺で中国船の連続航行途切れる - 47NEWS",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBrMGIyY1Y5SXZudUJwRVgyMkJqMm9TWVdBbXc5YkFfRmxyQnVVenJTOXlfVGV4Yng0SXY5Nzk3QmUzNXdnOFFORU80WQ?oc=5",
         "date": "Thu, 22 Oct 2026 15:12:55 GMT",
@@ -111,6 +105,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFMjJQZUo3N2U4NEZKQlJqZUVuempJMHk1a1ExYjNBeW1OSFFfUHBUOWZkY0pIZVZOX0pQZ0J5cDgxVHVNSGN0N0J6ZTA2eXg2SEFEb19R?oc=5",
         "date": "Thu, 22 Oct 2026 02:21:40 GMT",
         "source": "西日本新聞me"
+      },
+      {
+        "title": "「中国、台湾の次は尖閣狙う」 現地シンクタンクが分析 - 沖縄八重山日報",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBITUNINEktTmdoRFhLb08zYllqeXZzSC1NNW5WaEEzNVkybnpMVTdHbXBpYjdyWkxyekhlZldfcy1HTGxyOGFIei01NjBXTnplZzdwUEhnZlo?oc=5",
+        "date": "Fri, 23 Oct 2026 06:14:42 GMT",
+        "source": "沖縄八重山日報"
       },
       {
         "title": "中国船の連続航行74日で途切れる 沖縄・尖閣諸島周辺、台風30号の接近で退避か - 産経ニュース",
