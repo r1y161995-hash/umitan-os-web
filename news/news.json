@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T17:37:08.687959+00:00",
+  "updated_at": "2026-10-27T18:28:31.601768+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -33,12 +33,6 @@
         "source": "産経ニュース"
       },
       {
-        "title": "巡視艇「はるなみ」を見学する「海保まるわかりセミナー」、11月22日に神戸で開催 潜水士との座談会も - Funeco",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FYXhVWXdOaVNUSnY3R0taQ0JPTVFaTFEtOGNpTE8xeDY2TmNxanlnTXZRS2Q0dk1uTlN4U2lqQmpJd19VbS1kUTdR?oc=5",
-        "date": "Mon, 26 Oct 2026 22:04:58 GMT",
-        "source": "Funeco"
-      },
-      {
         "title": "バングラに巡視船供与、首脳会談＝ 民間投資拡大 - NNAアジア",
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE91MC1jYllOMk5ub21ZZGYzWWl3dmRtelRiR0xUQ3Q5dmkzcE05UEF0am1qWkdKek5XRmNxSDdhQ2t0LU9maXc?oc=5",
         "date": "Tue, 27 Oct 2026 15:02:44 GMT",
@@ -49,6 +43,12 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JTDNLUnZ4T3cxd0F5UVZ6OXl3bnRuWUFvSEZGclk3OFJhaVE0MS04cmxwM0tXTTk2TkNqZ0s5X1AtMTZyRmpkN29xR0ZnU3h5V2xfLW8zc2VjN2dRMlZjUUZWSDdYYnM?oc=5",
         "date": "Tue, 27 Oct 2026 06:58:00 GMT",
         "source": "TBS NEWS DIG"
+      },
+      {
+        "title": "巡視艇「はるなみ」を見学する「海保まるわかりセミナー」、11月22日に神戸で開催 潜水士との座談会も - Funeco",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FYXhVWXdOaVNUSnY3R0taQ0JPTVFaTFEtOGNpTE8xeDY2TmNxanlnTXZRS2Q0dk1uTlN4U2lqQmpJd19VbS1kUTdR?oc=5",
+        "date": "Mon, 26 Oct 2026 22:04:58 GMT",
+        "source": "Funeco"
       },
       {
         "title": "酒気帯び運転で海上保安官（２０）を停職…長崎海保 - 47NEWS",
@@ -89,16 +89,22 @@
         "source": "読売新聞"
       },
       {
+        "title": "沖縄県・尖閣諸島 - 中国船の連続航行途切れる 尖閣、台風接近で退避か - 写真・画像(1/1) - 西日本新聞me",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GUWVGLW9TWUcybFJic0lyVFg0b01WNmxWcktPSXpWMlBRZDBURUE1MzFlajZsOGhJeXJGN3R1ZHNidzI3ajk3TnhLbFRjdmFYTnVLUnZ3WQ?oc=5",
+        "date": "Thu, 22 Oct 2026 15:57:56 GMT",
+        "source": "西日本新聞me"
+      },
+      {
         "title": "北方領土で中ロが連携、10年前にロシア政府関係者が漏らした「3段階の警告」が現実に…次は尖閣諸島なのか - JBpress",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VMDRpd1ZmcmZ3dG5FZ0FfYk9ydDFLWHBDV0RLcFpTeE43aHhVN210Y2QxcmhrMENvU1ZCYjNhWi1SZS0ycnpZYjdEQnQxMy01WUxNNmhn?oc=5",
         "date": "Tue, 20 Oct 2026 06:00:00 GMT",
         "source": "JBpress"
       },
       {
-        "title": "児童生徒向け石垣市尖閣諸島地域教材資料（R8.7 関連ページを追加） - 石垣市",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQjBzTTJsZ1U1RXR2Q3hpMGhOS0R2R0Zpbkd0c1ZiMTFqQkhvdTdWb0NQSnllOF85OVpYTkc5bVBUbFE1OUsxcHd6NWVORzJwenVkd1N2VVdKVm5NSjJMLVllMWZmV0VwR3NzREJoTXVxOFRKa3V6ejlwWHA5dTQ4cml5QWZOS245Y2loUzQ4ZHU5T25rSGc?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-        "source": "石垣市"
+        "title": "「尖閣諸島は日本の領土」と説明した看板に落書き見つかる 「not」など領有を否定したと取れる文言を書いた痕跡 石垣市 - TBS NEWS DIG",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNSFcteG5jeVJoT2NuN3RlM19nOGFDclY4UmI4cXBuTmJTSGg5SEF6VVBsVmxFNU9SVXA5aEFLMDQ5WTl3ZHhVRWVyNjgyRXJmczllNWpUcV9KUEd0S1pv?oc=5",
+        "date": "Sat, 17 Oct 2026 10:31:00 GMT",
+        "source": "TBS NEWS DIG"
       },
       {
         "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
@@ -107,22 +113,16 @@
         "source": "沖縄タイムス社"
       },
       {
-        "title": "尖閣諸島・竹島をめぐって緊張高まる - NHK",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wMDNJSi1rX3V6em5BXzBWZWtuNmJyekdWY0d0MV85cE1YbW9TVmJ2ekJyUDlYNV9XaDAwNm5OUGNxaHRzbUhtT19fTXE4SXltMFRiZGdYaC1aTGxXVDhQajFrMFhQWUtISzgxXw?oc=5",
-        "date": "Fri, 11 Sep 2026 07:00:00 GMT",
-        "source": "NHK"
+        "title": "「中国、台湾の次は尖閣狙う」 現地シンクタンクが分析 - 沖縄八重山日報",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBITUNINEktTmdoRFhLb08zYllqeXZzSC1NNW5WaEEzNVkybnpMVTdHbXBpYjdyWkxyekhlZldfcy1HTGxyOGFIei01NjBXTnplZzdwUEhnZlo?oc=5",
+        "date": "Fri, 23 Oct 2026 06:14:42 GMT",
+        "source": "沖縄八重山日報"
       },
       {
         "title": "【速報】尖閣周辺で中国船の連続航行途切れる - 47NEWS",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBrMGIyY1Y5SXZudUJwRVgyMkJqMm9TWVdBbXc5YkFfRmxyQnVVenJTOXlfVGV4Yng0SXY5Nzk3QmUzNXdnOFFORU80WQ?oc=5",
         "date": "Thu, 22 Oct 2026 15:12:55 GMT",
         "source": "47NEWS"
-      },
-      {
-        "title": "尖閣諸島周辺に中国船、50日連続 海上保安庁の巡視船が確認 - 日本経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
-        "date": "Sun, 27 Sep 2026 07:00:00 GMT",
-        "source": "日本経済新聞"
       }
     ]
   }
