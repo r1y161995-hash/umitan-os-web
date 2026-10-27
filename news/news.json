@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T12:36:51.232126+00:00",
+  "updated_at": "2026-10-27T13:40:26.362116+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -33,6 +33,12 @@
         "source": "産経ニュース"
       },
       {
+        "title": "海上保安学校で入学式 １７０人が１年間の訓練に励む 京都・舞鶴市 - 朝日放送",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0bHRIVTZYb1JyM0dGcTAtWjVnUDBXVnVxdm5icUQ3NlNsMlZZMm1ZckpkdzRRWnRkNC1jUXJNSGJsYnd6ZmFwdUxWWFpTMmp2Y2ZUd2JibDdfeEpoU1haWkJ3?oc=5",
+        "date": "Wed, 14 Oct 2026 04:12:24 GMT",
+        "source": "朝日放送"
+      },
+      {
         "title": "巡視艇「はるなみ」を見学する「海保まるわかりセミナー」、11月22日に神戸で開催 潜水士との座談会も - Funeco",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FYXhVWXdOaVNUSnY3R0taQ0JPTVFaTFEtOGNpTE8xeDY2TmNxanlnTXZRS2Q0dk1uTlN4U2lqQmpJd19VbS1kUTdR?oc=5",
         "date": "Mon, 26 Oct 2026 22:04:58 GMT",
@@ -55,12 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWkNIdlp3OWZobzY5TFhLQWVBaE85UmhlQWZfdS1QN0tuUDlmWEg4MDZjaXNxTXZ5cERJM2I0d0pNNU1nT3UyZ3lqVVo5OUpPenhsbWxXVmZCZlNKX051NHI4SE9GX3BVYUNvbm44RUtxcHR2UTBYendDVnJPX1poWVZEcmV5Nmt5Z0tnQ0pxcTJTem9HVHFYMV9fUXdUZTFVdnpZeGtqaVg2RTlPVzhNcnhyMVlDT3Jha3B3ZGpPWUxydGk0OEhVZ19LNHFDcU1Rdkd2SGtsNGlIcDDSAYsBQVVfeXFMTU40d05jNDQwRWNlZWlrYXZ5TVFQZXRUb1VMVFZRRWxOUlJXU29JenhpUFhxVTNhcDJuZk8tTDlXSVNXN3YtcnhQNnloTTcwVXo2SHY2WUNtZTFQRzh5TVBtUUtlQXNhejZEZzFicFpzcDBDLTkzYjdkcTJNeWtQeS12N3kyRXR4UUpaMA?oc=5",
         "date": "Tue, 27 Oct 2026 02:18:00 GMT",
         "source": "ｄメニューニュース"
-      },
-      {
-        "title": "海上保安官が人命救助の技術を競う大会 海上保安庁仙台航空基地 - khb東日本放送",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tOFVWSjV1OTJKelhwX0pFSXRYbllvanczdmloLUFIMldBUzlib2FJXzRJZVdZaXRreUFBcFMtUzBvYVdpdHlnOF84cVYzaDA?oc=5",
-        "date": "Fri, 23 Oct 2026 07:40:00 GMT",
-        "source": "khb東日本放送"
       }
     ],
     "尖閣諸島": [
@@ -83,16 +83,16 @@
         "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
-        "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ob185WkJLVkxYdUFSU2R2QXo5WkFKWXljdmstUVUzRlphWmEwOWR1aXFiVWFfN3dxQVRjNmhmVHFTQ3EyVVdfTmhFQ2NpcEJ3TGpHSVVuMldRTzFEQUE?oc=5",
-        "date": "Mon, 26 Oct 2026 18:57:00 GMT",
-        "source": "沖縄タイムス社"
-      },
-      {
         "title": "尖閣諸島沖の領海に中国海警局の船４隻が侵入、砲を搭載…領海侵入は１か月ぶり - 読売新聞",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VYUs2Vm84ZzItN0xYR183Q2hiQW5zekx4dENXRnlHOU5DN2gxSWNkbkhOR0p5bVpVcHBTd1hpWlYteDRtZ20yclhxS19RTWFrN1VHdjRYczl4SHlIcHp1N2wwMkg1dw?oc=5",
         "date": "Sat, 10 Oct 2026 07:00:00 GMT",
         "source": "読売新聞"
+      },
+      {
+        "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ob185WkJLVkxYdUFSU2R2QXo5WkFKWXljdmstUVUzRlphWmEwOWR1aXFiVWFfN3dxQVRjNmhmVHFTQ3EyVVdfTmhFQ2NpcEJ3TGpHSVVuMldRTzFEQUE?oc=5",
+        "date": "Mon, 26 Oct 2026 18:57:00 GMT",
+        "source": "沖縄タイムス社"
       },
       {
         "title": "北方領土で中ロが連携、10年前にロシア政府関係者が漏らした「3段階の警告」が現実に…次は尖閣諸島なのか - JBpress",
@@ -113,16 +113,16 @@
         "source": "47NEWS"
       },
       {
-        "title": "尖閣周辺に中国船4隻 3日連続航行（沖縄八重山日報） - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByR3pHWHVVcC1haGtXQUpIdHBXN1VZZjJDd3ZPeF9BLVlRSjJiaFJOeExCQjF5aURWLXRKcl9MZGgwZ1R4VjRZX3BUWXNJa01NZFJuQnlaT0hTcldmN2Z2YkRfNDkxZUk4WERpMVBIYVN1MDJ2TlVFMGN0UmxJR1E?oc=5",
-        "date": "Tue, 27 Oct 2026 04:21:17 GMT",
-        "source": "Yahoo!ニュース"
-      },
-      {
         "title": "「尖閣諸島は日本の領土」と説明した看板に落書き見つかる 「not」など領有を否定したと取れる文言を書いた痕跡 石垣市 - TBS NEWS DIG",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNSFcteG5jeVJoT2NuN3RlM19nOGFDclY4UmI4cXBuTmJTSGg5SEF6VVBsVmxFNU9SVXA5aEFLMDQ5WTl3ZHhVRWVyNjgyRXJmczllNWpUcV9KUEd0S1pv?oc=5",
         "date": "Sat, 17 Oct 2026 10:31:00 GMT",
         "source": "TBS NEWS DIG"
+      },
+      {
+        "title": "尖閣周辺に中国船4隻 3日連続航行（沖縄八重山日報） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByR3pHWHVVcC1haGtXQUpIdHBXN1VZZjJDd3ZPeF9BLVlRSjJiaFJOeExCQjF5aURWLXRKcl9MZGgwZ1R4VjRZX3BUWXNJa01NZFJuQnlaT0hTcldmN2Z2YkRfNDkxZUk4WERpMVBIYVN1MDJ2TlVFMGN0UmxJR1E?oc=5",
+        "date": "Tue, 27 Oct 2026 04:21:17 GMT",
+        "source": "Yahoo!ニュース"
       }
     ]
   }
