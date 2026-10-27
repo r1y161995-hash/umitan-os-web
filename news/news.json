@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T19:17:20.247931+00:00",
+  "updated_at": "2026-10-27T19:59:20.554948+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -9,9 +9,15 @@
         "source": "NHKニュース"
       },
       {
-        "title": "日バングラ首脳会談、物流投資を拡大へ 巡視船の供与も（毎日新聞） - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CNDVyRWZYUTZjdDFzWFA0bzluR0hIbk1rTFZnRmNXRG4zM0FMR2lwQks5eHNIbWRtYTRUeG1GSWFUZ000dkI5b1JJSnZFS2ZTbU1mSHJMLVVpTXpzN0JTUm5YRk9JS0RtZWt3MHhtbmlKc015d2tMTktOWUx6RHc?oc=5",
-        "date": "Tue, 27 Oct 2026 09:08:05 GMT",
+        "title": "日バングラ首脳会談、物流投資を拡大へ 巡視船の供与も - 毎日新聞",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03WUJjWHFRS0ZtSnFCaGFkVUQ5MjE3Nk9vekVpeklvRnFOSUNjMEI2N2xkMk1LUWVHOGFZb1l3SER6WFFRZ1YwSUNpT0ZzTXFRbDQycjdkNkN2UTBvVXZ0YUowdkNOMXNE?oc=5",
+        "date": "Tue, 27 Oct 2026 09:07:47 GMT",
+        "source": "毎日新聞"
+      },
+      {
+        "title": "中国海警船が台湾周辺海域で日本の巡視船を追尾 海巡署「内水化の企て」（中央社フォーカス台湾） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lTjUwQWdGelFrcDNndjhVRGVpMFZOOEJkTDFuc2JkdTBULTdMSTB5NmQycnJIbTc0SlhmQlJtZkVFN2JZbG14cE1qSHF0NUtKV0RPNDB5NW5qWFlScWVHZWM0dmpRVm1Rdm9Cc3dJUWV0Y3ljT3g0QmtpcWZ2SkE?oc=5",
+        "date": "Fri, 23 Oct 2026 06:50:15 GMT",
         "source": "Yahoo!ニュース"
       },
       {
@@ -25,6 +31,12 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vN1JoVnhRckxhd1JsbGE5X2RTU3NuZWh5S3E3U0NxZl8yZ19YT2w0UldVYjBUcWl0LWxWQlBDSlpyMExKbF9CYldacFI5b3hWSWZXUVFBSzJUT0dFTnlKT0NFLTEyMU5W?oc=5",
         "date": "Tue, 27 Oct 2026 07:58:40 GMT",
         "source": "福井テレビ"
+      },
+      {
+        "title": "海上保安学校で入学式 １７０人が１年間の訓練に励む 京都・舞鶴市 - 朝日放送",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0bHRIVTZYb1JyM0dGcTAtWjVnUDBXVnVxdm5icUQ3NlNsMlZZMm1ZckpkdzRRWnRkNC1jUXJNSGJsYnd6ZmFwdUxWWFpTMmp2Y2ZUd2JibDdfeEpoU1haWkJ3?oc=5",
+        "date": "Wed, 14 Oct 2026 04:12:24 GMT",
+        "source": "朝日放送"
       },
       {
         "title": "尖閣諸島周辺に中国海警局船4隻 3日連続で航行確認、海保が領海に近づかないよう警告 - 産経ニュース",
@@ -45,22 +57,10 @@
         "source": "NNAアジア"
       },
       {
-        "title": "巡視艇「はるなみ」を見学する「海保まるわかりセミナー」、11月22日に神戸で開催 潜水士との座談会も - Funeco",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FYXhVWXdOaVNUSnY3R0taQ0JPTVFaTFEtOGNpTE8xeDY2TmNxanlnTXZRS2Q0dk1uTlN4U2lqQmpJd19VbS1kUTdR?oc=5",
-        "date": "Mon, 26 Oct 2026 22:04:58 GMT",
-        "source": "Funeco"
-      },
-      {
-        "title": "酒気帯び運転で海上保安官（２０）を停職…長崎海保 - ｄメニューニュース",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWkNIdlp3OWZobzY5TFhLQWVBaE85UmhlQWZfdS1QN0tuUDlmWEg4MDZjaXNxTXZ5cERJM2I0d0pNNU1nT3UyZ3lqVVo5OUpPenhsbWxXVmZCZlNKX051NHI4SE9GX3BVYUNvbm44RUtxcHR2UTBYendDVnJPX1poWVZEcmV5Nmt5Z0tnQ0pxcTJTem9HVHFYMV9fUXdUZTFVdnpZeGtqaVg2RTlPVzhNcnhyMVlDT3Jha3B3ZGpPWUxydGk0OEhVZ19LNHFDcU1Rdkd2SGtsNGlIcDDSAYsBQVVfeXFMTU40d05jNDQwRWNlZWlrYXZ5TVFQZXRUb1VMVFZRRWxOUlJXU29JenhpUFhxVTNhcDJuZk8tTDlXSVNXN3YtcnhQNnloTTcwVXo2SHY2WUNtZTFQRzh5TVBtUUtlQXNhejZEZzFicFpzcDBDLTkzYjdkcTJNeWtQeS12N3kyRXR4UUpaMA?oc=5",
-        "date": "Tue, 27 Oct 2026 02:18:00 GMT",
-        "source": "ｄメニューニュース"
-      },
-      {
-        "title": "酒気帯び運転で海上保安官（２０）を停職…長崎海保 - 47NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80RGZBYXBBWTZJc0RrNkxYWnF4VU04TTlvelI2SjRJTC1nbjRUR004X0JmOWIweGM4ME9RSmg3U1gycENta0lydEl2dw?oc=5",
-        "date": "Tue, 27 Oct 2026 02:14:00 GMT",
-        "source": "47NEWS"
+        "title": "海上保安官が人命救助の技術を競う大会 海上保安庁仙台航空基地 - khb東日本放送",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tOFVWSjV1OTJKelhwX0pFSXRYbllvanczdmloLUFIMldBUzlib2FJXzRJZVdZaXRreUFBcFMtUzBvYVdpdHlnOF84cVYzaDA?oc=5",
+        "date": "Fri, 23 Oct 2026 07:40:00 GMT",
+        "source": "khb東日本放送"
       }
     ],
     "尖閣諸島": [
