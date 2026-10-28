@@ -1261,15 +1261,20 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
   position: absolute;
   pointer-events: none;
   left: 50%;
-  bottom: 1px;
-  width: min(76%, 345px);
+  bottom: 9px;
+  width: min(42%, 182px);
   height: 1px;
   transform: translateX(-50%);
   background: linear-gradient(90deg, transparent,
-    rgba(var(--umi-chrome-line), .35) 20%,
-    rgba(var(--umi-chrome-shine), .76) 50%,
-    rgba(var(--umi-chrome-line), .35) 80%, transparent);
-  box-shadow: 0 0 7px 1px rgba(var(--umi-chrome-line), .13);
+    rgba(var(--umi-chrome-line), .18) 0%,
+    rgba(var(--umi-chrome-line), .48) 23%,
+    rgba(var(--umi-chrome-shine), .92) 50%,
+    rgba(var(--umi-chrome-line), .48) 77%,
+    rgba(var(--umi-chrome-line), .18) 100%, transparent 100%);
+  box-shadow: 0 0 8px 1px rgba(var(--umi-chrome-line), .18);
+}
+.app > header::after {
+  border-radius: 999px;
 }
 .app > header .secret-title {
   text-shadow: 0 0 15px rgba(var(--umi-chrome-shine), .18);
@@ -1280,7 +1285,7 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
   position: absolute;
   left: 2%;
   right: 2%;
-  top: 47%;
+  top: calc(47% + 12px);
   height: 1px;
   pointer-events: none;
   background: linear-gradient(90deg,
@@ -1295,7 +1300,7 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
   position: absolute;
   left: 0;
   right: 0;
-  top: calc(47% - 2px);
+  top: calc(47% + 10px);
   height: 5px;
   pointer-events: none;
   background:
@@ -1303,6 +1308,291 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
     radial-gradient(circle at 86% 50%, rgba(var(--umi-chrome-shine), .7) 0 1px, transparent 2px);
   filter: drop-shadow(0 0 3px rgba(var(--umi-chrome-shine), .22));
 }
+</style>
+
+<style id="wx25-typhoon-prototype-css">
+/* WEATHER 台風情報 UI prototype v1: presentation only, no data request.
+   Existing scene/card/bubble dimensions and all other OS sections are untouched. */
+#modal-2 .wx25-typhoon-toggle {
+  position:absolute;
+  z-index:8;
+  left:3.7%;
+  bottom:5.9%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-height:34px;
+  padding:7px 12px;
+  border:1px solid rgba(255,255,255,.9);
+  border-radius:999px;
+  background:rgba(242,251,255,.89);
+  color:#2b6483;
+  font:700 12px/1.25 -apple-system,BlinkMacSystemFont,'Hiragino Maru Gothic ProN',sans-serif;
+  box-shadow:0 4px 16px rgba(32,88,121,.2),inset 0 1px rgba(255,255,255,.86);
+  backdrop-filter:blur(9px);
+  -webkit-backdrop-filter:blur(9px);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+}
+#modal-2 .wx25-typhoon-toggle:active {
+  transform:scale(.97);
+  background:rgba(220,246,255,.98);
+}
+#modal-2 .wx25-typhoon-toggle[aria-expanded="true"] {
+  background:rgba(36,106,146,.96);
+  color:#fff;
+  border-color:rgba(196,238,252,.85);
+}
+#modal-2 .wx25-typhoon-card {
+  position:absolute;
+  z-index:9;
+  left:3.7%;
+  bottom:calc(5.9% + 44px);
+  width:min(85%,315px);
+  max-height:55%;
+  overflow:auto;
+  overscroll-behavior:contain;
+  box-sizing:border-box;
+  padding:12px 13px 11px;
+  border:1px solid rgba(255,255,255,.93);
+  border-radius:18px;
+  background:rgba(244,251,255,.97);
+  color:#2b5873;
+  box-shadow:0 12px 30px rgba(18,55,85,.27),inset 0 1px rgba(255,255,255,.9);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  font:500 12px/1.45 -apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN',sans-serif;
+  -webkit-overflow-scrolling:touch;
+}
+#modal-2 .wx25-typhoon-card[hidden] { display:none!important; }
+#modal-2 .wx25-typhoon-top {
+  display:flex;
+  align-items:center;
+  gap:7px;
+  margin-bottom:8px;
+}
+#modal-2 .wx25-typhoon-top strong {
+  font-size:14px;
+  color:#205574;
+}
+#modal-2 .wx25-typhoon-badge {
+  padding:2px 6px;
+  border-radius:6px;
+  background:#dbeefa;
+  color:#477894;
+  font-size:10px;
+  font-weight:700;
+}
+#modal-2 .wx25-typhoon-close {
+  margin-left:auto;
+  width:27px;
+  height:27px;
+  flex:0 0 27px;
+  border:0;
+  border-radius:50%;
+  background:#dceff9;
+  color:#376d89;
+  font:500 21px/1 sans-serif;
+  cursor:pointer;
+}
+#modal-2 .wx25-typhoon-info {
+  margin:0 0 10px;
+  padding:8px 9px;
+  border-radius:10px;
+  background:#e7f3fa;
+  color:#396e89;
+  font-size:11px;
+  line-height:1.5;
+}
+#modal-2 .wx25-typhoon-facts {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:7px;
+  margin:0 0 9px;
+}
+#modal-2 .wx25-typhoon-facts > div {
+  border:1px solid #e2f0f7;
+  background:rgba(255,255,255,.76);
+  border-radius:10px;
+  padding:7px 8px;
+  min-width:0;
+}
+#modal-2 .wx25-typhoon-facts dt {
+  margin-bottom:2px;
+  color:#678ca1;
+  font-size:10px;
+}
+#modal-2 .wx25-typhoon-facts dd {
+  margin:0;
+  color:#255879;
+  font-size:12px;
+  font-weight:700;
+}
+#modal-2 .wx25-typhoon-issued {
+  margin:0 0 9px;
+  color:#678a9f;
+  font-size:10px;
+}
+#modal-2 .wx25-typhoon-official {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 10px;
+  border-radius:10px;
+  background:#2779a6;
+  color:white;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:700;
+}
+#modal-2 .wx25-typhoon-official:active { background:#1e638d; }
+#modal-2.wx25-typhoon-open .wx24-bubble {
+  opacity:0;
+  pointer-events:none;
+}
+#modal-2 .wx25-typhoon-toggle:focus-visible,
+#modal-2 .wx25-typhoon-close:focus-visible,
+#modal-2 .wx25-typhoon-official:focus-visible {
+  outline:2px solid #258abc;
+  outline-offset:3px;
+}
+@media(max-width:370px) {
+  #modal-2 .wx25-typhoon-toggle { left:3.4%; font-size:11px; padding:6px 10px; }
+  #modal-2 .wx25-typhoon-card {left:3.4%;width:90%;padding:10px 11px;}
+}
+@media(max-height:730px) {
+  #modal-2 .wx25-typhoon-card {max-height:58%;}
+}
+@media(prefers-reduced-motion:reduce) {
+  #modal-2 .wx25-typhoon-toggle { transition:none; }
+}
+
+/* WEATHER layout v2: reserve the top title gap for the forecast, without
+   changing the outer scene or any other OS panel. */
+#modal-2 > .wx24-header { display:none !important; }
+#modal-2 .wx24-card { top:1.8%; }
+#modal-2 .wx24-bubble { top:49.1%; }
+@media (max-width:370px) {
+  #modal-2 .wx24-card { top:1.6%; }
+  #modal-2 .wx24-bubble { top:48.7%; }
+}
+@media (max-height:730px) {
+  #modal-2 .wx24-card { top:1.6%; }
+  #modal-2 .wx24-bubble { top:48.8%; }
+}
+/* Compact, left-aligned typhoon details: keep the character's face clear. */
+#modal-2 .wx25-typhoon-card {
+  left:3.7%;
+  width:49.5%;
+  max-width:204px;
+  bottom:calc(5.9% + 44px);
+  max-height:43%;
+  padding:9px 10px 10px;
+  border-radius:15px;
+  font-size:11px;
+  line-height:1.4;
+}
+#modal-2 .wx25-weather-signature {
+  position:absolute;
+  z-index:4;
+  left:4.2%;
+  bottom:1.4%;
+  width:136px;
+  text-align:center;
+  color:rgba(255,255,255,.98);
+  font:700 10px/1.1 Georgia, 'Times New Roman', serif;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  text-shadow:0 1px 3px rgba(5,30,54,.90), 0 0 9px rgba(9,63,97,.75), 0 0 5px rgba(255,255,255,.28);
+  padding:3px 0 4px;
+  border-radius:12px;
+  background:linear-gradient(90deg, transparent, rgba(13,61,95,.28) 28%, rgba(13,61,95,.35) 50%, rgba(13,61,95,.28) 72%, transparent);
+  pointer-events:none;
+  user-select:none;
+  -webkit-user-select:none;
+  opacity:.98;
+}
+#modal-2 .wx25-weather-signature::before {
+  content:'';
+  display:block;
+  width:74%;
+  height:1px;
+  margin:0 auto 5px;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.58), transparent);
+  box-shadow:0 0 6px rgba(255,255,255,.18);
+}
+#modal-2.wx25-typhoon-open .wx25-weather-signature {
+  opacity:.88;
+}
+#modal-2 .wx25-typhoon-top { gap:4px; margin-bottom:6px; }
+#modal-2 .wx25-typhoon-top strong { font-size:12px; white-space:nowrap; }
+#modal-2 .wx25-typhoon-badge { font-size:9px; padding:2px 4px; white-space:nowrap; }
+#modal-2 .wx25-typhoon-close { width:24px; height:24px; flex-basis:24px; font-size:19px; }
+#modal-2 .wx25-typhoon-info {
+  margin:0 0 7px;
+  padding:6px 7px;
+  font-size:10px;
+  line-height:1.45;
+}
+#modal-2 .wx25-typhoon-facts {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:0;
+  margin:0 0 7px;
+  border:1px solid #e2f0f7;
+  background:rgba(255,255,255,.78);
+  border-radius:9px;
+  padding:2px 7px;
+}
+#modal-2 .wx25-typhoon-facts > div {
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:5px;
+  border:0;
+  border-radius:0;
+  border-bottom:1px solid #e7f1f7;
+  padding:4px 0;
+  background:transparent;
+}
+#modal-2 .wx25-typhoon-facts > div:last-child { border-bottom:0; }
+#modal-2 .wx25-typhoon-facts dt { margin:0; font-size:10px; white-space:nowrap; }
+#modal-2 .wx25-typhoon-facts dd { font-size:10px; text-align:right; }
+#modal-2 .wx25-typhoon-issued { margin:0 0 6px; font-size:9px; }
+#modal-2 .wx25-typhoon-official { padding:8px 5px; font-size:10px; border-radius:8px; }
+#modal-2.wx25-typhoon-open .wx24-bubble { visibility:hidden; }
+@media (max-width:370px) {
+  #modal-2 .wx25-typhoon-card { left:3.4%; width:52%; max-width:204px; padding:8px; }
+  #modal-2 .wx25-typhoon-badge { font-size:8px; }
+  #modal-2 .wx25-weather-signature { left:3.8%; width:126px; font-size:9px; }
+}
+/* WEATHER typhoon UI v4: compact multi-storm selection, live source statuses. */
+#modal-2 .wx25-typhoon-picker {
+  display:flex;
+  align-items:center;
+  gap:5px;
+  margin:-2px 0 6px;
+  font-size:10px;
+  color:#477b98;
+}
+#modal-2 .wx25-typhoon-picker[hidden] { display:none!important; }
+#modal-2 .wx25-typhoon-picker select {
+  flex:1;
+  min-width:0;
+  max-width:100%;
+  padding:4px 3px;
+  border:1px solid #cce3f1;
+  border-radius:7px;
+  background:#fff;
+  color:#255879;
+  font-size:10px;
+}
+#modal-2 .wx25-typhoon-facts dd {
+  overflow-wrap:anywhere;
+}
+
 </style>
 </head><body><input checked="" class="theme-radio" id="theme-lab" name="theme" type="radio"/><input class="theme-radio" id="theme-sea" name="theme" type="radio"/><input class="theme-radio" id="theme-night" name="theme" type="radio"/><main class="app" id="home"><header><h1 class="secret-title"><label aria-label="海辺へ切り替え" class="title-switch switch-sea" for="theme-sea">UMITAN OS</label><label aria-label="夜へ切り替え" class="title-switch switch-night" for="theme-night">UMITAN OS</label><label aria-label="研究室へ切り替え" class="title-switch switch-lab" for="theme-lab">UMITAN OS</label></h1><div class="subtitle">ふたりだけの、秘密の研究室 · LAB v3.1.0 · THREE MODES</div></header><div class="scene">
 <div class="umi-home-sparkles" aria-hidden="true">
@@ -1351,6 +1641,30 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
     <div class="wx24-source">天気データ：Open-Meteo ・ 予報は変わることがあるよ</div>
   </div>
   <button class="wx24-bubble" id="wx24-bubble" type="button" aria-label="うみたんの次のコメントを聞く"><span id="wx24-bubble-text" aria-live="polite">めいめい、いまのお天気を調べているよ♪</span></button>
+
+  <!-- 台風情報 UI試作：実データ連携はまだ行わない -->
+  <button class="wx25-typhoon-toggle" id="wx25-typhoon-toggle" type="button" aria-expanded="false" aria-controls="wx25-typhoon-card">🌀 <span>台風情報</span></button>
+  <div class="wx25-weather-signature" aria-hidden="true">WEATHER</div>
+  <section class="wx25-typhoon-card" id="wx25-typhoon-card" aria-labelledby="wx25-typhoon-title" hidden>
+    <div class="wx25-typhoon-top">
+      <strong id="wx25-typhoon-title">🌀 台風情報</strong><span class="wx25-typhoon-badge">試作版</span>
+      <button class="wx25-typhoon-close" id="wx25-typhoon-close" type="button" aria-label="台風情報を閉じる">×</button>
+    </div>
+    <p class="wx25-typhoon-info" id="wx25-typhoon-info" aria-live="polite">台風情報はボタンを開いたときに取得します。</p>
+    <div class="wx25-typhoon-picker" id="wx25-typhoon-picker" hidden>
+      <label for="wx25-typhoon-select">対象</label>
+      <select id="wx25-typhoon-select" aria-label="表示する台風を選択"></select>
+    </div>
+    <dl class="wx25-typhoon-facts">
+      <div><dt>台風の号数</dt><dd id="wx25-typhoon-number">未取得</dd></div>
+      <div><dt>中心位置</dt><dd id="wx25-typhoon-location">未取得</dd></div>
+      <div><dt>中心気圧</dt><dd id="wx25-typhoon-pressure">— hPa</dd></div>
+      <div><dt>最大風速</dt><dd id="wx25-typhoon-wind">— m/s</dd></div>
+    </dl>
+    <p class="wx25-typhoon-issued" id="wx25-typhoon-issued">気象庁発表日時：未取得</p>
+    <a class="wx25-typhoon-official" href="https://www.jma.go.jp/bosai/map.html#contents=typhoon" target="_blank" rel="noopener noreferrer">気象庁で詳しく見る ↗</a>
+  </section>
+
   <div class="wx24-location-layer" id="wx24-location-layer" hidden>
      <div class="wx24-location-dialog" role="dialog" aria-modal="true" aria-label="地点を選ぶ">
        <div class="wx24-location-top"><strong>🗾 地点を選ぶ</strong><button class="wx24-location-x" id="wx24-location-close" type="button" aria-label="地点選択を閉じる">×</button></div>
@@ -1374,7 +1688,7 @@ body[data-umi-mode="live"] #home .scene .keys .key.umi-tap-pressed {
     // window work normally; taps on scenery or the underlying home do nothing.
     if(active.id==='modal-2'){
       if(t.closest&&t.closest('#modal-2 > .wx24-close'))return;
-      if(t.closest&&t.closest('#modal-2 .wx24-card,#modal-2 .wx24-bubble,#modal-2 .wx24-location-layer'))return;
+      if(t.closest&&t.closest('#modal-2 .wx24-card,#modal-2 .wx24-bubble,#modal-2 .wx24-location-layer,#modal-2 .wx25-typhoon-toggle,#modal-2 .wx25-typhoon-card'))return;
       e.preventDefault();
       e.stopImmediatePropagation();
       return;
@@ -1482,12 +1796,38 @@ function futureHours(hourly){if(!hourly||!Array.isArray(hourly.time))return[];co
 // Local dates are in Asia/Tokyo (the API requests the same time zone).
 function localJSTDate(date){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(date)}
 function nextJSTDate(dateString){return localJSTDate(new Date(Date.parse(dateString+'T12:00:00+09:00')+86400000))}
+// WEATHER COMMENT NATURAL v1: coherent sentences, timed transitions, and selective advice.
+// Keep the existing local weather data, rendering, API requests and UI events unchanged.
+function weatherTimePhrase(date){
+ const h=new Date(date.getTime()+9*3600000).getUTCHours();
+ const tomorrow=localJSTDate(date)!==localJSTDate(new Date());
+ const slot=h<5?'明け方':h<10?'朝':h<12?'午前中':h<15?'昼ごろ':h<17?'午後':h<19?'夕方ごろ':h<22?'夜':'夜遅く';
+ if(tomorrow)return '明日の'+slot;
+ if(h>=19)return '今夜'+(h>=22?'遅く':'');
+ return slot;
+}
+function weatherNowDescription(code){
+ if(storm(code))return '雷雨になっている';
+ if(snowy(code))return '雪が降っている';
+ if(rainy(code))return '雨が降っている';
+ if(code===0||code===1)return '晴れている';
+ if(code===2)return '晴れ間も見えている';
+ if(code===3)return '雲が広がっている';
+ if(code===45||code===48)return '霧が出ている';
+ return '変わりやすい空模様になっている';
+}
+function weatherRemember(text){
+ seen.push(text);if(seen.length>12)seen.shift();return text;
+}
+function weatherPickComment(makeVariant,count=30){
+ const options=[];for(let n=0;n<count;n++)options.push(makeVariant());
+ return weatherRemember(choose(options,seen.slice(-6)));
+}
 function nightComment(){
  const c=data.current,d=data.daily,city=place[1],hour=hourJST(),afterMidnight=hour<5;
- // Dangerous conditions occurring now take precedence over the next-day outlook.
  if(storm(c.weather_code)){
   const warnings=[`いまの${city}は雷雨だよ。安全な場所で過ごして、雷が落ち着くまで無理しないでね。`,`今は${city}で雷を伴う天気になっているよ。屋外は避けて、安全に過ごそうね。`,`めいめい、${city}は現在雷雨だよ。まずは安全を優先してね。`];
-  const pick=choose(warnings,seen.slice(-3));seen.push(pick);if(seen.length>12)seen.shift();return pick;
+  return weatherRemember(choose(warnings,seen.slice(-3)));
  }
  const targetLabel=afterMidnight?'今日':'明日';
  const today=localJSTDate(new Date());
@@ -1502,84 +1842,130 @@ function nightComment(){
   'めいめい、明日のお天気を見てみようか。','今夜はゆっくりできているかな？',
   '夜のうちに明日の空模様を確認しておこうね。'
  ];
- const endings=afterMidnight?[
-  '無理せず、休めるときに休んでね♡','今夜も穏やかに過ごせますように♪',
-  'あたたかくして過ごしてね。','めいめい、ゆっくりできるといいな♡',
-  '少しでも心地よい時間になりますように。','眠くなったら、ちゃんと休もうね♪'
+ const gentle=afterMidnight?[
+  '無理せず、休めるときに休んでね♡','少しでも心地よい時間になりますように。',
+  '眠くなったら、ちゃんと休もうね♪'
  ]:[
-  '今夜はゆっくり過ごしてね♡','明日もめいめいのペースでね♪',
-  '休めるときには、のんびりしてね。','穏やかな夜になりますように♡',
-  'あたたかい飲み物でひと息つくのもいいね。','明日も無理なく過ごせますように。'
+  '明日もめいめいのペースでね♪','休めるときには、のんびりしてね。',
+  '明日も無理なく過ごせますように。'
  ];
- if(i<0)return [choose(intros),`${targetLabel}の${city}の予報はまだ確認できないみたい。`,choose(endings)].join(' ');
+ if(i<0)return weatherPickComment(()=>[choose([...intros,'']),`${targetLabel}の${city}の予報はまだ確認できないみたい。`,choose([...gentle,''])].filter(Boolean).join(' '));
  const w=Number(d.weather_code?.[i]),hi=d.temperature_2m_max?.[i],lo=d.temperature_2m_min?.[i],prob=d.precipitation_probability_max?.[i];
- const rainRisk=number(prob)&&prob>=60;
- const conditions=wx(w)[1];
+ const rainRisk=number(prob)&&prob>=60,conditions=wx(w)[1];
  let facts=[];
- if(storm(w))facts=[`${targetLabel}の${city}は雷雨になる予報だよ。`,`${city}の${targetLabel}は雷を伴う天気になりそう。`,`${targetLabel}は${city}で雷雨の予報が出ているよ。`];
- else if(snowy(w))facts=[`${targetLabel}の${city}は雪の予報だよ。`,`${city}では${targetLabel}、雪になりそうだよ。`,`${targetLabel}は雪の降る空模様になりそう。`];
- else if(rainy(w))facts=[`${targetLabel}の${city}は雨の予報だよ。`,`${city}は${targetLabel}、雨が降る見込みだよ。`,`${targetLabel}は雨模様になりそうだね。`];
- else if(rainRisk)facts=[`${targetLabel}の${city}は${conditions}の予報だけど、雨の可能性もあるよ。`,`${city}は${targetLabel}、${conditions}の予報で雨の可能性もあるみたい。`,`${targetLabel}の予報は${conditions}。ただ、雨が降る可能性もあるよ。`];
- else facts=[`${targetLabel}の${city}は${conditions}の予報だよ。`,`${city}の${targetLabel}は${conditions}になりそうだね。`,`${targetLabel}は${city}で${conditions}の予報が出ているよ。`];
- let tips=[];
- if(storm(w))tips=['雷の予報があるから、安全に過ごせるよう気をつけてね。','雷を伴う天気には十分気をつけようね。','空模様が急に変わる場合もあるから、最新の情報を確認してね。'];
- else if(snowy(w))tips=['冷え込みと雪の影響に気をつけてね。','足元の凍結などにも気をつけようね。','暖かい服を用意しておくと安心だよ。'];
- else if(rainy(w)||rainRisk)tips=['傘の準備をしておくと安心だね。','雨の時間帯がありそうだから、空模様を気にしておこうね。','予定があるなら、雨の降る時間を確認しておくといいね。','天気が変わるかもしれないから、最新の予報も見ておこうね。'];
- else if(number(hi)&&hi>=35)tips=['厳しい暑さの予報だから、こまめな水分補給を意識してね。','暑さ対策を忘れずに、無理せず過ごそうね。','暑さが心配だから、涼しく過ごす工夫をしてね。'];
- else if(number(lo)&&lo<=5)tips=['冷え込みそうだから、暖かくして過ごせるといいね。','寒さに備えて、厚手の上着があると安心だよ。','気温が低そうだから、防寒の準備をしておこうね。'];
- else if(number(hi)&&hi>=30)tips=['気温が高くなりそう。水分補給を忘れずにね。','暑さに気をつけて過ごそうね。','無理しないで、涼しく過ごせるといいな。'];
- else if(number(hi)&&number(lo)&&hi-lo>=10)tips=['気温差がありそうだから、服装で調整できると安心だよ。','朝晩と日中の気温差には気をつけようね。','脱ぎ着しやすい服装だと過ごしやすそう♪'];
- else tips=['落ち着いた一日になるといいね♡','心地よく過ごせるといいな♪','めいめいにとって穏やかな一日になりますように。','無理なく、自分のペースで過ごそうね♡'];
- if(number(hi)&&number(lo)){
-  const temps=[`最高${rounded(hi)}℃、最低${rounded(lo)}℃の予報だよ。`,`予想気温は最高${rounded(hi)}℃、最低${rounded(lo)}℃だよ。`];
-  // Only some variations use a numeric summary: avoid sounding like a data dump.
-  if(Math.random()<0.28)tips.push(...temps);
+ if(storm(w))facts=[`${targetLabel}の${city}は雷雨になる予報だよ。`,`${city}の${targetLabel}は雷を伴う天気になりそう。`];
+ else if(snowy(w))facts=[`${targetLabel}の${city}は雪の予報だよ。`,`${city}では${targetLabel}、雪になりそうだよ。`];
+ else if(rainy(w))facts=[`${targetLabel}の${city}は雨の予報だよ。`,`${city}は${targetLabel}、雨が降る見込みだよ。`];
+ else if(rainRisk)facts=[`${targetLabel}の${city}は${conditions}の予報だけど、雨の可能性もあるよ。`,`${city}は${targetLabel}、${conditions}の予報で雨の可能性もあるみたい。`];
+ else facts=[`${targetLabel}の${city}は${conditions}の予報だよ。`,`${city}の${targetLabel}は${conditions}になりそうだね。`];
+ let tips=[],essential=false;
+ if(storm(w)){essential=true;tips=['雷の予報があるから、屋外の予定には十分気をつけてね。','雷を伴う天気に備えて、最新の情報も確認してね。'];}
+ else if(snowy(w)){essential=true;tips=['防寒と足元の備えをしておくと安心だよ。','雪の影響や路面の凍結には気をつけてね。'];}
+ else if(rainy(w)||rainRisk){essential=true;tips=['傘を準備しておくと安心だね。','出かける予定があれば、雨具を忘れないでね。'];}
+ else if(number(hi)&&hi>=35){essential=true;tips=['暑さ対策とこまめな水分補給を忘れずにね。','無理せず、涼しい場所で休めるようにしてね。'];}
+ else if(number(lo)&&lo<=5){essential=true;tips=['冷え込みに備えて、暖かい服を用意しておこうね。','防寒の準備をしておくと安心だよ。'];}
+ else if(number(hi)&&hi>=30){essential=true;tips=['暑さに気をつけて、水分補給を忘れずにね。','無理なく、涼しく過ごせるといいな。'];}
+ else if(number(hi)&&number(lo)&&hi-lo>=10){tips=['気温差がありそうだから、脱ぎ着しやすい服だと安心だよ。','朝晩と日中の気温差には気をつけてね。'];}
+ return weatherPickComment(()=>{
+  const intro=choose([...intros,'','']);
+  const fact=choose(facts);
+  let extra='';
+  if(essential)extra=choose(tips);
+  else if(tips.length&&Math.random()<.6)extra=choose(tips);
+  else if(Math.random()<.48)extra=choose(gentle);
+  // Numeric temperatures are an optional aside on otherwise calm forecast days,
+  // never a substitute for severe-weather advice.
+  if(!essential&&number(hi)&&number(lo)&&Math.random()<.13)extra=`最高${rounded(hi)}℃、最低${rounded(lo)}℃の予報だよ。`;
+  let result=[intro,fact,extra].filter(Boolean).join(' ');
+  if(result.length>118)result=[fact,extra].filter(Boolean).join(' ');
+  return result;
+ });
+}
+function makeComment(){
+ if(!data)return 'お天気の情報を確認中だよ。少し待っていてね♡';
+ const nowHour=hourJST();if(nowHour>=18||nowHour<5)return nightComment();
+ const {current:c,daily:d,hourly:h}=data,city=place[1];
+ const code=Number(c.weather_code),temp=c.temperature_2m,rh=c.relative_humidity_2m;
+ const hi=d.temperature_2m_max?.[0],lo=d.temperature_2m_min?.[0],p=period();
+ const season=Number(new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Tokyo',month:'numeric'}).format(new Date()));
+ // Never describe past hourly samples as something that will happen 'later'.
+ const horizon=futureHours(h).filter(x=>x.time.getTime()>Date.now());
+ const rainSoon=horizon.find(x=>x.prob>=65||rainy(x.code));
+ const snowSoon=horizon.find(x=>snowy(x.code));
+ const thunderSoon=horizon.find(x=>storm(x.code));
+ const observation=storm(code)?[`いまの${city}は雷雨だよ。`,`いま${city}は雷を伴う天気になっているよ。`]:
+  rainy(code)?[`いま${city}では雨が降っているよ。`,`いまの${city}は雨模様だね。`]:
+  snowy(code)?[`いま${city}は雪が降っているよ。`,`いまの${city}は雪模様だね。`]:
+  code===0||code===1?[`いまの${city}はよく晴れているよ。`,`今、${city}には晴れ空が広がっているね♪`]:
+  code===2?[`いまの${city}は晴れ間もある空模様だよ。`,`雲の切れ間もある${city}の空だね。`]:
+  code===3?[`いまの${city}は雲が広がっているよ。`,`いまの${city}はくもり空だよ。`]:
+  code===45||code===48?[`いまの${city}は霧が出ているみたい。`,`${city}では霧がかかっているよ。`]:
+  [`いまの${city}は「${wx(code)[1]}」だよ。`,`現在の${city}は${wx(code)[1]}みたい。`];
+ let priority='mild',tips=[],essential=false,change=null;
+ if(storm(code)){
+  priority='storm';essential=true;
+  tips=['雷が落ち着くまでは、安全な建物で過ごしてね。','屋外にいるなら、まず安全な場所に移動してね。'];
+ }else if(thunderSoon){
+  priority='storm-soon';essential=true;change={kind:'雷雨',time:thunderSoon.time};
+  tips=['空模様が急に変わる可能性もあるから、屋外の予定には気をつけてね。','外出するなら、最新の雷の情報も確認してね。'];
+ }else if((number(temp)&&temp>=35)||(number(c.apparent_temperature)&&c.apparent_temperature>=36)){
+  priority='heat';essential=true;
+  tips=['こまめに水分と休憩をとって、涼しい場所で過ごしてね。','厳しい暑さだから、無理せず体を冷やしてね。'];
+ }else if(snowy(code)||snowSoon){
+  priority='snow';essential=true;
+  if(!snowy(code)&&snowSoon)change={kind:'雪',time:snowSoon.time};
+  tips=['雪への備えや防寒を忘れないでね。','移動するときは、足元の状態にも気をつけてね。'];
+ }else if(rainy(code)){
+  priority='rain';essential=true;
+  tips=['傘を忘れずに、濡れた道にも気をつけてね。','お出かけなら、雨具があると安心だよ。'];
+ }else if(rainSoon){
+  priority='rain-soon';essential=true;change={kind:'雨',time:rainSoon.time};
+  tips=['お出かけするなら、折りたたみ傘があると安心だね。','外出の予定があるなら、雨具を用意しておこうね。'];
+ }else if(number(c.wind_speed_10m)&&c.wind_speed_10m>=36){
+  priority='wind';essential=true;
+  tips=['飛ばされやすいものに注意してね。','外では風の影響に気をつけてね。'];
+ }else if(number(temp)&&temp<=5){
+  priority='cold';essential=true;
+  tips=['しっかり暖かくして過ごしてね。','外に出るなら、厚手の上着があると安心だよ。'];
+ }else if(number(temp)&&temp<=15){
+  priority='cool';tips=['羽織るものが一枚あると安心だね。','冷えないように、服装でうまく調整してね。'];
+ }else if(number(temp)&&temp>=30){
+  priority='hot';essential=true;
+  tips=['水分補給を忘れずに、無理せず過ごしてね。','暑いときは涼しいところでひと息ついてね。'];
+ }else if(number(temp)&&temp>=26&&number(rh)&&rh>=75){
+  priority='muggy';tips=['少し蒸し暑そうだから、こまめに水分をとってね。','風通しのよい服装だと過ごしやすそう。'];
+ }else if(number(hi)&&number(lo)&&hi-lo>=11){
+  priority='swing';tips=['気温差に合わせて、脱ぎ着できる服装だと便利だよ。','朝晩の冷え込みには気をつけようね。'];
+ }else{
+  tips=['今日もめいめいらしく過ごせますように♡','ふっとひと息つく時間も大切にしてね。','のんびり空を眺めるのも楽しそうだね。'];
+  if((season===3||season===4||season===5)&&number(temp)&&temp>=17&&temp<=24)tips.push('春らしい、過ごしやすい気温だね♪');
+  if((season===9||season===10||season===11)&&number(temp)&&temp>=16&&temp<=23)tips.push('秋らしい穏やかな空気を感じられそうだね♪');
  }
- const chosen=[];
- for(let n=0;n<40;n++){
-  const intro=choose([...intros,'','']),fact=choose(facts),tip=choose(tips);
-  let result=[intro,fact,tip].filter(Boolean).join(' ');
-  if(result.length>118)result=[fact,tip].join(' ');
-  if(result.length>118)result=fact;
-  chosen.push(result);
- }
- const result=choose(chosen,seen.slice(-6));seen.push(result);if(seen.length>12)seen.shift();return result;
+ const greetings=GREET[p].filter(t=>!/[、，]$/.test(t));
+ return weatherPickComment(()=>{
+  const intro=choose([...greetings,'','']);
+  let fact=choose(observation);
+  if(change){
+   const when=weatherTimePhrase(change.time);
+   const now=weatherNowDescription(code);
+   const forecast=change.kind==='雷雨'?'雷雨になる可能性がある':change.kind==='雪'?'雪になる可能性がある':'雨が降る可能性がある';
+   fact=choose([
+    `いまの${city}は${now}けれど、${when}は${forecast}よ。`,
+    `いま${city}は${now}ね。でも、${when}は${forecast}みたい。`
+   ]);
+  }
+  let extra='';
+  // Safety-critical advice is always included; calm days may simply be a friendly weather chat.
+  if(essential)extra=choose(tips);
+  else if(priority==='mild')extra=Math.random()<.54?choose(tips):'';
+  else extra=Math.random()<.7?choose(tips):'';
+  if(!extra&&priority==='mild'&&Math.random()<.28)extra=choose(CLOSINGS[p]);
+  let result=[intro,fact,extra].filter(Boolean).join(' ');
+  if(result.length>118)result=[fact,extra].filter(Boolean).join(' ');
+  return result;
+ });
 }
 
-function makeComment(){if(!data)return 'お天気の情報を確認中だよ。少し待っていてね♡';
- // At night, focus on the next day's outlook (or today's after midnight).
- const hNow=hourJST();if(hNow>=18||hNow<5)return nightComment();
- const {current:c,daily:d,hourly:h}=data,city=place[1],horizon=futureHours(h),temp=c.temperature_2m,hi=d.temperature_2m_max[0],lo=d.temperature_2m_min[0],p=period(),season=Number(new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Tokyo',month:'numeric'}).format(new Date())),code=Number(c.weather_code),rh=c.relative_humidity_2m;
- const rainSoon=horizon.find(x=>x.prob>=65||rainy(x.code)),snowSoon=horizon.find(x=>snowy(x.code)),thunderSoon=horizon.find(x=>storm(x.code));
- const observation=storm(code)?[`いまの${city}は雷雨みたい。`,`いま${city}は雷を伴う空模様だよ。`,`雷雨になっているみたい。${city}の空は要注意だね。`]:rainy(code)?[`いま${city}では雨が降っているよ。`,`いまの${city}は雨模様だね。`,`${city}は雨が降っているみたい。`]:snowy(code)?[`いま${city}は雪が降っているよ。`,`いまの${city}は雪模様だよ。`,`${city}には雪が舞っているみたい。`]:code===0||code===1?[`いまの${city}はよく晴れているよ。`,`今、${city}には晴れ空が広がっているね♪`,`いいお天気だね。${city}は晴れだよ。`]:code===2?[`いまの${city}は晴れ間もある空模様だよ。`,`雲の切れ間もある${city}の空だね。`,`いまの${city}は晴れたり曇ったりしているよ。`]:code===3?[`いまの${city}は雲が広がっているよ。`,`今日は${city}の空に雲が多いね。`,`${city}はいま、くもり空だよ。`]:code===45||code===48?[`いまの${city}は霧が出ているみたい。`,`${city}では霧がかかっているよ。`]:[`いまの${city}は「${wx(code)[1]}」だよ。`,`現在の${city}は${wx(code)[1]}みたい。`];
- let priority='normal',advice=[];
- if(storm(code)){priority='storm';advice=['雷の間は屋外での活動を控えて、安全な建物で過ごしてね。','雷が近くで発生しているかもしれないから、屋外では無理しないでね。','雷雨が続く間は、安全な場所で過ごしてね。'];}
- else if(thunderSoon){priority='storm-soon';advice=['この先、雷を伴う天気になる予報があるよ。外出中は空の変化に気をつけてね。','あとから雷雨になる可能性があるよ。出かけるなら最新の予報を確認してね。','これから雷の予報が出ているよ。屋外の予定には注意してね。'];}
- else if(number(temp)&&temp>=35||number(c.apparent_temperature)&&c.apparent_temperature>=36){priority='heat';advice=['かなり暑いから、涼しい場所で休みながら水分をとってね。','無理は禁物だよ。こまめに水分と休憩をとろうね。','暑さが厳しいね。体を冷やせる場所を確保してね。'];}
- else if(snowy(code)||snowSoon){priority='snow';advice=['雪や路面の凍結に気をつけて、移動するときは足元をよく見てね。','外に出るなら、足元と防寒の準備をしてね。','雪の影響があるかもしれないから、無理のない移動を心がけようね。'];}
- else if(rainy(code)){priority='rain';advice=['傘を忘れずに、濡れた道にも気をつけてね。','お出かけなら雨具を準備しておくと安心だよ。','外に出るなら、足元が滑らないように気をつけてね。'];}
- else if(rainSoon){priority='rain-soon';advice=[`このあと雨の可能性があるから、傘を持っておくと安心だよ。`,`この先は雨の予報もあるよ。お出かけ前にもう一度確認してね。`,`あとで雨が降るかもしれないから、折りたたみ傘があると心強いね。`];}
- else if(number(c.wind_speed_10m)&&c.wind_speed_10m>=36){priority='wind';advice=['風が強いから、飛ばされやすいものには気をつけてね。','風が強めだよ。外では周りの様子に気をつけてね。','風の影響を受けやすい場所では無理しないでね。'];}
- else if(number(temp)&&temp<=5){priority='cold';advice=['冷え込んでいるから、しっかり暖かくしてね。','寒さが厳しいね。手袋や上着で防寒しようね。','外に出るなら厚手の上着があると安心だよ。'];}
- else if(number(temp)&&temp<=15){priority='cool';advice=['少し肌寒そう。羽織るものがあると安心だね。','ひんやりする気温だね。服装でうまく調整してね。','冷えないように、上着を一枚用意しておこうね。'];}
- else if(number(temp)&&temp>=30){priority='hot';advice=['暑さに気をつけて、水分補給を忘れずにね。','気温が高いね。無理せず涼しいところで休んでね。','こまめに水分をとって、暑さをため込まないようにね。'];}
- else if(number(temp)&&temp>=26&&number(rh)&&rh>=75){priority='muggy';advice=['湿気も多そうだから、風通しのいい服で過ごしてね。','少し蒸し暑そう。水分補給を忘れないでね。','むしっと感じるかも。涼しくできる時間を作ってね。'];}
- else if(number(hi)&&number(lo)&&hi-lo>=11){priority='swing';advice=['今日は寒暖差が大きそう。脱ぎ着できる服が便利だよ。','朝晩と日中で気温が変わりやすいね。上着で調整してね。','気温差がありそうだから、服装でうまく調整しようね。'];}
- else {priority='mild';advice=['無理なく、気持ちよく過ごせるといいな♡','今日もめいめいらしく過ごせますように♪','こんな日こそ、ふっとひと息つくのもいいね。','のんびり空を眺めるのも楽しそうだね。','めいめいの今日が穏やかになりますように♡'];}
- // Seasonal color stays subordinate to measured weather: never assert warmth from the calendar alone.
- if(priority==='mild'&&(season===3||season===4||season===5)&&temp>=17&&temp<=24)advice.push('春らしい穏やかさを感じる気温だね。心地よく過ごせそう♪');
- if(priority==='mild'&&(season===9||season===10||season===11)&&temp>=16&&temp<=23)advice.push('秋の空気を感じる気温だね。ゆったり過ごせるといいな♪');
- const recent=seen.slice(-5),greetings=GREET[p];const candidates=[];
- for(let n=0;n<36;n++){
-  const intro=choose([...greetings,'']),fact=choose(observation),tip=choose(advice),end=choose([...CLOSINGS[p],'','']);
-  // Put a safety message in every high-priority variation, but keep language brief.
-  let text=[intro,fact,tip].filter(Boolean).join(' ');
-  if(priority==='mild'&&end&&Math.random()<.5)text=[intro,fact,end].filter(Boolean).join(' ');
-  if(text.length>112){text=[fact,tip].join(' ')}
-  candidates.push(text);
- }
- const selected=choose(candidates,recent);seen.push(selected);if(seen.length>12)seen.shift();return selected;
-}
 function say(animate=false){const text=makeComment();if(bubbleTimer){clearTimeout(bubbleTimer);bubbleTimer=null}if(animate){e.bubble.classList.add('is-switching');bubbleTimer=setTimeout(()=>{e.bubbleText.textContent=text;e.bubble.classList.remove('is-switching');bubbleTimer=null},150)}else{e.bubbleText.textContent=text;e.bubble.classList.remove('is-switching')}e.bubble.scrollTop=0;}
 function setLocationDisplay(){e.locText.textContent=place[0]+' · '+place[1]}
 function formatDay(s){const d=offsetDate(s+'T12:00:00');return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',weekday:'short'}).format(d)}
@@ -2227,6 +2613,153 @@ onNewsState();
   window.addEventListener('pointerup', releaseAll, {passive:true});
   window.addEventListener('pointercancel', releaseAll, {passive:true});
   window.addEventListener('blur', releaseAll);
+})();
+</script>
+
+<script id="wx25-typhoon-prototype-js">
+/* WEATHER 台風情報 v4: experimental live fetch from JMA's public web JSON.
+   Fetch ONLY on user opening the panel; no background polling or external library. */
+(function(){'use strict';
+  const modal=document.getElementById('modal-2');
+  const toggle=document.getElementById('wx25-typhoon-toggle');
+  const card=document.getElementById('wx25-typhoon-card');
+  const close=document.getElementById('wx25-typhoon-close');
+  const bubble=document.getElementById('wx24-bubble');
+  const info=document.getElementById('wx25-typhoon-info');
+  const picker=document.getElementById('wx25-typhoon-picker');
+  const select=document.getElementById('wx25-typhoon-select');
+  const el={
+    number:document.getElementById('wx25-typhoon-number'),
+    location:document.getElementById('wx25-typhoon-location'),
+    pressure:document.getElementById('wx25-typhoon-pressure'),
+    wind:document.getElementById('wx25-typhoon-wind'),
+    issued:document.getElementById('wx25-typhoon-issued')
+  };
+  if(!modal||!toggle||!card||!close||!info||!picker||!select||Object.values(el).some(v=>!v))return;
+  const base='https://www.jma.go.jp/bosai/typhoon/data';
+  let targets=[];
+  let token=0;
+  let abort=null;
+  function resetFields(){
+    el.number.textContent='未取得';
+    el.location.textContent='未取得';
+    el.pressure.textContent='— hPa';
+    el.wind.textContent='— m/s';
+    el.issued.textContent='気象庁発表日時：未取得';
+  }
+  function setOpen(open){
+    card.hidden=!open;
+    toggle.setAttribute('aria-expanded',String(open));
+    modal.classList.toggle('wx25-typhoon-open',open);
+    if(bubble)bubble.setAttribute('aria-hidden',String(open));
+    if(!open){token++;if(abort){abort.abort();abort=null;}}
+    if(open)load();
+  }
+  async function getJSON(url,signal){
+    const res=await fetch(url,{signal,cache:'no-store'});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    return res.json();
+  }
+  function label(tc){
+    const value=String(tc.typhoonNumber||'');
+    const code=tc.category==='TD'?'熱帯低気圧':(/^\d{4}$/.test(value)?'台風第'+Number(value.slice(-2))+'号':'熱帯低気圧');
+    return code;
+  }
+  function displayTime(iso){
+    if(!iso || Number.isNaN(Date.parse(iso)))return '未取得';
+    return new Date(iso).toLocaleString('ja-JP',{
+      timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+  }
+  function numeric(v,unit){
+    const n=Number(v);
+    return v!==undefined && v!==null && v!=='' && Number.isFinite(n)?String(n)+' '+unit:'— '+unit;
+  }
+  function showEmpty(){
+    info.textContent='現在、気象庁の台風情報に掲載中の対象はありません。';
+    el.number.textContent='発表なし';
+    el.location.textContent='—';
+    el.pressure.textContent='— hPa';
+    el.wind.textContent='— m/s';
+    el.issued.textContent='確認時刻：'+displayTime(new Date().toISOString());
+  }
+  function showError(){
+    info.textContent='台風情報を取得できませんでした。通信状況を確認するか、気象庁の公式ページをご覧ください。';
+    resetFields();
+  }
+  async function load(){
+    const current=++token;
+    if(abort)abort.abort();
+    abort=new AbortController();
+    const signal=abort.signal;
+    const timer=setTimeout(()=>abort.abort(),10000);
+    targets=[];
+    picker.hidden=true;
+    select.replaceChildren();
+    resetFields();
+    info.textContent='気象庁の台風情報を確認中…';
+    try{
+      const list=await getJSON(base+'/targetTc.json',signal);
+      if(!Array.isArray(list))throw new Error('Invalid target list');
+      if(current!==token)return;
+      targets=list.filter(t=>t&&typeof t.tropicalCyclone==='string'&&/^TC\d{4,8}$/.test(t.tropicalCyclone));
+      if(list.length&&!targets.length)throw new Error('Unexpected target format');
+      if(!targets.length){showEmpty();return;}
+      if(targets.length>1){
+        targets.forEach((t,i)=>{
+          const option=document.createElement('option');
+          option.value=String(i);
+          option.textContent=label(t);
+          select.appendChild(option);
+        });
+        picker.hidden=false;
+      }
+      await showStorm(0,current,signal);
+    }catch(e){
+      if(current===token)showError();
+    }finally{
+      clearTimeout(timer);
+      if(current===token)abort=null;
+    }
+  }
+  async function showStorm(i,current,signal){
+    const target=targets[i];
+    if(!target)return;
+    info.textContent='台風の実況情報を取得中…';
+    resetFields();
+    const spec=await getJSON(base+'/'+encodeURIComponent(target.tropicalCyclone)+'/specifications.json',signal);
+    if(current!==token)return;
+    if(!Array.isArray(spec))throw new Error('Invalid storm data');
+    const title=spec.find(x=>x && x.part==='title')||{};
+    const analysis=spec.find(x=>x && x.part && x.part.en==='Analysis');
+    if(!analysis)throw new Error('No analysis data');
+    const displayName=title.name?.jp || title.name?.en || '';
+    info.textContent=label(target)+(displayName?'（'+displayName+'）':'')+'の実況です。';
+    el.number.textContent=label(target);
+    const latlon=analysis.position?.deg;
+    el.location.textContent=typeof analysis.location==='string' && analysis.location.trim()
+      ? analysis.location : (Array.isArray(latlon)&&latlon.length===2?latlon[0]+'°N '+latlon[1]+'°E':'未取得');
+    el.pressure.textContent=numeric(analysis.pressure,'hPa');
+    el.wind.textContent=numeric(analysis.maximumWind?.sustained?.['m/s'],'m/s');
+    el.issued.textContent='気象庁発表：'+displayTime(title.issue?.JST||target.issue);
+  }
+  toggle.addEventListener('click',()=>setOpen(card.hidden));
+  close.addEventListener('click',()=>{setOpen(false);toggle.focus({preventScroll:true});});
+  select.addEventListener('change',async()=>{
+    const i=Number(select.value);
+    const current=++token;
+    if(abort)abort.abort();
+    abort=new AbortController();
+    const signal=abort.signal;
+    const timer=setTimeout(()=>abort.abort(),10000);
+    try{await showStorm(i,current,signal);}catch(e){if(current===token)showError();}
+    finally{clearTimeout(timer);if(current===token)abort=null;}
+  });
+  modal.addEventListener('keydown',e=>{
+    if(e.key==='Escape'&&!card.hidden){e.preventDefault();setOpen(false);toggle.focus({preventScroll:true});}
+  });
+  new MutationObserver(()=>{
+    if(!modal.classList.contains('is-open')&&location.hash!=='#modal-2'&&!card.hidden)setOpen(false);
+  }).observe(modal,{attributes:true,attributeFilter:['class']});
 })();
 </script>
 </body></html>
