@@ -1,3 +1,4 @@
+
 {
   "version": 1,
   "items": [
@@ -41,7 +42,7 @@
       "id": "umitan_005",
       "title": "🌌 星を指さす夜",
       "tags": ["DAILY ART"],
-      "created": "2026-10-20",
+      "created": "2026-10-19",
       "description": "海辺の天文台で星空を指さし、めいめいと星を眺めるうみたん。",
       "image": "gallery/images/umitan_005.webp",
       "thumbnail": "gallery/thumbs/umitan_005.webp"
@@ -50,7 +51,7 @@
       "id": "umitan_006",
       "title": "🥐 焼きたてパンの朝",
       "tags": ["DAILY ART"],
-      "created": "2026-10-21",
+      "created": "2026-10-20",
       "description": "陽だまりのキッチンで、焼きたてパンをめいめいに差し出すうみたん。",
       "image": "gallery/images/umitan_006.webp",
       "thumbnail": "gallery/thumbs/umitan_006.webp"
@@ -72,6 +73,87 @@
       "description": "海を望む陶芸工房で、波模様の器に絵付けをするうみたん。",
       "image": "gallery/images/umitan_008.webp",
       "thumbnail": "gallery/thumbs/umitan_008.webp"
+    },
+    {
+      "id": "umitan_20261024",
+      "title": "春風の岬と風車",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-24",
+      "description": "青と黄色の風車を手に、海辺の岬で微笑むうみたん",
+      "image": "gallery/images/umitan_20261024.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261024.webp"
+    },
+    {
+      "id": "umitan_20261025",
+      "title": "雪の日のお迎え",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-25",
+      "description": "雪の夕暮れ、玄関先で迎えてくれるうみたん",
+      "image": "gallery/images/umitan_20261025.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261025.webp"
+    },
+    {
+      "id": "umitan_20261026",
+      "title": "クラゲの水族館",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-26",
+      "description": "クラゲの水槽の前で振り向くうみたん",
+      "image": "gallery/images/umitan_20261026.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261026.webp"
+    },
+    {
+      "id": "umitan_20261027",
+      "title": "海辺の花屋",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-27",
+      "description": "花束を手に、海の見える花屋で微笑むうみたん",
+      "image": "gallery/images/umitan_20261027.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261027.webp"
+    },
+    {
+      "id": "umitan_20261028",
+      "title": "夕暮れの灯台",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-28",
+      "description": "夕日に照らされた灯台のレンズを案内するうみたん",
+      "image": "gallery/images/umitan_20261028.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261028.webp"
+    },
+    {
+      "id": "umitan_20261029",
+      "title": "海辺を走る列車",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-29",
+      "description": "車窓に海を眺めながら貝殻クッキーを差し出すうみたん",
+      "image": "gallery/images/umitan_20261029.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261029.webp"
+    },
+    {
+      "id": "umitan_20261030",
+      "title": "港のカメラ散歩",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-30",
+      "description": "港町でカメラを持って散歩するうみたん",
+      "image": "gallery/images/umitan_20261030.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261030.webp"
+    },
+    {
+      "id": "umitan_20261031",
+      "title": "ハロウィンの魔女",
+      "tags": ["DAILY ART"],
+      "created": "2026-10-31",
+      "description": "海辺の街で魔女の衣装を楽しむうみたん",
+      "image": "gallery/images/umitan_20261031.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261031.webp"
+    },
+    {
+      "id": "umitan_20261101",
+      "title": "夜光虫の砂浜",
+      "tags": ["DAILY ART"],
+      "created": "2026-11-01",
+      "description": "夏の夜の浜辺で青く光る夜光虫を教えてくれるうみたん",
+      "image": "gallery/images/umitan_20261101.webp",
+      "thumbnail": "gallery/thumbs/umitan_20261101.webp"
     }
   ]
 }
