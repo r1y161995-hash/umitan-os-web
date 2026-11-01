@@ -2606,7 +2606,7 @@ setLocationDisplay();
     return 0;
   });grid.replaceChildren();
   if(!visible.length){const p=document.createElement('p');p.className='umi-gallery-empty';p.textContent='このアルバムの作品は、これから増やしていこうね。♡';grid.append(p);return;}
-  visible.forEach((it,i)=>{const b=document.createElement('button');b.type='button';b.className='umi-gallery-tile';const im=document.createElement('img');im.src=it.thumbnail;im.alt=it.title;im.loading='lazy';const t=document.createElement('span');t.className='umi-gallery-title';t.textContent=it.title;const d=document.createElement('span');d.className='umi-gallery-date';d.textContent=dateLabel(it.created);b.append(im,t,d);b.addEventListener('click',()=>{origin=b;show(i)});grid.append(b)});
+  visible.forEach((it,i)=>{const b=document.createElement('button');b.type='button';b.className='umi-gallery-tile';const im=document.createElement('img');im.src=it.thumbnail||it.image;im.alt=it.title;im.loading='lazy';im.addEventListener('error',()=>{if(!im.dataset.fallback&&it.image&&im.src!==new URL(it.image,document.baseURI).href){im.dataset.fallback='1';im.src=it.image;}else{im.alt=it.title+'（画像を読み込めません）';} });const t=document.createElement('span');t.className='umi-gallery-title';t.textContent=it.title;const d=document.createElement('span');d.className='umi-gallery-date';d.textContent=dateLabel(it.created);b.append(im,t,d);b.addEventListener('click',()=>{origin=b;show(i)});grid.append(b)});
  }
  function show(i){if(!visible.length)return;current=(i+visible.length)%visible.length;const it=visible[current];big.src=it.image;big.alt=it.title;caption.replaceChildren();const title=document.createElement('strong');title.textContent=it.title;const meta=document.createElement('small');meta.textContent=it.tags.join(' · ')+'  |  '+dateLabel(it.created);const desc=document.createElement('p');desc.textContent=it.description||'';caption.append(title,meta,desc);viewer.hidden=false;viewer.querySelector('.gallery-close').focus();}
  viewer.querySelector('.gallery-close').addEventListener('click',closeViewer);
@@ -2614,7 +2614,7 @@ setLocationDisplay();
  viewer.addEventListener('touchstart',e=>{startX=e.touches[0].clientX},{passive:true});viewer.addEventListener('touchend',e=>{if(startX===null)return;const dx=e.changedTouches[0].clientX-startX;startX=null;if(Math.abs(dx)>55)show(current+(dx<0?1:-1))},{passive:true});
  document.addEventListener('keydown',e=>{if(viewer.hidden)return;if(e.key==='Escape')closeViewer();if(e.key==='ArrowRight')show(current+1);if(e.key==='ArrowLeft')show(current-1)});
  document.addEventListener('click',e=>{if(!viewer.hidden&&e.target.closest('a[href^="#modal-"],#umi-note-trigger'))closeViewer()},true);
- fetch('gallery/gallery.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{all=Array.isArray(data.items)?data.items:[];render()}).catch(()=>{grid.textContent='作品を読み込めなかったよ。GitHubに gallery フォルダも一緒に置いてね。'});
+ fetch('gallery/gallery.json?v=20261101',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{all=Array.isArray(data.items)?data.items:[];render()}).catch(err=>{console.error('UMITAN gallery load failed:',err);grid.textContent='作品データを読み込めなかったよ。gallery/gallery.json の配置を確認してね。';});
 })();
 </script>
 <script>
