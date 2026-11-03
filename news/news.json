@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T15:34:53.874785+00:00",
+  "updated_at": "2026-11-03T16:40:58.891116+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -15,16 +15,16 @@
         "source": "中国新聞デジタル"
       },
       {
-        "title": "海保の巡視船が浅瀬接触 46歳航海士を書類送検 位置把握せず航行疑い - 琉球新報デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41QktobUxVWUVvVjNEeF83UjZwZk1kYkF0Q2lEY09xRFh2SERJdWYzNHF3aWxiNFdoYWJsY3pVbUJoOXJQaER1anRpeHBDX0p2Wm96Z1dyTkw2WmJFZGdGZw?oc=5",
-        "date": "Mon, 02 Nov 2026 20:00:00 GMT",
-        "source": "琉球新報デジタル"
-      },
-      {
         "title": "巡視船が浅瀬に接触 11管、46歳主任航海士を書類送検 沖縄・うるま市沖 - 沖縄タイムス社",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nem0yeG5GaHZZdjZ2TVNrOVdMYzlFMVFuM3dLdVBDdld2cVJaLUN4WmQzbDlsSjljXzluNkdta2pfWDdVbk5WX001S25zYWYyMm5lN1ZWUFFEQWNCenc?oc=5",
         "date": "Tue, 03 Nov 2026 00:00:00 GMT",
         "source": "沖縄タイムス社"
+      },
+      {
+        "title": "海保の巡視船が浅瀬接触 46歳航海士を書類送検 位置把握せず航行疑い - 琉球新報デジタル",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41QktobUxVWUVvVjNEeF83UjZwZk1kYkF0Q2lEY09xRFh2SERJdWYzNHF3aWxiNFdoYWJsY3pVbUJoOXJQaER1anRpeHBDX0p2Wm96Z1dyTkw2WmJFZGdGZw?oc=5",
+        "date": "Mon, 02 Nov 2026 20:00:00 GMT",
+        "source": "琉球新報デジタル"
       },
       {
         "title": "漂流遺体の遺留品スニーカーを紛失、部下に似たような商品を買ってこさせるなどして隠蔽はかる…海保職員を減給 - 読売新聞",
@@ -65,9 +65,15 @@
     ],
     "尖閣諸島": [
       {
-        "title": "沖縄県・尖閣周辺に中国船4隻を確認 10日連続 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KYjFwTDJreHFORER5OUFIeG1xdDhtWVZuT2RfZVhqbEE5UmNIQzlscWp3Y0c2TnJjMUJJczBIN2JPVHZDdVFOTVFqbzVhZGJrZ0pmYlVzdDdvSXRsUHlCVE9FVF9jS0Y2NVBMeTJsNUpNRVREaFE?oc=5",
-        "date": "Tue, 03 Nov 2026 01:42:46 GMT",
+        "title": "尖閣諸島周辺の接続水域に中国当局船、10日連続 海上保安庁が確認 - 日本経済新聞",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QX2pFT2cyRk9hQTR4NE5UME9nOGdIbXlJaXo4dDI4d1NRRV9MZk1SQ3RvalJjR01rVTJ4czNmSFozaHBwTmxMZDVqZnJmSFg0Yk5obGJtN2s1bGJFdVdrdHdfVGRsakR2TUU1Nw?oc=5",
+        "date": "Tue, 03 Nov 2026 06:30:06 GMT",
+        "source": "日本経済新聞"
+      },
+      {
+        "title": "沖縄・尖閣諸島周辺に機関砲搭載の中国海警局船 8日連続、海保巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PRWt4bGFST09tSFZ6UXhxOXpCNWh0Q1NQZ3hiZXA3SW1XQl9CSVZXM3RfREhtNG5TQnJRblVkSFVYOUNHcGlmU0dCVXJtSzJldzBNZE92cFN4YjB2Njc2VFQ1Z0xKaENqdmNTalU3alRuM2Jydnc?oc=5",
+        "date": "Sun, 01 Nov 2026 01:38:17 GMT",
         "source": "産経ニュース"
       },
       {
@@ -77,10 +83,10 @@
         "source": "読売新聞"
       },
       {
-        "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdms4Um5ySFdLZGRpblJuOUZMUE1veHZWeExOY2VhalR6bG42TlhmMnhqcWZQUkZhRE9tM1h5N0pjaHZpVS15bXRkNXVGeENNTGZMbnk5WXFqU2pYakExSGNyNjhwOUIydnFvSDFqM3M1TWxtc2RrbVd1djZKWUpvTVFyNUxoNnl3N0JWSjBoM3hPMXE1OUVB?oc=5",
-        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "source": "石垣市"
+        "title": "北方領土で中ロが連携、10年前にロシア政府関係者が漏らした「3段階の警告」が現実に…次は尖閣諸島なのか - JBpress",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VMDRpd1ZmcmZ3dG5FZ0FfYk9ydDFLWHBDV0RLcFpTeE43aHhVN210Y2QxcmhrMENvU1ZCYjNhWi1SZS0ycnpZYjdEQnQxMy01WUxNNmhn?oc=5",
+        "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "source": "JBpress"
       },
       {
         "title": "尖閣周辺の中国船交代 9日連続航行（沖縄八重山日報） - Yahoo!ニュース",
@@ -89,40 +95,34 @@
         "source": "Yahoo!ニュース"
       },
       {
+        "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdms4Um5ySFdLZGRpblJuOUZMUE1veHZWeExOY2VhalR6bG42TlhmMnhqcWZQUkZhRE9tM1h5N0pjaHZpVS15bXRkNXVGeENNTGZMbnk5WXFqU2pYakExSGNyNjhwOUIydnFvSDFqM3M1TWxtc2RrbVd1djZKWUpvTVFyNUxoNnl3N0JWSjBoM3hPMXE1OUVB?oc=5",
+        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
+        "source": "石垣市"
+      },
+      {
         "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" - PRESIDENT Online（プレジデントオンライン）",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZnhDUmpteHJHNkNkREVkUGdLdXdKT1Z0TlJWLVZXS0U0S2JCSklVTTFiZ3NmWWRhZU1tNGtjeHYwUnVGTm9MRHB6em1ROW5pMjBCenBwUko?oc=5",
         "date": "Wed, 07 Oct 2026 07:00:00 GMT",
         "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
-        "title": "尖閣諸島・竹島をめぐって緊張高まる - NHK",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wMDNJSi1rX3V6em5BXzBWZWtuNmJyekdWY0d0MV85cE1YbW9TVmJ2ekJyUDlYNV9XaDAwNm5OUGNxaHRzbUhtT19fTXE4SXltMFRiZGdYaC1aTGxXVDhQajFrMFhQWUtISzgxXw?oc=5",
-        "date": "Fri, 11 Sep 2026 07:00:00 GMT",
-        "source": "NHK"
-      },
-      {
-        "title": "尖閣諸島周辺に中国船、50日連続 海上保安庁の巡視船が確認 - 日本経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
-        "date": "Sun, 27 Sep 2026 07:00:00 GMT",
-        "source": "日本経済新聞"
-      },
-      {
-        "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kSlRxT3ItTzVTYTJvMGt0OU9vcHJsVXdYTXBQX0dsSjVGX3owZDBmc3pBbkcyV0ZVVkFrSFM2MXhRVzVRbTYweUxjVWtjaDRUUTFYdXVxaDVRQXdFT0E?oc=5",
-        "date": "Thu, 29 Oct 2026 18:57:00 GMT",
-        "source": "沖縄タイムス社"
-      },
-      {
-        "title": "尖閣諸島とは（朝日キーワード2027） - 朝日新聞",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SWWthQU9UTUdsSXFJSmVlRGNLR1gwR0JMM0NYY0NYR19qclgzakZHZTA3U0d0MzVRRTdXZkc3V3RWeXh5RU9Ra1RhbGd2cWdmMzJfSGJyNU93a3E0bGtPTU9GRWVOY00?oc=5",
-        "date": "Mon, 11 May 2026 07:00:00 GMT",
-        "source": "朝日新聞"
-      },
-      {
         "title": "児童生徒向け石垣市尖閣諸島地域教材資料（R8.7 関連ページを追加） - 石垣市",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQjBzTTJsZ1U1RXR2Q3hpMGhOS0R2R0Zpbkd0c1ZiMTFqQkhvdTdWb0NQSnllOF85OVpYTkc5bVBUbFE1OUsxcHd6NWVORzJwenVkd1N2VVdKVm5NSjJMLVllMWZmV0VwR3NzREJoTXVxOFRKa3V6ejlwWHA5dTQ4cml5QWZOS245Y2loUzQ4ZHU5T25rSGc?oc=5",
         "date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "source": "石垣市"
+      },
+      {
+        "title": "尖閣沖に出現した貨物船「くたばれ日本」 昨年末、中国「軍港」周辺から偽装信号を発信か データ×深層 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZzREWEl0a3E4QUM5VzVsMkxqb0VIOGp1V083QjhLSks0OTNzcGlQV1NXWkV5TU5DcndLd2MtQXBkYlFNdlVEZnMzV3hiRUk2LTdIQ3FzSk4yZDFDTkVlY2dpOFdTZEJWVnFUYWVWTEthYmIwRXBVT0RRVVlwejhrWE00NTBXT1RNNzV2bA?oc=5",
+        "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+        "source": "産経ニュース"
+      },
+      {
+        "title": "中国が尖閣諸島周辺で海洋調査か、一時EEZ内に 海保が中止要求 - 日本経済新聞",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ISHJBZS1qdU1VZVcxUE9pM0pCNy1rRkJJLUtDX2hCSThJend5NE1KMF9lVXViR2NFM3VxVGFBb0JRYVdBLTRuLVZ5T2FXZVRTYUF5TG1KOVVXVGV6WnYybkU5UklCa3VJeDFfZQ?oc=5",
+        "date": "Sun, 16 Aug 2026 07:00:00 GMT",
+        "source": "日本経済新聞"
       }
     ]
   }
