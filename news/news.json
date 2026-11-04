@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:45:56.376080+00:00",
+  "updated_at": "2026-11-04T20:39:29.173902+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -13,6 +13,12 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlU21wemJXM2tUcFhNcVoyR2xhRHJ6U2ZuNnhSTkhQcjNpcTBUQV9oSzZtNGhhbEtHSFlTaGQ3cG02WjhfUGdXaVlSTnJvYnJHMXJGenlPcXg2UWhmU1l5WGR2SWUyOEhBbGUtaE52eUkzX25DZElVWmZSeFJLSVE?oc=5",
         "date": "Wed, 04 Nov 2026 09:45:30 GMT",
         "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "島根スサノオ連携し啓発 境海保 海難事故防止ポスター作成 - www.nnn.co.jp",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81bkZ6T3daV09fcUd3VXZKdUpsbmJpLWU3M2hCS0ttQ1hwWGZjSkN3R0g5OUJzVkNLR1laZzJQcy1QOWxNTHptQWNveE9abkVy?oc=5",
+        "date": "Wed, 04 Nov 2026 20:00:00 GMT",
+        "source": "www.nnn.co.jp"
       },
       {
         "title": "【詳報】ロシアに自動車を不正輸出 浜田海保、韓国籍の男を逮捕 外為法違反の疑い、全国初の起訴 - 山陰中央新報デジタル",
@@ -39,28 +45,22 @@
         "source": "沖縄タイムス社"
       },
       {
-        "title": "境海保がＢリーグ島根とコラボポスター 海難事故防止を呼びかけ - 日本海新聞",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tY0tzS19JRzd0TXI1MkVjb3FMaF91RV9pTGpWbzkzQ3FZVTlYRHlZbk1aOHprcS1FNElmUm85UlVzRG1ib3Qwc0xuSXFPY3d0?oc=5",
-        "date": "Wed, 04 Nov 2026 03:22:00 GMT",
-        "source": "日本海新聞"
-      },
-      {
         "title": "海保制服着て記念撮影 石廊埼灯台を一般公開―南伊豆 - 伊豆新聞デジタル",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NdkxGWXZ3NkpxdkNhUTJfdmFpNGRtTW1oQWExbmdlNzBqQkYybUR2Tkw3bktueUtrY0NaVGw1SEgwdHRUOEc2ZTJWU0xYRHhMc3JFdWpJcGJfaTVS?oc=5",
         "date": "Wed, 04 Nov 2026 05:59:01 GMT",
         "source": "伊豆新聞デジタル"
       },
       {
-        "title": "中国調査船をフィリピン巡視船が追尾、海底ケーブルをめぐる疑惑と台湾との協力が焦点に - XenoSpectrum",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YX1dYc0s1Y2xjbXEzd3dLOUpkeG4xRzVYWHlFc3dYUS1yVXlBSk9YYjUxVGFTRjh1d2xOZHdkeElPNkl5R3hGWWtVd2ZVTFA2UFhjZHgwS25OMWZ2eDc2TjdyYnNpbllHNTFKVEphb2tRUQ?oc=5",
-        "date": "Wed, 04 Nov 2026 01:29:36 GMT",
-        "source": "XenoSpectrum"
-      },
-      {
         "title": "遺留品のスニーカー紛失、部下に同じ靴を購入するよう不適切な指示 姫路海上保安部が職員を懲戒処分 - 神戸新聞",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XbFBiNjBwT3ZJU0dUS2pnOXJfSXpXZFlGUmk2NFdhQXRIU254RmgtNUV3LTMwc3VKTVk3bjB4cWtkU252NGRfQ3lNbnllY2IwemxjVkU2SVJScUdFUi0zUDRyWVNnRXYzZkFJYTV3?oc=5",
         "date": "Mon, 02 Nov 2026 08:20:58 GMT",
         "source": "神戸新聞"
+      },
+      {
+        "title": "中国調査船をフィリピン巡視船が追尾、海底ケーブルをめぐる疑惑と台湾との協力が焦点に - XenoSpectrum",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YX1dYc0s1Y2xjbXEzd3dLOUpkeG4xRzVYWHlFc3dYUS1yVXlBSk9YYjUxVGFTRjh1d2xOZHdkeElPNkl5R3hGWWtVd2ZVTFA2UFhjZHgwS25OMWZ2eDc2TjdyYnNpbllHNTFKVEphb2tRUQ?oc=5",
+        "date": "Wed, 04 Nov 2026 01:29:36 GMT",
+        "source": "XenoSpectrum"
       }
     ],
     "尖閣諸島": [
@@ -119,10 +119,10 @@
         "source": "石垣市"
       },
       {
-        "title": "＜談話室＞石垣島で見た大切な「書状」 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10elFtMElfYU5fVm5ETFUwM1JxY0J6TllwRWkxWER0QnUtUG9CRERYbzB4dm83Tl9vdHRMem1ZbHFSNVJUa3o1dHU4NmhqMVFoOEcycGFrMGRwSms2ZlQ5aHJta3MtVVVIbWY4cDcycm9OYTJOQ2c?oc=5",
-        "date": "Tue, 03 Nov 2026 20:30:00 GMT",
-        "source": "産経ニュース"
+        "title": "「中国、台湾の次は尖閣狙う」 現地シンクタンクが分析（沖縄八重山日報） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YcGpxaGk0WTlXQnF3OEVQYTdicndfczdxa2dWSU93OWlMZGlISjl0R29SVmk3cV9ybGxqSWpJdE1OOS1IWE5VMGtOUU43aHdIazJHS2taZ0NBbklfMG1PbXc0b3VONUlWQ0dnOTRJb2JUalQ0STdFTEVCMEh4Vzg?oc=5",
+        "date": "Tue, 27 Oct 2026 04:14:13 GMT",
+        "source": "Yahoo!ニュース"
       }
     ]
   }
