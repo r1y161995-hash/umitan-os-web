@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-11-04T02:36:49.623258+00:00",
+  "updated_at": "2026-11-04T03:38:19.205286+00:00",
   "topics": {
     "海上保安庁": [
+      {
+        "title": "境海保がＢリーグ島根とコラボポスター 海難事故防止を呼びかけ - 日本海新聞",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tY0tzS19JRzd0TXI1MkVjb3FMaF91RV9pTGpWbzkzQ3FZVTlYRHlZbk1aOHprcS1FNElmUm85UlVzRG1ib3Qwc0xuSXFPY3d0?oc=5",
+        "date": "Wed, 04 Nov 2026 03:22:00 GMT",
+        "source": "日本海新聞"
+      },
       {
         "title": "尖閣諸島周辺の接続水域に中国当局船、10日連続 海上保安庁が確認 - 日本経済新聞",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QX2pFT2cyRk9hQTR4NE5UME9nOGdIbXlJaXo4dDI4d1NRRV9MZk1SQ3RvalJjR01rVTJ4czNmSFozaHBwTmxMZDVqZnJmSFg0Yk5obGJtN2s1bGJFdVdrdHdfVGRsakR2TUU1Nw?oc=5",
@@ -55,12 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NdkxGWXZ3NkpxdkNhUTJfdmFpNGRtTW1oQWExbmdlNzBqQkYybUR2Tkw3bktueUtrY0NaVGw1SEgwdHRUOEc2ZTJWU0xYRHhMc3JFdWpJcGJfaTVS?oc=5",
         "date": "Tue, 03 Nov 2026 18:17:39 GMT",
         "source": "伊豆新聞デジタル"
-      },
-      {
-        "title": "漂流遺体の遺留品スニーカーを紛失、部下に似たような商品を買ってこさせるなどして隠蔽はかる…海保職員を減給 - 読売新聞",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyUDNobnBkWFVpQjhnTmZSRDJQRkx2d0xiTXEweUFUczcwd1lDdTVWX3FuWUpJRTVSRzRNS19YX3FVVjFpekFibmgzTkQ3QTRQQmhZelBjT2hQang2c3Q3TUFhU01HY053c29xV3ZMN2hLZw?oc=5",
-        "date": "Tue, 03 Nov 2026 03:30:00 GMT",
-        "source": "読売新聞"
       }
     ],
     "尖閣諸島": [
@@ -95,16 +95,16 @@
         "source": "読売新聞"
       },
       {
-        "title": "北方領土で中ロが連携、10年前にロシア政府関係者が漏らした「3段階の警告」が現実に…次は尖閣諸島なのか - JBpress",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VMDRpd1ZmcmZ3dG5FZ0FfYk9ydDFLWHBDV0RLcFpTeE43aHhVN210Y2QxcmhrMENvU1ZCYjNhWi1SZS0ycnpZYjdEQnQxMy01WUxNNmhn?oc=5",
-        "date": "Tue, 20 Oct 2026 07:00:00 GMT",
-        "source": "JBpress"
-      },
-      {
         "title": "尖閣周辺の中国船交代 9日連続航行（沖縄八重山日報） - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HUnRad0pPbElZN2pUaFRmOXdWXzZGbVhLTmlaYTdlSEJ4VF80dGlkYTAtcVRYTEFnTUR1RmpOQ1FPOXhjSkNmSnM5TzhXYW9ZRXdZTndiSjlSbW4zb3BKVUxTSWJpdVo0Tnh4U1RQM09aYkxMSnJnSW1YdXRsMlU?oc=5",
         "date": "Mon, 02 Nov 2026 04:23:25 GMT",
         "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" - PRESIDENT Online（プレジデントオンライン）",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZnhDUmpteHJHNkNkREVkUGdLdXdKT1Z0TlJWLVZXS0U0S2JCSklVTTFiZ3NmWWRhZU1tNGtjeHYwUnVGTm9MRHB6em1ROW5pMjBCenBwUko?oc=5",
+        "date": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
         "title": "＜談話室＞石垣島で見た大切な「書状」 - 産経ニュース",
@@ -113,10 +113,10 @@
         "source": "産経ニュース"
       },
       {
-        "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" - PRESIDENT Online（プレジデントオンライン）",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZnhDUmpteHJHNkNkREVkUGdLdXdKT1Z0TlJWLVZXS0U0S2JCSklVTTFiZ3NmWWRhZU1tNGtjeHYwUnVGTm9MRHB6em1ROW5pMjBCenBwUko?oc=5",
-        "date": "Wed, 07 Oct 2026 07:00:00 GMT",
-        "source": "PRESIDENT Online（プレジデントオンライン）"
+        "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdms4Um5ySFdLZGRpblJuOUZMUE1veHZWeExOY2VhalR6bG42TlhmMnhqcWZQUkZhRE9tM1h5N0pjaHZpVS15bXRkNXVGeENNTGZMbnk5WXFqU2pYakExSGNyNjhwOUIydnFvSDFqM3M1TWxtc2RrbVd1djZKWUpvTVFyNUxoNnl3N0JWSjBoM3hPMXE1OUVB?oc=5",
+        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
+        "source": "石垣市"
       },
       {
         "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
