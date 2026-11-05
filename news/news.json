@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T01:56:29.936376+00:00",
+  "updated_at": "2026-11-05T02:45:28.663031+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -13,12 +13,6 @@
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0M1Q5MjI0RzJWUVhBM1JZUVVtVm40MV9jbFRUOFdUeWRNcGJCdkthWVNsVFlDbFJRenJaSE9vRWVOa0FDQWRhcmFn?oc=5",
         "date": "Wed, 04 Nov 2026 23:06:40 GMT",
         "source": "Funeco"
-      },
-      {
-        "title": "ロシアに自動車計73台を不正輸出 島根・浜田海保、韓国籍の男を逮捕 外為法違反の疑い、全国初の起訴 ロシアへ経済制裁での輸出禁止品目 - au Webポータル",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzZ0JHZUY1YWhBQUE3c0tVUnRMZ1dNQXU3b2tyVWFWdG9iTUtiWm9iNnpCTlAyMXR6SXp2LWFwOEFRekR4MkxqV2RHWUZjRDdWT0FJV29lSHg4dkk5R09IRmFkLWU3WmFoOVVoOWN3?oc=5",
-        "date": "Wed, 04 Nov 2026 21:00:00 GMT",
-        "source": "au Webポータル"
       },
       {
         "title": "尖閣諸島周辺に中国船、11日連続で確認 海上保安庁の巡視船が近づかないよう警告 - 産経ニュース",
@@ -45,10 +39,10 @@
         "source": "山陰中央新報デジタル"
       },
       {
-        "title": "浜田海上保安部、ロシアへの中古車不正輸出容疑で韓国籍の男を逮捕 規制強化後で初 - 日刊自動車新聞",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QUS1XRkpGRHgxRXlKRTRZUVY2V0RldmtGT2hHMnR2SENZOEdOTG1rODFJSG1tRDBRWS1ORzlUWkl5SDFlR05PMXlvLU1HT0E2WWc?oc=5",
-        "date": "Wed, 04 Nov 2026 20:00:00 GMT",
-        "source": "日刊自動車新聞"
+        "title": "尖閣諸島周辺の接続水域に中国当局船、10日連続 海上保安庁が確認 - 日本経済新聞",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QX2pFT2cyRk9hQTR4NE5UME9nOGdIbXlJaXo4dDI4d1NRRV9MZk1SQ3RvalJjR01rVTJ4czNmSFozaHBwTmxMZDVqZnJmSFg0Yk5obGJtN2s1bGJFdVdrdHdfVGRsakR2TUU1Nw?oc=5",
+        "date": "Tue, 03 Nov 2026 06:30:06 GMT",
+        "source": "日本経済新聞"
       },
       {
         "title": "巡視船が浅瀬に接触 11管、46歳主任航海士を書類送検 沖縄・うるま市沖 - 沖縄タイムス社",
@@ -57,10 +51,16 @@
         "source": "沖縄タイムス社"
       },
       {
-        "title": "尖閣諸島周辺の接続水域に中国当局船、10日連続 海上保安庁が確認 - 日本経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QX2pFT2cyRk9hQTR4NE5UME9nOGdIbXlJaXo4dDI4d1NRRV9MZk1SQ3RvalJjR01rVTJ4czNmSFozaHBwTmxMZDVqZnJmSFg0Yk5obGJtN2s1bGJFdVdrdHdfVGRsakR2TUU1Nw?oc=5",
-        "date": "Tue, 03 Nov 2026 06:30:06 GMT",
-        "source": "日本経済新聞"
+        "title": "ロシアに自動車計73台を不正輸出 島根・浜田海保、韓国籍の男を逮捕 外為法違反の疑い、全国初の起訴 ロシアへ経済制裁での輸出禁止品目 - au Webポータル",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzZ0JHZUY1YWhBQUE3c0tVUnRMZ1dNQXU3b2tyVWFWdG9iTUtiWm9iNnpCTlAyMXR6SXp2LWFwOEFRekR4MkxqV2RHWUZjRDdWT0FJV29lSHg4dkk5R09IRmFkLWU3WmFoOVVoOWN3?oc=5",
+        "date": "Wed, 04 Nov 2026 21:00:00 GMT",
+        "source": "au Webポータル"
+      },
+      {
+        "title": "ハイブリッド中古車など73台をロシアに不正輸出…海保が韓国籍の男を逮捕 オークションサイトで車を落札し、シエラレオネ船籍の貨物船に載せる→韓国行きを装いロシアへ 島根県浜田市 | BSSニュース | BSS山陰放送 - TBS NEWS DIG",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oZkNYUXVNYVJWeXd6dHlkMjRHS3daTXhmRkIyOWNrNzhHX256SFlDa3ViSGt2MjJ2NVFfbVI4MTE3Y3lJTy1PaW1QSndfNzJuMGQ2SUtyR0t3UQ?oc=5",
+        "date": "Wed, 04 Nov 2026 09:45:00 GMT",
+        "source": "TBS NEWS DIG"
       }
     ],
     "尖閣諸島": [
