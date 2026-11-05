@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:48:05.874137+00:00",
+  "updated_at": "2026-11-05T06:53:25.825746+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -13,6 +13,12 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jMUdZTF9vZ2k4aWdtYzBYaFZyRE5tMXJ1bVIzbExOUGtmYkluREZrX3FBNFBOQV84LVlNNGRhNE1IMzBFR09LejYzQ1lBLVBWQTAzTGJvZllKQnhDRlA0?oc=5",
         "date": "Thu, 05 Nov 2026 05:23:37 GMT",
         "source": "NHKニュース"
+      },
+      {
+        "title": "漁船内で暴行、そのようすを携帯電話で撮影か 浜田海保が船長ら男３人逮捕 - 山陰中央新報デジタル",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByamhuMmptRVBFa05zRENlRGVjOVppa1RMdDRlQTlDR1FzMm9ucHlIcF8xa1U1X3hRajhlSC1lUmlyMmtYNUhnb2MwTlA2WjdYSURPZXYyLVVsQms?oc=5",
+        "date": "Thu, 05 Nov 2026 04:11:00 GMT",
+        "source": "山陰中央新報デジタル"
       },
       {
         "title": "海保巡視船艇や航空機、11月8日に愛媛県の大規模津波防災総合訓練に参加へ 宇和島港で捜索・救助や物資輸送訓練 - Funeco",
@@ -33,10 +39,10 @@
         "source": "産経ニュース"
       },
       {
-        "title": "漁船内で暴行、そのようすを携帯電話で撮影か 浜田海保が船長ら男３人逮捕 - 山陰中央新報デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByamhuMmptRVBFa05zRENlRGVjOVppa1RMdDRlQTlDR1FzMm9ucHlIcF8xa1U1X3hRajhlSC1lUmlyMmtYNUhnb2MwTlA2WjdYSURPZXYyLVVsQms?oc=5",
-        "date": "Thu, 05 Nov 2026 04:11:00 GMT",
-        "source": "山陰中央新報デジタル"
+        "title": "田辺海上保安部 紀州日高漁協に感謝状 - 日高新報",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVQlNyWE9zbE9XV0t4eUtMYk5CeTlUOVM5VmFrT3VPX19zdDBwS21DWjRJbkxCbDF5cHFIREE3ME95NVN0Y2tjVk80UDY?oc=5",
+        "date": "Thu, 05 Nov 2026 05:54:09 GMT",
+        "source": "日高新報"
       },
       {
         "title": "巡視船が浅瀬に接触 11管、46歳主任航海士を書類送検 沖縄・うるま市沖 - 沖縄タイムス社",
@@ -55,12 +61,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81bkZ6T3daV09fcUd3VXZKdUpsbmJpLWU3M2hCS0ttQ1hwWGZjSkN3R0g5OUJzVkNLR1laZzJQcy1QOWxNTHptQWNveE9abkVy?oc=5",
         "date": "Wed, 04 Nov 2026 20:00:00 GMT",
         "source": "www.nnn.co.jp"
-      },
-      {
-        "title": "熱海港周辺で海と防災のイベント 3催しを同時開催 - 熱海経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jMGxidEJVa3U3NUZlbjhDdElWajdpcG9fY3NyeUdUMVdpakJ2TC03anoxUldkak5fc0laeTVGX0VXT0dsYkp2elRsY1Z2RDEw?oc=5",
-        "date": "Wed, 04 Nov 2026 20:52:55 GMT",
-        "source": "熱海経済新聞"
       }
     ],
     "尖閣諸島": [
@@ -107,22 +107,22 @@
         "source": "読売新聞"
       },
       {
-        "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" - PRESIDENT Online（プレジデントオンライン）",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZnhDUmpteHJHNkNkREVkUGdLdXdKT1Z0TlJWLVZXS0U0S2JCSklVTTFiZ3NmWWRhZU1tNGtjeHYwUnVGTm9MRHB6em1ROW5pMjBCenBwUko?oc=5",
-        "date": "Wed, 07 Oct 2026 07:00:00 GMT",
-        "source": "PRESIDENT Online（プレジデントオンライン）"
-      },
-      {
         "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdms4Um5ySFdLZGRpblJuOUZMUE1veHZWeExOY2VhalR6bG42TlhmMnhqcWZQUkZhRE9tM1h5N0pjaHZpVS15bXRkNXVGeENNTGZMbnk5WXFqU2pYakExSGNyNjhwOUIydnFvSDFqM3M1TWxtc2RrbVd1djZKWUpvTVFyNUxoNnl3N0JWSjBoM3hPMXE1OUVB?oc=5",
         "date": "Mon, 17 Aug 2026 07:00:00 GMT",
         "source": "石垣市"
       },
       {
-        "title": "尖閣諸島周辺に中国船、50日連続 海上保安庁の巡視船が確認 - 日本経済新聞",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
-        "date": "Sun, 27 Sep 2026 07:00:00 GMT",
-        "source": "日本経済新聞"
+        "title": "中国も｢尖閣諸島は日本領｣と認めていたのに…｢突然の手のひら返し｣を助長させた4人の首相の\"大失態\" - PRESIDENT Online（プレジデントオンライン）",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZnhDUmpteHJHNkNkREVkUGdLdXdKT1Z0TlJWLVZXS0U0S2JCSklVTTFiZ3NmWWRhZU1tNGtjeHYwUnVGTm9MRHB6em1ROW5pMjBCenBwUko?oc=5",
+        "date": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "source": "PRESIDENT Online（プレジデントオンライン）"
+      },
+      {
+        "title": "尖閣諸島・竹島をめぐって緊張高まる - NHK",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wMDNJSi1rX3V6em5BXzBWZWtuNmJyekdWY0d0MV85cE1YbW9TVmJ2ekJyUDlYNV9XaDAwNm5OUGNxaHRzbUhtT19fTXE4SXltMFRiZGdYaC1aTGxXVDhQajFrMFhQWUtISzgxXw?oc=5",
+        "date": "Fri, 11 Sep 2026 07:00:00 GMT",
+        "source": "NHK"
       }
     ]
   }
