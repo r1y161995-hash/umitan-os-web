@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:44:18.842556+00:00",
+  "updated_at": "2026-11-10T10:43:49.543551+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -13,12 +13,6 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pLVhUcnZqcC03NEVIQnE3aFkzSXJZSkJoZW0tUGxvc3dmbjRrWDJ4LW9WaUdBSEtYMWlGSjI3cUxpSS1pRFhyUzBZNkF0NnVwcURMOHZkU0RPZm9CdUlzeUY2MF9HVDJHQ2pUQTVncUlVOVZ0d3hrQlI3Nm5NVms?oc=5",
         "date": "Tue, 10 Nov 2026 06:13:21 GMT",
         "source": "Yahoo!ニュース"
-      },
-      {
-        "title": "糸満市名城ビーチで貝採集か 60代男性が行方不明 海保が巡視船やヘリで捜索 - QAB 琉球朝日放送",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2MW5WR0tyY2FUcE03dktkYVRMUXl5Q0I4VjZRTTROZmNTakVHc3JCQk5SS2lRZlg5Qm02OFMzbHFIR2g1RXFJczN6UkVOWUo3RFhmMHR3dEwwQQ?oc=5",
-        "date": "Tue, 10 Nov 2026 09:26:57 GMT",
-        "source": "QAB 琉球朝日放送"
       },
       {
         "title": "“海猿”を目指す男たち 僅か1%の狭き門に挑む 海上保安官らの『潜水士』選考会 ｢現場で人命救助にあたりたい｣ 【福岡発】 - FNNプライムオンライン",
@@ -51,15 +45,21 @@
         "source": "沖縄タイムス社"
       },
       {
+        "title": "海底の「ゴジラ」が地質遺産に 発見「功労者」の余生、海保が模索 - 朝日新聞",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xR1NTRmtDU1RoZ2pYb3NKSWRpYWZ4V1Q1YWN3bnJLd0pkNXVHYTA2b1I4V3FCVElCRVVPSlZfZ21IblQ0WTJwSTVUc3hnQWZYdHNNVEl2UnJSR0pPd01uOUNNZ2VobWM?oc=5",
+        "date": "Fri, 06 Nov 2026 14:00:00 GMT",
+        "source": "朝日新聞"
+      },
+      {
         "title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - 読売新聞",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abmEwRjkySndJZ19HUVNXS3o5bHRzcG5SQllBT0FEZk5wQzJpcnNnYnp1LXNILWZZZXFoam1MdWt6XzVvdDUwMF9oNm5oRV9XdG5ZdVB6dXlvTkloSGVRSmRSUGs0VU5Fekl5d2ViaTBGdw?oc=5",
         "date": "Tue, 10 Nov 2026 01:20:00 GMT",
         "source": "読売新聞"
       },
       {
-        "title": "旅客船「飛鳥II」で急患 船員の女性を海上保安部が救助 香川県小豆島沖（RSK山陽放送） - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DLVlVTG1JN3BvWHJ1dHlYMXA2ZjJidUttYkwxMHkyN0NtaEtLMTJySkdKUVV1Qm1wUWpmMDdFT0lqeGwtMFRzS1FtNHJvbHNrNzd3aU01eGR0VUwyTzVOMFB2SUxKczF6OVExemRoMVYydFZpc1hYejZFeGlIVlU?oc=5",
-        "date": "Tue, 10 Nov 2026 00:10:23 GMT",
+        "title": "糸満市名城ビーチで貝採集か 60代男性が行方不明 海保が巡視船やヘリで捜索 沖縄 - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zZnRxbnh3UUhBcTZjMWRpalN1Rmx4QXpEeXg1ZWdJVEczdXduS1dsdU5KVk14SlhYYnY0SHJZYUNqWDhpZDZTVlF5LTgtSGtDMFYxeml5R3p5bGpSdG5OUFdEclZvOG9wSEVMNUpGLW1JQms2bjhkU3lFR1Q2R2s?oc=5",
+        "date": "Tue, 10 Nov 2026 10:02:18 GMT",
         "source": "Yahoo!ニュース"
       }
     ],
@@ -69,6 +69,48 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abmEwRjkySndJZ19HUVNXS3o5bHRzcG5SQllBT0FEZk5wQzJpcnNnYnp1LXNILWZZZXFoam1MdWt6XzVvdDUwMF9oNm5oRV9XdG5ZdVB6dXlvTkloSGVRSmRSUGs0VU5Fekl5d2ViaTBGdw?oc=5",
         "date": "Tue, 10 Nov 2026 01:20:00 GMT",
         "source": "読売新聞"
+      },
+      {
+        "title": "沖縄・尖閣諸島周辺に中国海警局船2隻 機関砲搭載で17日連続、海保巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhRERhbmJfUlZ3dndvdWItblYtVFlPcll2SHJjUkxkLTZzenM3cjl1M1I2RXdvQlRsaXpWdVNoSXUtdTdFemJPRWc5RkxmQ2JLYVpDVnVzODJKQ1pGUTY0WTFuSWlvUXZ0YkJVLVd0czFaREU2Znc?oc=5",
+        "date": "Tue, 10 Nov 2026 01:53:10 GMT",
+        "source": "産経ニュース"
+      },
+      {
+        "title": "機関砲搭載の中国船4隻が尖閣諸島周辺の領海に侵入 今年18日目 - 毎日新聞",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92RzI2X2RFU1lxWElrR2tBeFVvT0Z5Q0ppcWpvbGxISDZ0cWgySTlYVHE4dE1PQ18tdUJabmk2V3Z6V054enZXLTl1aDhMZkJnVkI0a29aOFZfUjBlRjVVNzRGWFpnM2lt?oc=5",
+        "date": "Mon, 09 Nov 2026 06:17:13 GMT",
+        "source": "毎日新聞"
+      },
+      {
+        "title": "中国公船4隻が一時領海侵入 沖縄・尖閣沖（時事通信） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NMWI3XzZrTWVmQXJQYUc0ZDdNclRPRlVfWGFOdXBmR1BZYTRWWXNrU2VacjZCQkprNUNxdzFONlZwSGVCUUFtZlpORURxNFg4bDlyb0t2dWFTMFpDVnN5WFRud2o4NG5ZcmxHOFBELWUxQUdTSE9HS1FObGVaOEU?oc=5",
+        "date": "Mon, 09 Nov 2026 05:20:10 GMT",
+        "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "尖閣諸島周辺に中国船 16日連続 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JSFA4YkxlLW94Wkp0cVFKX0RfR0xtNTZZSDVoclpfeDlkMXJ0M0ZBRkVlWno4N3pvR1RBV1k5cnVWUnlBM1dtQTg2Q1ltRHRTTjFjWXJnTEtFYVFyTnlBamw5cmlFaEhzaTNSQTBNV19PeWtTRUE?oc=5",
+        "date": "Mon, 09 Nov 2026 02:10:24 GMT",
+        "source": "産経ニュース"
+      },
+      {
+        "title": "中国船4隻が尖閣周辺の領海出る（共同通信） - Yahoo!ニュース",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZUUZfLWFFSmt6bjluTENzTmNrVF82a2IwMjRiUjFEODZmN2swM05oekFPN2t1SzdVYU5EY3lLMlVVcDhrUW9LZ2pBU2pUM0w2LTVTZ3JKQTEteDQxdXAtazNjSE4tVnpEbWVlU1BOTXdmNHNvaXgybjA3Yk9jMlk?oc=5",
+        "date": "Mon, 09 Nov 2026 05:11:16 GMT",
+        "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "尖閣周辺に中国船 15日連続 領海に近づかないよう海保が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JZGdrRGFqOXFWV1ZyR3JkUTlRUE91azZOTjhheGp6eGMyOWhZejh6dkNIdWVWTVVVMVNWVWhRMG1vZE5vaWV5U0lYZU11eEpnMnRYZVNQMW1RcjJjOXVHSEhJSWhtYUtJUDk4TWFTSUxTLXowUEE?oc=5",
+        "date": "Sun, 08 Nov 2026 01:38:04 GMT",
+        "source": "産経ニュース"
+      },
+      {
+        "title": "尖閣周辺に機関砲搭載の中国海警船、14日連続で確認 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aTWtTUGctcHN5UnMyTWNkVjNYMWxBZ1QydzQwdFlkMWpWMkpvRURqcERVNlBpM01GQ3l4QW9vUjIwUlFCbXcxS1B2c29wUjI0VHptdTJVemJxa0xRQkY2RlJIVTJ4UzRLelNsLVdyMm9DR09tZlE?oc=5",
+        "date": "Sat, 07 Nov 2026 01:32:51 GMT",
+        "source": "産経ニュース"
       },
       {
         "title": "「最新鋭かつ大型」9月に就役\"巡視船ひろしま\" の就役披露式 全長120mの大型巡視船 ヘリ着船可能な甲板も装備 尖閣諸島周辺の警備などの任務にも利用 (RCC中国放送) - Yahoo!ニュース",
@@ -81,48 +123,6 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPamhjX0lyT3FtQzMxS3NkT21LQ294MENrenlUckhEYnVZYnpqQ1A3c3F0eDhpQmZTYkt1c0QyUHpSazJMT1ZGVGh6SUVOVUdRWS1WdGNFRDVpWXdJY3o0?oc=5",
         "date": "Mon, 09 Nov 2026 04:03:11 GMT",
         "source": "NHKニュース"
-      },
-      {
-        "title": "米中間選挙で「歴史的大敗」、トランプ政権の弱体化で中国の「戦狼外交」激化か…尖閣諸島に迫るリスク - JBpress",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4bFlYTDl6VWNiRlNXWnh4bnc1NVFma0lDY2NtZl9neWFPLXN3Q1ZVZUcxZ2FFS0hYSDlVTHNsaFhQemVpZEV2d3V3WXZBNkhxUUQ0dThB?oc=5",
-        "date": "Wed, 04 Nov 2026 23:00:00 GMT",
-        "source": "JBpress"
-      },
-      {
-        "title": "中国船が一時領海侵入 - 沖縄タイムス社",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IX0pJN1J5Q2NrNElZWUJXQTRfTEhvNld0dkFmS0ZNblRHWjBwZ2hmSWdWQzdnUVNZSFpSVkVtRmFJcXlrT01Ba2JJelRVMkxuTm9UOUJ5RHdUMmpOanc?oc=5",
-        "date": "Mon, 09 Nov 2026 18:57:00 GMT",
-        "source": "沖縄タイムス社"
-      },
-      {
-        "title": "【速報】中国船4隻が尖閣周辺の領海出る - 47NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5oQmtZOWl6aHBrOXhZUFd5YW13Z1plYjVUcWx2dUtReW44WERwRDN4a2RINHFvTU5wS2RnTDlJNjU5WXdubEt2QU95TQ?oc=5",
-        "date": "Mon, 09 Nov 2026 05:11:16 GMT",
-        "source": "47NEWS"
-      },
-      {
-        "title": "中国船４隻が尖閣周辺の領海出る - 京都新聞デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtUGVsMFB1cmZ1U1hoNFVfS0FCRExVSWhaQ1MyaHZwZFE5UUM2V01mZE9rT3lDeXA5eDJxeklJQjZpSHBabE5vTDR2a3d1aVlGaVQ5S3g1blc?oc=5",
-        "date": "Mon, 09 Nov 2026 05:11:16 GMT",
-        "source": "京都新聞デジタル"
-      },
-      {
-        "title": "米中大接近の果てに、この国が中国の軍門に下らないために…日本が全力で考えるべき「尖閣諸島防衛」という現実課題 - 現代ビジネス",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45S2RjNzR5UGlsOWhGU2dxei1nYVU3MGM2QktwZWE0eFRkWnVCaUpqMG5aSjhPZDU5bWsyaGJLRkxyLUpodWxMb1dfWkhHVXM?oc=5",
-        "date": "Tue, 03 Nov 2026 21:01:52 GMT",
-        "source": "現代ビジネス"
-      },
-      {
-        "title": "「魚釣島で遺骨収集を」石垣市長が国に要請 尖閣諸島の上陸調査も - 琉球新報デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FU0ZQdzU0LUtrbmhTWmNoc0VPVUNfS051eTNqUHhZSTAySFlua3hiRUZ4a2REWlpqR0dIOEt1UHR0c1hwX0RxWWV0aWRkNVgyVzB2NUlHbTlmbFNDQ0UyVA?oc=5",
-        "date": "Tue, 03 Nov 2026 20:00:00 GMT",
-        "source": "琉球新報デジタル"
-      },
-      {
-        "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xOVJraGdLQ1RURm5SN2drUjltaEtwS0tfbmRwZkNnNnFLZVhkMFF4ZGdmc2M2WHdEay16a3NialdPcnBlWHM5ZUducWs3QXQxYVBSTGhYQkpOSEVkd3c?oc=5",
-        "date": "Sun, 08 Nov 2026 18:57:00 GMT",
-        "source": "沖縄タイムス社"
       }
     ]
   }
