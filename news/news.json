@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T06:47:02.669536+00:00",
+  "updated_at": "2026-11-10T07:59:36.565662+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -33,6 +33,12 @@
         "source": "産経ニュース"
       },
       {
+        "title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - 読売新聞",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abmEwRjkySndJZ19HUVNXS3o5bHRzcG5SQllBT0FEZk5wQzJpcnNnYnp1LXNILWZZZXFoam1MdWt6XzVvdDUwMF9oNm5oRV9XdG5ZdVB6dXlvTkloSGVRSmRSUGs0VU5Fekl5d2ViaTBGdw?oc=5",
+        "date": "Tue, 10 Nov 2026 01:20:00 GMT",
+        "source": "読売新聞"
+      },
+      {
         "title": "恩納村のダイビング店で不法就労の疑い ショップを営む中国籍の男ら4人逮捕 名護海保 - 沖縄タイムス社",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyWmJzMFRJQnY5VXpvdGlFQTI2QnNiZkw0ZFVSTmtQa1VXVTZkcENzamhvNE1EaDlPa2htdThrenlrYVhHYnB4NElZeDVYMHJnTmoyQVpza3pOdU12UFE?oc=5",
         "date": "Mon, 09 Nov 2026 22:02:00 GMT",
@@ -55,20 +61,14 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DLVlVTG1JN3BvWHJ1dHlYMXA2ZjJidUttYkwxMHkyN0NtaEtLMTJySkdKUVV1Qm1wUWpmMDdFT0lqeGwtMFRzS1FtNHJvbHNrNzd3aU01eGR0VUwyTzVOMFB2SUxKczF6OVExemRoMVYydFZpc1hYejZFeGlIVlU?oc=5",
         "date": "Tue, 10 Nov 2026 00:10:23 GMT",
         "source": "Yahoo!ニュース"
-      },
-      {
-        "title": "白濁し臭い汚水を垂れ流しか、余市町にある食品会社と66歳社長を書類送検「漫然と排水してしまった」水質汚濁防止法違反容疑 小樽海上保安部 - TBS NEWS DIG",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HeVhncFVMbVdCTy1pd3BFelYwdHJxS1VzZWM1QU1qQmVNWGcxMktXazNPWV9KZ2JiRnVmb3lMYUdJQ2wtWUJCNUx3OE5CVUU5SkE5Y3BUaw?oc=5",
-        "date": "Mon, 09 Nov 2026 12:30:00 GMT",
-        "source": "TBS NEWS DIG"
       }
     ],
     "尖閣諸島": [
       {
-        "title": "機関砲搭載の中国船4隻が尖閣諸島周辺の領海に侵入 今年18日目 - 毎日新聞",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92RzI2X2RFU1lxWElrR2tBeFVvT0Z5Q0ppcWpvbGxISDZ0cWgySTlYVHE4dE1PQ18tdUJabmk2V3Z6V054enZXLTl1aDhMZkJnVkI0a29aOFZfUjBlRjVVNzRGWFpnM2lt?oc=5",
-        "date": "Mon, 09 Nov 2026 06:17:13 GMT",
-        "source": "毎日新聞"
+        "title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - 読売新聞",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abmEwRjkySndJZ19HUVNXS3o5bHRzcG5SQllBT0FEZk5wQzJpcnNnYnp1LXNILWZZZXFoam1MdWt6XzVvdDUwMF9oNm5oRV9XdG5ZdVB6dXlvTkloSGVRSmRSUGs0VU5Fekl5d2ViaTBGdw?oc=5",
+        "date": "Tue, 10 Nov 2026 01:20:00 GMT",
+        "source": "読売新聞"
       },
       {
         "title": "「最新鋭かつ大型」9月に就役\"巡視船ひろしま\" の就役披露式 全長120mの大型巡視船 ヘリ着船可能な甲板も装備 尖閣諸島周辺の警備などの任務にも利用 (RCC中国放送) - Yahoo!ニュース",
@@ -113,16 +113,16 @@
         "source": "現代ビジネス"
       },
       {
-        "title": "「魚釣島で遺骨収集を」石垣市長が国に要請 尖閣諸島の上陸調査も - 琉球新報デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FU0ZQdzU0LUtrbmhTWmNoc0VPVUNfS051eTNqUHhZSTAySFlua3hiRUZ4a2REWlpqR0dIOEt1UHR0c1hwX0RxWWV0aWRkNVgyVzB2NUlHbTlmbFNDQ0UyVA?oc=5",
-        "date": "Tue, 03 Nov 2026 20:00:00 GMT",
-        "source": "琉球新報デジタル"
+        "title": "尖閣周辺に中国船4隻 - 沖縄タイムス社",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xOVJraGdLQ1RURm5SN2drUjltaEtwS0tfbmRwZkNnNnFLZVhkMFF4ZGdmc2M2WHdEay16a3NialdPcnBlWHM5ZUducWs3QXQxYVBSTGhYQkpOSEVkd3c?oc=5",
+        "date": "Sun, 08 Nov 2026 18:57:00 GMT",
+        "source": "沖縄タイムス社"
       },
       {
-        "title": "「最新鋭かつ大型」9月に就役\"巡視船ひろしま\" の就役披露式 全長120mの大型巡視船 ヘリ着船可能な甲板も装備 尖閣諸島周辺の警備などの任務にも利用（RCC中国放送） - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVUMzMHBReVoyVjNFaUJ6dkFkTEhPcTY4N3hsaGtIbThaNU1JUDNxRjBwOE9xQm44TzVuUDFsOW5DaURJTWpjMlhWU0ZPVHVlUG1kTU9QbE5JbU1HaVRENzU0SkFfNGdyNnBWbXVweE9SSzF6VVg0SjNmU1ltNXM?oc=5",
-        "date": "Fri, 06 Nov 2026 21:00:36 GMT",
-        "source": "Yahoo!ニュース"
+        "title": "沖縄・尖閣諸島周辺に中国海警局船4隻 機関砲搭載で12日連続、海保巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RSXNSSFJmUEl2RVQyYkNtb3VQVklBQWVPVWNrenVHakI2OGhQbnVQSGkxZWI2WmJYYUJsZFRJa2daZ1VhbVJjV2Q1S2lScWdMWFN2Rms1WnJoVkpoZzgybUpKV2xQcVdoZ19PTHlBWHRTdHd2bFE?oc=5",
+        "date": "Thu, 05 Nov 2026 02:25:24 GMT",
+        "source": "産経ニュース"
       }
     ]
   }
