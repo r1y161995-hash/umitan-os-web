@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:42:34.434699+00:00",
+  "updated_at": "2026-11-12T20:37:47.914799+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -27,12 +27,6 @@
         "source": "KSBニュース"
       },
       {
-        "title": "遊覧船、定員１．７倍で航行か 中学修学旅行で貸し切り中―海保が捜査、船長ら聴取―長崎・壱岐島沖 - 時事ドットコム",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6MU1LOFFQWElray1zaHJ1QmJjb0dUWE5qRjZDUWFrUVo1bTk5dzRnMlRsX3ROZ25nNTYtTGx6b2lOYkhlOGVpS29EQTdwc1h3QzE1LVlwNWhvOHRBd080TVNLWQ?oc=5",
-        "date": "Tue, 10 Nov 2026 23:27:00 GMT",
-        "source": "時事ドットコム"
-      },
-      {
         "title": "目指せ“海猿” 約1％の狭き門に挑戦 海上保安官ら「潜水士」選考会 福岡・北九州市 - FNNプライムオンライン",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lTzJZbzVRWXFiUWRCa1BsSjdwUkpMWmJMVTF6T2JRMW50NjhLekNxNnFYVWhlRVlsWWJld294NzY2VnNoSXRGR2dXVHBzdw?oc=5",
         "date": "Mon, 09 Nov 2026 08:00:00 GMT",
@@ -57,10 +51,16 @@
         "source": "朝日新聞"
       },
       {
-        "title": "海保巡視船で「被災観光客」輸送 伊東市が防災訓練 - 静岡新聞DIGITAL",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIeGxpd0hjcVF5Z2NNRHczektjMkxGQ3FLVS1GM2poLUpvOVpMQ2F5WnhCYnlxQ3JpNy1ObzNVZEo4eWwwckJCYUF3SnpzZw?oc=5",
-        "date": "Wed, 11 Nov 2026 21:00:00 GMT",
-        "source": "静岡新聞DIGITAL"
+        "title": "「ゴジラ」ゆかりの海底地形、地質遺産に認定 海保調査で発見 - 日本経済新聞",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UZkpnU3hmQnVraFVfYnpIdmkzSzhpdVFGdkRXbVRPN0J3ZnYzemQ0ZlYwbFRBd3ZJdmthSl9RYjQybHlVY0VWZ2NSR1FKTTBIUFdjUFlIOWc2aFNzZ0VGWF9NYXRienptbHNubw?oc=5",
+        "date": "Sat, 07 Nov 2026 00:33:17 GMT",
+        "source": "日本経済新聞"
+      },
+      {
+        "title": "北海道：海保の廃版「英語版」７海図寄贈、小樽市総合博物館に：地域ニュース - 読売新聞",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wWUJxZlBDcWhReXM0ZkppVHowRVFaY2pyUjQySXdyNTJXUFdscVpEQ050YmdGck9jMGswSXQ4MjI5WVdIRTM3Y0JyVXVKV2tuUGp1VmxReFVwY05aYlBFNmFHVEFzaFZHMzg5ajlMWWZ6ZW9K?oc=5",
+        "date": "Thu, 12 Nov 2026 20:00:00 GMT",
+        "source": "読売新聞"
       }
     ],
     "尖閣諸島": [
@@ -71,16 +71,16 @@
         "source": "Yahoo!ニュース"
       },
       {
-        "title": "尖閣周辺に中国船 海警局の船4隻 19日連続 いずれも機関砲搭載 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTFJiMGdNWll0cV9idTQ5VU14MWxJMDlPbm1IR3NBdFl1OWg3NFlvM1E2Y1djWjVzNDB5QnlPaXpmdzVQdE1tdHgyZU44YnlRNzRQUmktTjB1M29LVE5WWkUxcjQySzJ0MjBncndId09JeUQxdVE?oc=5",
-        "date": "Thu, 12 Nov 2026 01:44:12 GMT",
-        "source": "産経ニュース"
-      },
-      {
         "title": "沖縄 中国海警局の船4隻が尖閣諸島沖で日本の領海に一時侵入 - NHKニュース",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPamhjX0lyT3FtQzMxS3NkT21LQ294MENrenlUckhEYnVZYnpqQ1A3c3F0eDhpQmZTYkt1c0QyUHpSazJMT1ZGVGh6SUVOVUdRWS1WdGNFRDVpWXdJY3o0?oc=5",
         "date": "Mon, 09 Nov 2026 04:03:11 GMT",
         "source": "NHKニュース"
+      },
+      {
+        "title": "尖閣周辺に中国船 海警局の船4隻 19日連続 いずれも機関砲搭載 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTFJiMGdNWll0cV9idTQ5VU14MWxJMDlPbm1IR3NBdFl1OWg3NFlvM1E2Y1djWjVzNDB5QnlPaXpmdzVQdE1tdHgyZU44YnlRNzRQUmktTjB1M29LVE5WWkUxcjQySzJ0MjBncndId09JeUQxdVE?oc=5",
+        "date": "Thu, 12 Nov 2026 01:44:12 GMT",
+        "source": "産経ニュース"
       },
       {
         "title": "【速報】中国船4隻が尖閣周辺の領海出る - 47NEWS",
