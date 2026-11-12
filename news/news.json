@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:48:54.820570+00:00",
+  "updated_at": "2026-11-12T17:42:23.979118+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -21,6 +21,12 @@
         "source": "47NEWS"
       },
       {
+        "title": "小豆島沖に錨泊中の「飛鳥Ⅱ」の女性船員(39)が腹痛訴える 巡視艇で救急搬送 高松海上保安部 - KSBニュース",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BM2czaFhSdG1ya3BEVXZ4SGNGQ2lwTUJrQkxnWFdsdDBFNFFUZ2cyUlZGaHl1TEdBTVIzZDhEYkFGRWhfdmN0YzRCQ3lzZE03?oc=5",
+        "date": "Tue, 10 Nov 2026 00:15:00 GMT",
+        "source": "KSBニュース"
+      },
+      {
         "title": "海保巡視船で「被災観光客」輸送 伊東市が防災訓練 - 静岡新聞DIGITAL",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIeGxpd0hjcVF5Z2NNRHczektjMkxGQ3FLVS1GM2poLUpvOVpMQ2F5WnhCYnlxQ3JpNy1ObzNVZEo4eWwwckJCYUF3SnpzZw?oc=5",
         "date": "Wed, 11 Nov 2026 21:00:00 GMT",
@@ -31,12 +37,6 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EbmtxcWN2eDZGUldYajVBSThMVmZHU0hXNk8xekV3eU5JZXZONjM2SFlveTZ3SklyUElRenJ0V3VKRzRMbmV0TU9QVlJBallaaXZMa3VCa0wwV3NpZTNzVXlXaE9NVzlGbkNRcEVTTE4tT1k0THpz?oc=5",
         "date": "Thu, 12 Nov 2026 11:00:00 GMT",
         "source": "ｄメニューニュース"
-      },
-      {
-        "title": "小豆島沖に錨泊中の「飛鳥Ⅱ」の女性船員(39)が腹痛訴える 巡視艇で救急搬送 高松海上保安部 - KSBニュース",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BM2czaFhSdG1ya3BEVXZ4SGNGQ2lwTUJrQkxnWFdsdDBFNFFUZ2cyUlZGaHl1TEdBTVIzZDhEYkFGRWhfdmN0YzRCQ3lzZE03?oc=5",
-        "date": "Tue, 10 Nov 2026 00:15:00 GMT",
-        "source": "KSBニュース"
       },
       {
         "title": "目指せ“海猿” 約1％の狭き門に挑戦 海上保安官ら「潜水士」選考会 福岡・北九州市 - FNNプライムオンライン",
@@ -65,16 +65,16 @@
     ],
     "尖閣諸島": [
       {
-        "title": "尖閣周辺に中国船 海警局の船4隻 19日連続 いずれも機関砲搭載 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTFJiMGdNWll0cV9idTQ5VU14MWxJMDlPbm1IR3NBdFl1OWg3NFlvM1E2Y1djWjVzNDB5QnlPaXpmdzVQdE1tdHgyZU44YnlRNzRQUmktTjB1M29LVE5WWkUxcjQySzJ0MjBncndId09JeUQxdVE?oc=5",
-        "date": "Thu, 12 Nov 2026 01:44:12 GMT",
-        "source": "産経ニュース"
-      },
-      {
         "title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PR2FKSU1KZUNhbXNpLXpDUHZuVVRwa2EwQk9jeUI1ZEFtbzNHaHpZRXI2MEdmbWRBVUtkMTNBYnU2UzU5b1Q0c05MU1czaFpmblJTaFkzbHEtdU1ZUXM4aDUtUlU3LWgtM2Q5anBVU29WaUFMeHpldHBhWUVvUzQ?oc=5",
         "date": "Tue, 10 Nov 2026 01:20:57 GMT",
         "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "尖閣周辺に中国船 海警局の船4隻 19日連続 いずれも機関砲搭載 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTFJiMGdNWll0cV9idTQ5VU14MWxJMDlPbm1IR3NBdFl1OWg3NFlvM1E2Y1djWjVzNDB5QnlPaXpmdzVQdE1tdHgyZU44YnlRNzRQUmktTjB1M29LVE5WWkUxcjQySzJ0MjBncndId09JeUQxdVE?oc=5",
+        "date": "Thu, 12 Nov 2026 01:44:12 GMT",
+        "source": "産経ニュース"
       },
       {
         "title": "沖縄 中国海警局の船4隻が尖閣諸島沖で日本の領海に一時侵入 - NHKニュース",
