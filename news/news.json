@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:37:43.134270+00:00",
+  "updated_at": "2026-11-13T02:36:59.545433+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -45,12 +45,6 @@
         "source": "NCC長崎文化放送"
       },
       {
-        "title": "テロから室蘭港守れ 海保など６機関合同訓練 - 47NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Md2pnVGFMSHZjdXZxZDlobWtOd2l5SXo0RVJBbGtPWUhiaHA4TmUweXlHeEVYcWp5bUoxNVg0bkFPbENiUjlLcUZSVQ?oc=5",
-        "date": "Thu, 12 Nov 2026 13:00:00 GMT",
-        "source": "47NEWS"
-      },
-      {
         "title": "海底地形の「ゴジラ」、地質遺産１００選に 公海で海保測量、地球最大「メガムリオン」 - 朝日新聞",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5INkpvRlVXVmJ4NG5OTmhjZzBHWGE3RzdjU0JTaHk0YmFmeGVoNWU1MkpXWnVaWDRKaUNuS3RBRlRDMi0wQnByUXVtZEprZHc3ZnBrb0UtY1BfVUpM?oc=5",
         "date": "Sat, 07 Nov 2026 20:00:00 GMT",
@@ -61,6 +55,12 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZbFJkaVdLTnZxcENKUXE3MGl2bFo5RlR5eEw3UzJYWnhNcElKZkdQSGtSdkxsZjUzQXRJYldjcTYzMVF2VVdpcEt5eVBHU015N01mSU1GSS1lbUszS0hZ?oc=5",
         "date": "Sun, 08 Nov 2026 11:18:16 GMT",
         "source": "NHKニュース"
+      },
+      {
+        "title": "テロから室蘭港守れ 海保など６機関合同訓練 - 47NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Md2pnVGFMSHZjdXZxZDlobWtOd2l5SXo0RVJBbGtPWUhiaHA4TmUweXlHeEVYcWp5bUoxNVg0bkFPbENiUjlLcUZSVQ?oc=5",
+        "date": "Thu, 12 Nov 2026 13:00:00 GMT",
+        "source": "47NEWS"
       }
     ],
     "尖閣諸島": [
@@ -77,10 +77,16 @@
         "source": "Yahoo!ファイナンス"
       },
       {
-        "title": "沖縄 中国海警局の船4隻が尖閣諸島沖で日本の領海に一時侵入 - NHKニュース",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPamhjX0lyT3FtQzMxS3NkT21LQ294MENrenlUckhEYnVZYnpqQ1A3c3F0eDhpQmZTYkt1c0QyUHpSazJMT1ZGVGh6SUVOVUdRWS1WdGNFRDVpWXdJY3o0?oc=5",
-        "date": "Mon, 09 Nov 2026 04:03:11 GMT",
-        "source": "NHKニュース"
+        "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法 - PRESIDENT Online（プレジデントオンライン）",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92V0JyTmVwTnB2ZTlwYkFSbHRlMTN2WXkza2R2czQyM0xTcUZFejQ5NG1yQk95R1FaSVFhcE05V3Y3b2lwTEJnWE9hN0cxcHM?oc=5",
+        "date": "Fri, 13 Nov 2026 01:03:59 GMT",
+        "source": "PRESIDENT Online（プレジデントオンライン）"
+      },
+      {
+        "title": "尖閣周辺に中国船 海警局の船4隻 19日連続 いずれも機関砲搭載 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNTFJiMGdNWll0cV9idTQ5VU14MWxJMDlPbm1IR3NBdFl1OWg3NFlvM1E2Y1djWjVzNDB5QnlPaXpmdzVQdE1tdHgyZU44YnlRNzRQUmktTjB1M29LVE5WWkUxcjQySzJ0MjBncndId09JeUQxdVE?oc=5",
+        "date": "Thu, 12 Nov 2026 01:44:12 GMT",
+        "source": "産経ニュース"
       },
       {
         "title": "尖閣諸島・久場島沖の領海に中国海警局の船４隻が一時侵入、いずれも砲を搭載…海上保安庁が退去要求 - 読売新聞",
@@ -89,16 +95,16 @@
         "source": "読売新聞"
       },
       {
+        "title": "沖縄 中国海警局の船4隻が尖閣諸島沖で日本の領海に一時侵入 - NHKニュース",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPamhjX0lyT3FtQzMxS3NkT21LQ294MENrenlUckhEYnVZYnpqQ1A3c3F0eDhpQmZTYkt1c0QyUHpSazJMT1ZGVGh6SUVOVUdRWS1WdGNFRDVpWXdJY3o0?oc=5",
+        "date": "Mon, 09 Nov 2026 04:03:11 GMT",
+        "source": "NHKニュース"
+      },
+      {
         "title": "沖縄・尖閣諸島周辺に中国海警局船2隻 機関砲搭載で17日連続、海保巡視船が警告 - 産経ニュース",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhRERhbmJfUlZ3dndvdWItblYtVFlPcll2SHJjUkxkLTZzenM3cjl1M1I2RXdvQlRsaXpWdVNoSXUtdTdFemJPRWc5RkxmQ2JLYVpDVnVzODJKQ1pGUTY0WTFuSWlvUXZ0YkJVLVd0czFaREU2Znc?oc=5",
         "date": "Tue, 10 Nov 2026 01:53:10 GMT",
         "source": "産経ニュース"
-      },
-      {
-        "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法 - PRESIDENT Online（プレジデントオンライン）",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92V0JyTmVwTnB2ZTlwYkFSbHRlMTN2WXkza2R2czQyM0xTcUZFejQ5NG1yQk95R1FaSVFhcE05V3Y3b2lwTEJnWE9hN0cxcHM?oc=5",
-        "date": "Fri, 13 Nov 2026 01:03:59 GMT",
-        "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
         "title": "【速報】中国船4隻が尖閣周辺の領海出る - 47NEWS",
@@ -111,12 +117,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtUGVsMFB1cmZ1U1hoNFVfS0FCRExVSWhaQ1MyaHZwZFE5UUM2V01mZE9rT3lDeXA5eDJxeklJQjZpSHBabE5vTDR2a3d1aVlGaVQ5S3g1blc?oc=5",
         "date": "Mon, 09 Nov 2026 05:11:16 GMT",
         "source": "京都新聞デジタル"
-      },
-      {
-        "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdms4Um5ySFdLZGRpblJuOUZMUE1veHZWeExOY2VhalR6bG42TlhmMnhqcWZQUkZhRE9tM1h5N0pjaHZpVS15bXRkNXVGeENNTGZMbnk5WXFqU2pYakExSGNyNjhwOUIydnFvSDFqM3M1TWxtc2RrbVd1djZKWUpvTVFyNUxoNnl3N0JWSjBoM3hPMXE1OUVB?oc=5",
-        "date": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "source": "石垣市"
       },
       {
         "title": "中国船が一時領海侵入 - 沖縄タイムス社",
