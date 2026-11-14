@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T02:38:16.347008+00:00",
+  "updated_at": "2026-11-14T03:37:50.297496+00:00",
   "topics": {
     "海上保安庁": [
       {
@@ -21,16 +21,16 @@
         "source": "高知新聞"
       },
       {
-        "title": "旅客船の火災想定 熱海沖で訓練 下田海保、富士急マリンリゾート - 静岡新聞DIGITAL",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40M1JLcGc2NXMtSVlMZXNYRmtqeWt4MDRFZXI3SXRMaEFMNGZ2Vi13R0ZTZjczUkgwS1Jya3ZaMUpHSU9xVTJYMXBlcDFmZw?oc=5",
-        "date": "Fri, 13 Nov 2026 21:00:00 GMT",
-        "source": "静岡新聞DIGITAL"
-      },
-      {
         "title": "広島県や海上保安庁などが連携の「シーパトロール」 海への不法投棄や海岸での野外焼却など防ぐ 年間の不法投棄量は約21トン 県は陸海空から不法投棄を監視（RCC中国放送） - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92T2lJSlpBLWo4ODZPeVNEVTltcEUwdEk3ODFVMGxJUmlOaFVqeVhsdDJaeG5NTzE3eDNDN2x6TDN3S3duUUpFWlp0MFFnTlpTQUxfZ1BuVkdOMHFwcExFS09Nd0V6aEpNdWxwR3RsUElfRS1KV0EwOVVyWEdMd0U?oc=5",
         "date": "Thu, 12 Nov 2026 09:58:13 GMT",
         "source": "Yahoo!ニュース"
+      },
+      {
+        "title": "旅客船の火災想定 熱海沖で訓練 下田海保、富士急マリンリゾート - 静岡新聞DIGITAL",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40M1JLcGc2NXMtSVlMZXNYRmtqeWt4MDRFZXI3SXRMaEFMNGZ2Vi13R0ZTZjczUkgwS1Jya3ZaMUpHSU9xVTJYMXBlcDFmZw?oc=5",
+        "date": "Fri, 13 Nov 2026 21:00:00 GMT",
+        "source": "静岡新聞DIGITAL"
       },
       {
         "title": "名城ビーチで男性行方不明か 海保が捜索 糸満・沖縄 - 琉球新報デジタル",
@@ -65,6 +65,12 @@
     ],
     "尖閣諸島": [
       {
+        "title": "尖閣周辺の接続水域に中国船、機関砲を搭載 21日連続 海保巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzTTRCdHFqQTFPNjZxN0l6bE9BZjk3TzZHaEZPVFVlSlFwOTNUeENYOEVicFVXODNtZHpWRXFwR25RWDh4Y0RyNDE2NkowVVlISGFXSXVHYjB6bzRZaW1oQjBVU0hHQ0NXbjI3b2dQMThYUFotQkE?oc=5",
+        "date": "Sat, 14 Nov 2026 03:29:16 GMT",
+        "source": "産経ニュース"
+      },
+      {
         "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法（プレジデントオンライン） - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOck5ZTkZoTGQwWjFOQ2FBZjczTmVpY2RGVjNEY2xTYVhPRDNOcXMxNFMtSmtRaTk1YUdJMHNlZHctX1g3dnNYdnljMHc4Mm40LUZ5anE2R2ZlS0hVMEh6VVNTMTlFVnowSUlEbmJ0SG1QdHh5WTNOdGFQdDA1eUp5cWRVYW9PWTQx?oc=5",
         "date": "Fri, 13 Nov 2026 01:15:39 GMT",
@@ -87,12 +93,6 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPamhjX0lyT3FtQzMxS3NkT21LQ294MENrenlUckhEYnVZYnpqQ1A3c3F0eDhpQmZTYkt1c0QyUHpSazJMT1ZGVGh6SUVOVUdRWS1WdGNFRDVpWXdJY3o0?oc=5",
         "date": "Mon, 09 Nov 2026 04:03:11 GMT",
         "source": "NHKニュース"
-      },
-      {
-        "title": "沖縄・尖閣諸島周辺に中国海警局船2隻 機関砲搭載で17日連続、海保巡視船が警告 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhRERhbmJfUlZ3dndvdWItblYtVFlPcll2SHJjUkxkLTZzenM3cjl1M1I2RXdvQlRsaXpWdVNoSXUtdTdFemJPRWc5RkxmQ2JLYVpDVnVzODJKQ1pGUTY0WTFuSWlvUXZ0YkJVLVd0czFaREU2Znc?oc=5",
-        "date": "Tue, 10 Nov 2026 01:53:10 GMT",
-        "source": "産経ニュース"
       },
       {
         "title": "【速報】中国船4隻が尖閣周辺の領海出る - 47NEWS",
@@ -119,9 +119,9 @@
         "source": "JBpress"
       },
       {
-        "title": "尖閣諸島周辺に中国船 16日連続 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JSFA4YkxlLW94Wkp0cVFKX0RfR0xtNTZZSDVoclpfeDlkMXJ0M0ZBRkVlWno4N3pvR1RBV1k5cnVWUnlBM1dtQTg2Q1ltRHRTTjFjWXJnTEtFYVFyTnlBamw5cmlFaEhzaTNSQTBNV19PeWtTRUE?oc=5",
-        "date": "Mon, 09 Nov 2026 02:10:24 GMT",
+        "title": "沖縄・尖閣諸島周辺に中国海警局船2隻 機関砲搭載で17日連続、海保巡視船が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhRERhbmJfUlZ3dndvdWItblYtVFlPcll2SHJjUkxkLTZzenM3cjl1M1I2RXdvQlRsaXpWdVNoSXUtdTdFemJPRWc5RkxmQ2JLYVpDVnVzODJKQ1pGUTY0WTFuSWlvUXZ0YkJVLVd0czFaREU2Znc?oc=5",
+        "date": "Tue, 10 Nov 2026 01:53:10 GMT",
         "source": "産経ニュース"
       }
     ]
