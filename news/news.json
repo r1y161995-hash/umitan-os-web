@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-11-20T14:13:32.756041+00:00",
+  "updated_at": "2026-11-20T21:53:41.661748+00:00",
   "topics": {
     "海上保安庁": [
+      {
+        "title": "尖閣周辺に中国船４隻 ２７日連続航行、海保が警戒監視 - miyakoshinpo.com",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE15RGZuaGxZR2RVa05VOWpjaDFpY2o3N2JkbWJZcWxvbUpUSldwMThLSHZNMmVkbVJTUDh6WktXUHVIOGxzWHc?oc=5",
+        "date": "Fri, 20 Nov 2026 20:11:26 GMT",
+        "source": "miyakoshinpo.com"
+      },
       {
         "title": "高速船が海洋生物と衝突した想定で訓練、負傷した乗客役を巡視艇などで救助…鹿児島海上保安部と運航会社 - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mdWhfYzVid1QtY2pYMTF1UklpbmRQMVl4NTBTQXFOQ2ZLQ21hWXFwWEFXTkpVQ0RQY2JHblFZSF9rNUVtM3pRWmRkbXFfa2xELW1DanItVlhtOGVfMlRLV0ttcmJFb243eG5CRl83R3VKWEhqUkpTWjRmOEdIUU0?oc=5",
@@ -27,16 +33,10 @@
         "source": "NHKニュース"
       },
       {
-        "title": "【速報】20代女性職員の異性関係を流布したり、ビールを飲んだり…海保の42歳男性職員をセクハラ処分 - 京都新聞デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41WnhRelFHRVJ6RDZiX0ZqYlRIdGRDYXdtU2I3aktlRHl0UDhqcG1ZQ0gzTVFuaVZJNmFQSWtuTW14V2F6TjFtbFJUOUhzemRyaFduLXMzVlo?oc=5",
-        "date": "Fri, 20 Nov 2026 10:53:00 GMT",
-        "source": "京都新聞デジタル"
-      },
-      {
-        "title": "横須賀海保、セクハラで男性職員を懲戒処分 女子部下に性的言動 - カナロコ",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fd283M0I0U2IzTnJFc1NweEtSQWtIU0VkOVR2SXp6bmFVcWs5ZzJ0dy1LUVRWdXJmUmlnVGQ1UGJoTHdrWGt5WHN6elRBTHlheUt3S1plbExLbVNlQnVwRmRaUDFQcG1wZkw4R25R?oc=5",
-        "date": "Fri, 20 Nov 2026 09:10:00 GMT",
-        "source": "カナロコ"
+        "title": "灯火見守り続け１０年 東電福島第２原発に感謝状 福島海保 - 福島民報デジタル",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIYkNPSm9NOS01cUFRZ1JBOVU3UVMxMEo5c1JRcmc5OVdPbXB0cHA4ZDZlRUJfS005d0ZIQzBSeXFfLXdwTVliSndWM0VCWkk?oc=5",
+        "date": "Fri, 20 Nov 2026 20:07:00 GMT",
+        "source": "福島民報デジタル"
       },
       {
         "title": "硫黄島沖噴火で新たな陸地形成 気象庁・海保 - 時事ドットコム",
@@ -45,25 +45,31 @@
         "source": "時事ドットコム"
       },
       {
-        "title": "稚内海保と消防が合同救助訓練 釣り人転落想定、潜水士ら連携 - 北海道新聞デジタル",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDQVd0cGhuYWlRb1djZ0p6YVBLQWd5RWxFRTViUG9KQ3lkM2hEQnhmZHJPcHBnbmxRRUwxMzVTamN1VGdqZFFFRUVobHNEaDlhdzdhV0lUdEo0UQ?oc=5",
-        "date": "Fri, 20 Nov 2026 02:30:00 GMT",
-        "source": "北海道新聞デジタル"
+        "title": "横須賀海保、セクハラで男性職員を懲戒処分 女子部下に性的言動 - カナロコ",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fd283M0I0U2IzTnJFc1NweEtSQWtIU0VkOVR2SXp6bmFVcWs5ZzJ0dy1LUVRWdXJmUmlnVGQ1UGJoTHdrWGt5WHN6elRBTHlheUt3S1plbExLbVNlQnVwRmRaUDFQcG1wZkw4R25R?oc=5",
+        "date": "Fri, 20 Nov 2026 09:10:00 GMT",
+        "source": "カナロコ"
       },
       {
-        "title": "密漁などの疑いで男を逮捕、送検 今治海保 - 愛媛新聞",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52VXlack9qbWpoTGtBVDR1OGxmdVZHb2dGVEFCdmVhcVNBUFVkSnc3QlNVUF9DS1NpR05RZDgzSHJvdGd6Q0dCMmtKZVpEMHgweWdGeUtZZDlwRUNoRlF2Zw?oc=5",
-        "date": "Fri, 20 Nov 2026 09:02:43 GMT",
-        "source": "愛媛新聞"
+        "title": "【速報】20代女性職員の異性関係を流布したり、ビールを飲んだり…海保の42歳男性職員をセクハラ処分 - 京都新聞デジタル",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41WnhRelFHRVJ6RDZiX0ZqYlRIdGRDYXdtU2I3aktlRHl0UDhqcG1ZQ0gzTVFuaVZJNmFQSWtuTW14V2F6TjFtbFJUOUhzemRyaFduLXMzVlo?oc=5",
+        "date": "Fri, 20 Nov 2026 10:53:00 GMT",
+        "source": "京都新聞デジタル"
       },
       {
-        "title": "海保の巡視艇「ゆふぎり」が浸水…修理断念 当直を配置せず、機関室の「弁の閉鎖指示」怠る 職員2人を懲戒処分 - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50MS1BM3VFRmctVkE4VGxWNXJ3VGpCSmwzaTdPN1prMVNHTHpaY3I2UXJPZ0VoNnBIU203ZWZ2OUZPODQySGlIeW1wRW1JS0ZReUExX1VkSENwQkU2ZlJRZTh1eEtPU0pVQWtOT3FUUkxGdmlqX2Z5NGM4ZVc1S2c?oc=5",
-        "date": "Fri, 20 Nov 2026 09:42:16 GMT",
-        "source": "Yahoo!ニュース"
+        "title": "日胆、来年の潮汐ひと目 海保協会室蘭支部、ポケット版の表を発刊 - 47NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5IQUN0ckxDTkliSHZXR1JoT2JCZ3hnWS1sUFZRMmItdDVDcDNPMlVobks2eDVaal8zVnp5aFRwZHh6bXFSanUwbUhrMA?oc=5",
+        "date": "Fri, 20 Nov 2026 21:00:00 GMT",
+        "source": "47NEWS"
       }
     ],
     "尖閣諸島": [
+      {
+        "title": "尖閣周辺に中国船４隻 ２７日連続航行、海保が警戒監視 - miyakoshinpo.com",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE15RGZuaGxZR2RVa05VOWpjaDFpY2o3N2JkbWJZcWxvbUpUSldwMThLSHZNMmVkbVJTUDh6WktXUHVIOGxzWHc?oc=5",
+        "date": "Fri, 20 Nov 2026 20:11:26 GMT",
+        "source": "miyakoshinpo.com"
+      },
       {
         "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法（プレジデントオンライン） - Yahoo!ニュース",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55RThYSzFpOFluTDNvSzBEMU9GVjJ4TlVPSF9VNjIzTFBIbWF5WVQ2aFZaeU9zcVZBVXRnem1leE9uMHJ0SUZ4eHRSZ0ZuWUtJR1c5Y0oteWpfZzNkUER6eEgwMDVBOHNQWFllcjl1cjE0V0FaZmN6VmZvbk1Ea28?oc=5",
@@ -75,12 +81,6 @@
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81ZHBJbEZqdFdoRm5ydWZtOXk4ZklwdkxFZWttaXA4R25zeXcyWUJscEw0YS1DM2labVdjUlNqOXA1ZzJLaWYzcjk3WGN3b2wyYjEtclU0Q1o3Z01DcGlfamdsaExkZzNucUJPelZyUlVsREpBUEE?oc=5",
         "date": "Sun, 15 Nov 2026 02:14:03 GMT",
         "source": "産経ニュース"
-      },
-      {
-        "title": "尖閣周辺に中国船３隻 ２３日連続航行、海保が警戒監視 - miyakoshinpo.com",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5rY1ZuRjd4OEZVTkpHRW9VbEdKekNkRFFkc2xsYlgtS1lhbkplcGYzd3U4eklNR0FzN2NOa0xBNXZjNFpGWWc?oc=5",
-        "date": "Mon, 16 Nov 2026 19:53:58 GMT",
-        "source": "miyakoshinpo.com"
       },
       {
         "title": "『尖閣1945』映画化プロジェクト（石垣市特別試写会を開催！） - 石垣市",
@@ -95,28 +95,28 @@
         "source": "世界日報DIGITAL"
       },
       {
-        "title": "尖閣周辺に中国船2隻 - 沖縄タイムス社",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80ejFFX3BFRjZWTW1ENFFncnJLNmpPLXRBbEtwVHRPanB2cmNaTmRZc2Q5ZXN2YlFleDQxVDRhcFdqNmxoMVVkU0czZnJDb2ZCQ25VZ2xIdkVydUs0S0E?oc=5",
-        "date": "Sat, 14 Nov 2026 18:57:00 GMT",
-        "source": "沖縄タイムス社"
-      },
-      {
         "title": "尖閣諸島沖には｢ブイ｣､南シナ海には｢滑走路付きの人工島｣…海が欲しい中国が繰り返す呆れた手法 (2ページ目) - PRESIDENT Online（プレジデントオンライン）",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EOW01RlFoczhWUnptRjF5VmJQWWJWZ0lVcjVtMmtTRjFNT05MSzBqWkUxYVhVS25JeS1WTkpxV3owNDNyN0ZQSW5aRVR5UWZ1cUg3R3dEX24?oc=5",
         "date": "Fri, 13 Nov 2026 01:00:00 GMT",
         "source": "PRESIDENT Online（プレジデントオンライン）"
       },
       {
-        "title": "尖閣周辺に中国船 26日連続 領海に近づかないよう海保が警告 - 産経ニュース",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Z3JRWmlvUG9pdnRjRG1VMm9XTGo0S2tBMmdPVW16XzI4RGZTMy1QSUtyRlJFUzlGSTVHTTdGU1VsNXR4WGxVU1UxUmltbWtvTU5hZHRocU4ta2dvMFR4Y1lhUDhrOFBYWXNyWXJLek5xbU1BVkE?oc=5",
-        "date": "Thu, 19 Nov 2026 01:52:29 GMT",
-        "source": "産経ニュース"
+        "title": "尖閣周辺に中国船2隻 - 沖縄タイムス社",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80ejFFX3BFRjZWTW1ENFFncnJLNmpPLXRBbEtwVHRPanB2cmNaTmRZc2Q5ZXN2YlFleDQxVDRhcFdqNmxoMVVkU0czZnJDb2ZCQ25VZ2xIdkVydUs0S0E?oc=5",
+        "date": "Sat, 14 Nov 2026 18:57:00 GMT",
+        "source": "沖縄タイムス社"
       },
       {
         "title": "尖閣諸島周辺に中国船、50日連続 海上保安庁の巡視船が確認 - 日本経済新聞",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KOVM3TkJGS05vYWxMekdOZnYya1lOajcwUDE4UkhEOGxzT040dlVnTDBRQlUzQVlNQkVLMkh2blIyTVpMenB6cDBMWTdCS3JPTUwzX09qM2NuM25URm92QXlDaGl0bnV4al9xQw?oc=5",
         "date": "Sun, 27 Sep 2026 07:00:00 GMT",
         "source": "日本経済新聞"
+      },
+      {
+        "title": "尖閣周辺に中国船 26日連続 領海に近づかないよう海保が警告 - 産経ニュース",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80Z3JRWmlvUG9pdnRjRG1VMm9XTGo0S2tBMmdPVW16XzI4RGZTMy1QSUtyRlJFUzlGSTVHTTdGU1VsNXR4WGxVU1UxUmltbWtvTU5hZHRocU4ta2dvMFR4Y1lhUDhrOFBYWXNyWXJLek5xbU1BVkE?oc=5",
+        "date": "Thu, 19 Nov 2026 01:52:29 GMT",
+        "source": "産経ニュース"
       },
       {
         "title": "尖閣諸島沖の領海に中国海警局の船４隻が侵入、砲を搭載…領海侵入は１か月ぶり - 読売新聞",
